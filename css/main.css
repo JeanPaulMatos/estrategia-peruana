@@ -123,6 +123,26 @@ main {
     margin: 45px -10px 0 25px;
 }   
 
+
+
+
+
+
+
+video {
+    width: 50%;
+    min-height: 10em;
+    background-color: #575757;
+}
+
+
+
+
+
+
+
+
+
 /* ---------------- PRODUCTS --------------- */
 .courses {
     background: #F7F7F7;
