@@ -3,6 +3,7 @@
     --color-menu: #575757;
     --color-footer: #bac1c7;
     --color-composting: #c0dc92;
+    --color-grey: #f7f7f7;
 }
 
 * {
@@ -60,7 +61,7 @@ header .header-display li a {
 }
 
 /* --------------- MAIN SECTION --------------- */
-main {
+.main {
     background-image: url(../images/hero-background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -122,26 +123,6 @@ main {
     align-items: center;
     margin: 45px -10px 0 25px;
 }   
-
-
-
-
-
-
-
-video {
-    width: 50%;
-    min-height: 10em;
-    background-color: #575757;
-}
-
-
-
-
-
-
-
-
 
 /* ---------------- PRODUCTS --------------- */
 .courses {
@@ -358,13 +339,6 @@ video {
     margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
 /* --------------- FOOTER --------------- */
 .footer {
     width: 84%;
@@ -405,8 +379,6 @@ video {
     margin-bottom: 15px;
 }
 
-
-
 .footer-link li {
     list-style: none;
     line-height: 1.8;
@@ -416,4 +388,42 @@ video {
 .footer-link a {
     text-decoration: none;
     color: var(--color-footer);
+}
+
+/* --------------- PRODUCTS --------------- */
+.main__products {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.products__title {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.products__menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 50px;
+    padding: 15px 20px;
+    background-color: var(--color-grey);
+}
+.products__link {
+    color: var(--color-menu);
+    letter-spacing: 0.5px;
+}
+.products__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    gap: 35px 15px;
+    margin: 42px 0;
+}
+.products__card {
+    padding: 12px 12px 8px 12px;
+    background: var(--color-grey);
+}
+.products__card__link {
+    color: var(--color-menu);
+    font-weight: 600;
+    letter-spacing: 0.2px;
 }
