@@ -416,7 +416,7 @@ header .header-display li a {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 15px;
     gap: 35px 15px;
-    margin: 42px 0;
+    margin: 42      px 0;
 }
 .products__card {
     padding: 12px 12px 8px 12px;
@@ -426,4 +426,13 @@ header .header-display li a {
     color: var(--color-menu);
     font-weight: 600;
     letter-spacing: 0.2px;
+}
+
+/* --------------- PRODUCTS --------------- */
+.banner__products {
+    width: 84%;
+    margin: auto;
+}
+.banner__container {
+    margin-top: 25px;
 }
