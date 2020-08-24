@@ -434,5 +434,8 @@ header .header-display li a {
     margin: auto;
 }
 .banner__container {
-    margin-top: 25px;
+    margin: 15px 0 10px 0;
+}
+.line__container {
+    border: 1px dashed var(--color-verde);
 }
