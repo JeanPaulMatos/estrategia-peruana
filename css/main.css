@@ -394,44 +394,6 @@ header .header-display li a {
 }
 
 /* --------------- PRODUCTS --------------- */
-/* .main__products {
-    width: 85%;
-    margin: auto;
-    text-align: center;
-}
-.products__title {
-    font-size: 42px;
-    text-transform: uppercase;
-}
-.products__menu {
-    display: flex;
-    justify-content: space-around;
-    margin: 25px 50px;
-    padding: 15px 20px;
-    background-color: var(--color-grey);
-}
-.products__link {
-    color: var(--color-menu);
-    letter-spacing: 0.5px;
-}
-.products__container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 15px;
-    gap: 35px 15px;
-    margin: 42      px 0;
-}
-.products__card {
-    padding: 12px 12px 8px 12px;
-    background: var(--color-grey);
-}
-.products__card__link {
-    color: var(--color-menu);
-    font-weight: 600;
-    letter-spacing: 0.2px;
-} */
-
-/* --------------- PRODUCTS --------------- */
 .banner__products {
     width: 84%;
     margin: auto;
@@ -495,7 +457,7 @@ header .header-display li a {
 }
 .products__container:hover {
     box-shadow: 1px 6px 10px 4px rgba(0,0,0,.25);
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     transition: all .2s;
     border: 1px solid var(--color-verde);
 }
@@ -517,5 +479,130 @@ header .header-display li a {
 .products__container__link:hover {
     background-color: var(--color-verde);
     color: white;
-    
+}
+
+/* --------------- PRODUCT-PAGE --------------- */
+.main__product-page {
+    width: 84%;
+    margin: auto;
+}
+.main__breadcrumbs {
+    display: flex;
+    margin-top: 15px;
+}
+.main__breadcrumbs__list1,
+.main__breadcrumbs__list2,
+.main__breadcrumbs__list3 {
+    padding-right: 15px;
+    color: var(--color-verde);
+}
+.main__breadcrumbs__list3 {
+    font-weight: 600;
+}
+.main__breadcrumbs__list2::before {
+    content: "/";
+    padding-right: 15px;
+}
+.main__breadcrumbs__list3::before {
+    content: "/";
+    padding-right: 15px;
+}
+.main__breadcrumbs__link {
+    color: var(--color-menu);
+}
+.main__breadcrumbs__link:hover {
+    color: var(--color-verde);
+    font-weight: 600;
+}
+.product__card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+.product__card__title {
+    font-size: 36px;
+    color: var(--color-verde);
+    margin-bottom: 7px;
+}
+.product__card__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.shipping__content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.shipping__img {
+    font-size: 22px;
+    padding-right: 10px;
+    color: var(--color-verde);
+}
+.shipping__content__free {
+    font-weight: 600;
+    font-size: 17px;
+}
+.shipping_content__description {
+    margin-bottom: 5px;
+}
+.shipping__content__quote {
+    margin-bottom: 25px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-verde);
+    color: var(--color-verde);
+}
+.shipping__content__link {
+    padding: 10px 22px;
+    background-color: var(--color-verde);
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+.shipping__content__icon {
+    padding-right: 8px;
+}
+
+/* --------------- RELATED PRODUCTS --------------- */
+.related__products {
+    width: 84%;
+    margin: auto;
+}
+.related__products__title {
+    font-size: 20px;
+    margin: 15px 0 25px 0;
+}
+.related__products__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 8px;
+}
+.related__products__card {
+    text-align: center;
+    border: 1px solid #efeaea;
+    padding-bottom: 35px;
+    border-radius: 2px;
+}
+.related__products__card:hover {
+    box-shadow: 1px 6px 10px 4px rgba(0,0,0,.25);
+    transform: translateY(-10px);
+    transition: all .2s;
+    border: 1px solid var(--color-verde);
+}
+.related__products__subtitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.related__products__category {
+    color: #000;
+    margin-bottom: 20px;
+}
+.related__products__link {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid var(--color-verde);
+    color: var(--color-verde);
 }
