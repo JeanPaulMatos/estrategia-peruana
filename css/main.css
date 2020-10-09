@@ -129,7 +129,7 @@ header .header-display li a {
 
 /* ---------------- PRODUCTS --------------- */
 .courses {
-    background: #F7F7F7;
+    background: #f7f7f7;
 }
 
 .title-courses {
@@ -141,9 +141,10 @@ header .header-display li a {
 
 .grid-container-courses {
     display: grid;
-    grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     overflow: hidden;
     gap: 40px; 
+    
 }
 
 .upgrade,
