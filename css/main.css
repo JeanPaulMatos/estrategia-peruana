@@ -395,12 +395,11 @@ header .header-display li a {
 }
 
 /* --------------- PRODUCTS --------------- */
-.banner__products {
-    width: 84%;
-    margin: auto;
-}
 .banner__container {
     margin: 18px 0 15px 0;
+}
+.banner__img {
+    min-height: 22rem;
 }
 .line__container {
     border: 1px dashed var(--color-verde);
