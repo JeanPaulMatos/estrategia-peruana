@@ -44,10 +44,18 @@ li {
 }
 .main__header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 92%;
     margin: auto;
+}
+.main__header__scroll {
+    background-color: var(--color-blanco);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    transition: all 1.7s ease;
 }
 .main__logo {
     margin-top: 20px;
@@ -60,7 +68,6 @@ li {
 }
 .main__ul {
     display: flex;
-    padding-left: 140px;
 }
 .main__li {
     padding-right: 35px;
@@ -72,14 +79,9 @@ li {
     border-radius: 4px;
     font-weight: 700;
 }
-.main__li .productos{
-    color: var(--color-verde);
-    padding-right: 25px;
-}
-
 .main__nav__link {
     font-size: 1.1rem;
-    color: var(--color-blanco);
+    color: var(--color-verde-opaco);
     font-family: var(--fuente-principal);
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -91,6 +93,11 @@ li {
     padding-right: 15px;
     font-size: 1.5rem;
     color: var(--color-blanco);
+}
+.main__social__scroll {
+    color: var(--color-verde-oscuro);
+    padding-right: 15px;
+    font-size: 1.5rem;
 }
 
 /* --------------- MAIN SECTION --------------- */
@@ -270,6 +277,7 @@ li {
     width: 87%;
     margin: auto;
     margin-top: 45px;
+    margin-bottom: 45px;
 }
 .process__content {
     display: grid;
@@ -287,12 +295,9 @@ li {
 
 /* --------------- WHY US --------------- */
 .icons__section {
-    background-image: url('../images/fondo-icons-1.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 41.2rem;
+    background-color: var(--color-verde);
     text-align: center;
+    padding: 5rem 0;
 }
 .icons__title {
     font-family: var(--fuente-principal);
@@ -300,20 +305,19 @@ li {
     letter-spacing: 1px;
     color: var(--color-blanco);
     text-transform: uppercase;
-    padding-top: 12rem;
 }
 .icons__container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .icons__box {
     text-align: center;
-    margin: 0 25px;
+    margin: 0 35px;
 }
 .icons__img {
-    width: 225px;
+    width: 210px;
 }
 .icons__text {
     color: var(--color-blanco);
@@ -362,7 +366,7 @@ li {
     line-height: 1.8;
     padding-right: 5px;
 }
-.footer__fb {
+/* .footer__fb {
     color: #14a2f9;
 }
 .footer__ins {
@@ -370,4 +374,4 @@ li {
 }
 .footer__wsp {
     color: #00ef5f;
-}
+} */
