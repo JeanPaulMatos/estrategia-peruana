@@ -120,30 +120,28 @@
 
 
                 <div class="quick-quote__container">
-                    <form action="" class="quick-quote__form" method="POST">
+                    <form action="php/enviar.php" class="quick-quote__form" method="POST">
                         <h2 class="quick-quote__title">Cotización Rápida</h2>
                         <div class="quick-quote__group">
-                            <input type="text" class="quick-quote__input" id="name" name="name" placeholder="Empresa / Persona Natural">
+                            <input type="text" class="quick-quote__input" id="name" name="nombre" placeholder="Empresa / Persona Natural" required>
                         </div>
                         <div class="quick-quote__group">
-                            <input type="number" class="quick-quote__input" id="number" name="number" placeholder="Teléfono">
+                            <input type="number" class="quick-quote__input" id="number" name="telefono" placeholder="Teléfono" required>
                         </div>
                         <div class="quick-quote__group">
-                            <input type="email" class="quick-quote__input" id="email" name="email" placeholder="Email">
+                            <input type="email" class="quick-quote__input" id="email" name="correo" placeholder="Email" required>
                         </div>
                         <div class="quick-quote__group">
-                            <input type="text" class="quick-quote__input" id="codigo" name="codigo" placeholder="Código de Producto">
+                            <input type="text" class="quick-quote__input" id="codigo" name="codigo" placeholder="Código de Producto" required>
                         </div>
                         <div class="quick-quote__group">
-                            <input type="number" class="quick-quote__input" id="boxes" name="boxes" placeholder="Cantidad de Unidades">
+                            <input type="number" class="quick-quote__input" id="boxes" name="cantidad" placeholder="Cantidad de Unidades" required>
                         </div>
                         <div class="quick-quote__group">
-                            <textarea class="quick-quote__textarea quick-quote__input" name="message" id="message" placeholder="Mensaje"></textarea>
+                            <textarea class="quick-quote__textarea quick-quote__input" name="mensaje" id="message" placeholder="Mensaje" required></textarea>
                         </div>
 
                         <button class="quick-quote__button quick-quote__input" type="submit">Enviar</button>
-                        
-
                     </form>
                 </div>
 
