@@ -139,13 +139,13 @@ header .header-display li a {
     padding: 60px 0;
 }
 
-.grid-container-courses {
+/* .grid-container-courses {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: v
     overflow: hidden;
     gap: 40px; 
     
-}
+} */
 
 .upgrade,
 .silex,
