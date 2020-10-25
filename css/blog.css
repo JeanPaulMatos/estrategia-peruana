@@ -16,8 +16,8 @@
     min-height: 450px;
     padding-left: 50px;
     position: relative;
-    /* background-color: rgba(0, 0, 0, 0.8); */
-    /* filter: brightness(0.95); */
+    background-color: rgba(0, 0, 0, 0.8);
+    filter: brightness(0.95);
 }
 .article__content {
     position: absolute;
