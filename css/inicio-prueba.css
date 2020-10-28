@@ -669,8 +669,96 @@ li {
     border: 1px solid #ffff0ff2;
 }
 
+/* ------------------------------------ FRECUENT QUESTIONS ------------------------------------ */
+/* --------------- FQA --------------- */
+.fqa {
+    width: 65%;
+    margin: auto;
+    margin-top: 25px;
+   /*  width: 100%;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center; */
+    
+}
+.fqa__title {
+    font-size: 42px;
+    font-family: var(--fuente-principal);
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.fqa__container {
+    /* height: 100vh; */
+    /* width: 100%;
+    max-height: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem; */
+    /* width: 100%;
+    max-width: 80rem;
+    margin: 0 auto; */
+}
+.fqa__item {
+    margin-bottom: 15px;
+    border-radius: 4px;
+    /* box-shadow: ; */
+    border: 1px solid var(--color-verde);
+    padding: 16px;
+    /* box-shadow: 1px 6px 10px 4px rgba(0,0,0,.25); */
+}
+.fqa__link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--fuente-principal);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+.fqa__link span {
+    color: var(--color-verde-oscuro);
+}
+.fqa__minus {
+    display: none;
+}
+.fqa__answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: 700ms;
+}
+.fqa__answer::before {
+    content: '';
+    position: absolute;
+    width: .3rem;
+    height: 65%;
+    background-color: var(--color-verde);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.fqa__text {
+    padding: 15px;
+    font-family: var(--fuente-secundaria);
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+}
+.fqa__item:target .fqa__answer {
+    /* max-height: 20rem; */
+    /* max-height: 100px; */
+    /* transition: 700ms; */
+    max-height: 10rem;
+}
+.fqa__item:target .fqa__link .fqa__plus {
+    display: none;
+}
+.fqa__item:target .fqa__link .fqa__minus {
+    display: block;
+}
+
 /* ------------------------------------ CONTACT PAGE ------------------------------------ */
-/* --------------- HERO CONTACT --------------- */
 .contact__back {
     background-image: url('../images/portada-form-2.jpg');
     background-position: center center;
