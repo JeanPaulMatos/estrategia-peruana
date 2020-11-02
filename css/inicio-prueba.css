@@ -6,7 +6,7 @@
     --color-verde-oscuro: #27b526;
     --color-verde-opaco: #154c00;
     --color-verde-background: #02a200;
-    --color-footer: #bac1c7;
+    --color-footer: #181b32;
     --color-input: #777;
 }
 
@@ -58,7 +58,7 @@ li {
     background-color: var(--color-blanco);
     position: fixed;
     top: 0;
-    z-index: 5;
+    z-index: 99;
 }
 .main__logo,
 .main__nav,
@@ -457,16 +457,18 @@ li {
 
 /* --------------- FOOTER --------------- */
 .footer {
-    margin-top: 35px;
-    background-color: var(--color-verde-oscuro);
+    background-color: var(--color-verde);
 }
 .footer__container {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     justify-items: center;
-    width: 90%;
+    width: 84%;
     margin: auto;
-    padding: 20px 0;
+    padding: 15px 0 10px;
+}
+.footer__container-products {
+    width: 82%;
 }
 .footer__img {
     width: 300px;
@@ -482,20 +484,29 @@ li {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     padding-bottom: 8px;
+    color: var(--color-verde-oscuro);
+}
+.footer__title-products {
     color: var(--color-blanco);
 }
 .footer__text {
     font-family: var(--fuente-secundaria);
-    color: var(--color-blanco);
-    font-size: 1.125rem;
-    letter-spacing: 0.3px;
+    color: var(--color-footer);
+    font-size: 17px;
+    letter-spacing: 0.4px;
     line-height: 1.8;
+}
+.footer__text-products {
+    color: var(--color-blanco);
 }
 .footer__social {
     font-size: 1.5rem;
-    color: var(--color-blanco);
+    color: var(--color-verde-oscuro);
     line-height: 1.8;
     padding-right: 8px;
+}
+.footer__social-products {
+    color: var(--color-blanco);
 }
 
 /* ------------------------------------ PRODUCT PAGE ------------------------------------ */
@@ -597,19 +608,20 @@ li {
 .pagination__container {
     display: flex;
     justify-content: center;
-    margin-top: 38px;
+    margin: 38px 0;
 }
 .pagination {
     display: flex;
 }
 .pagination__item {
-    padding: 5px 12px;
+    padding: 5px 11px;
     border: 1px solid var(--color-verde);
     border-radius: 5px;
-    margin-right: 12px;
+    margin-right: 10px;
 }
 .pagination__link {
     color: var(--color-verde);
+    font-family: var(--fuente-secundaria);
 }
 .pagination-one,
 .pagination-two,
@@ -798,7 +810,7 @@ li {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 .related__products__card {
     text-align: center;

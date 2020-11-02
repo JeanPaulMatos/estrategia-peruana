@@ -8,36 +8,46 @@
         <meta name="description" content="Envases Biodegradables en Lima">
         <title>Estrategia Peruana</title>
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/inicio-prueba.css">
         <script src="https://kit.fontawesome.com/40e314dbe8.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <header>
-            <div class="container">
-                <section class="header-display">
-                    <figure>
-                        <img loading="lazy" src="images/logo.jpg" alt="" width="120">
-                    </figure>
+        <header class="main__header" id="main__header">        
+            <a class="main__logo" href="">
+                <img loading="lazy" class="main__logo__img" src="images/logo.jpg" alt="">
+            </a>
 
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Inicio</a>
-                            </li>
-                            <li>
-                                <a href="productos.html">Productos</a>
-                            </li>
-                            <li>
-                                <a href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
-                            </li>
-                            <li>
-                                <a href="blog.html">Blog</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </section>
+            <nav class="main__nav">
+                <ul class="main__ul">
+                    <li class="main__li inicio">
+                        <a class="main__nav__link" href="inicio-prueba.html">Inicio</a>
+                    </li>
+                    <li class="main__li productos">
+                        <a class="main__nav__link productos" href="productos-prueba.html">Productos</a>
+                    </li>
+                    <li class="main__li preguntas">
+                        <a class="main__nav__link" href="preguntas-frecuentes-prueba.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="main__li blog">
+                        <a class="main__nav__link" href="blog-prueba.html">Blog</a>
+                    </li>
+                    <li class="main__li contacto">
+                        <a class="main__nav__link" href="contacto-prueba.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="main__social">
+                <a class="main__social__active" id="main__social__header1" href="https://www.facebook.com/envasesbiodegradablesestrategiaperuana">
+                    <i class="fab fa-facebook"></i>
+                </a>
+    
+                <a class="main__social__active" id="main__social__header2" href="https://www.instagram.com/estrategiaperuana/">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         </header>
 
@@ -46,7 +56,7 @@
                 <span class="line__banner"></span>
             </div>
             <figure class="banner__container">
-                <img loading="lazy" class="banner__img" src="images/portadaproductos.jpg" alt="">
+                <img loading="lazy" class="banner__img" src="images/portada-productos.jpg" alt="">
             </figure>
             <div class="line__container">
                 <span class="line__banner"></span>
@@ -106,6 +116,32 @@
                         </a>
                     </li>
                 </ul>
+
+                <div class="quick-quote__container">
+                    <form action="mensaje/exito.html" class="quick-quote__form" method="POST" data-netlify="true">
+                        <h2 class="quick-quote__title">Cotización Rápida</h2>
+                        <div class="quick-quote__group">
+                            <input type="text" class="quick-quote__input" id="name" name="nombre" placeholder="Empresa / Persona Natural" required>
+                        </div>
+                        <div class="quick-quote__group">
+                            <input type="number" class="quick-quote__input" id="number" name="telefono" placeholder="Teléfono" required>
+                        </div>
+                        <div class="quick-quote__group">
+                            <input type="email" class="quick-quote__input" id="email" name="correo" placeholder="Email" required>
+                        </div>
+                        <div class="quick-quote__group">
+                            <input type="text" class="quick-quote__input" id="codigo" name="codigo" placeholder="Código de Producto" required>
+                        </div>
+                        <div class="quick-quote__group">
+                            <input type="number" class="quick-quote__input" id="boxes" name="cantidad" placeholder="Cantidad de Unidades" required>
+                        </div>
+                        <div class="quick-quote__group">
+                            <textarea class="quick-quote__textarea quick-quote__input" name="mensaje" id="mensaje" placeholder="Mensaje" required></textarea>
+                        </div>
+
+                        <button class="quick-quote__button quick-quote__input" type="submit">Enviar</button>
+                    </form>
+                </div>
             </div>
 
             <div class="products__content" >
@@ -206,105 +242,52 @@
             </div>     
         </main>
 
-        
-        <section class="form">
-            <h2 class="form__title">Contactanos</h2>
-            <div class="container">
-                <div class="form__container">
-                    <form class="contact__form" action="index.html" method="GET">
-                        <p>
-                            <label for="Nombre">Nombre</label>
-                            <input type="text" name="name" id="name" class="inputs">
-                        </p>
-                        <p>
-                            <label for="Email">Email</label>
-                            <input type="email" name="email" id="email" class="inputs">
-                        </p>
-                        <p>
-                            <label for="Teléfono">Teléfono</label>
-                            <input type="tel" name="phone" id="phone" class="inputs">
-                        </p>
-                        <p>
-                            <label for="Empresa">Empresa</label>
-                            <input type="text" name="company" id="company" class="inputs">
-                        </p>
-                        <p class="input__block">
-                            <label for="Mensaje">Mensaje</label>
-                            <textarea name="message" id="message" rows="3" class="inputs"></textarea>
-                        </p>
-                        <p class="input__block">
-                            <button type="submit">Enviar</button>
-                        </p>
-                    </form>
-    
-                    <div class="form__content__right">
-                        <img loading="lazy" class="form__img" src="images/hello.png" alt="">
-                        <p class="form__email">ventas@estrategiaperuana.com</p>
-                        <p class="form__phone">+51 986-011-971</p>
-                        <div class="form__links">
-                            <a class="hero__link" href="https://www.facebook.com/estrategiaperuana/">
-                                <span>
-                                    <i class="fab fa-facebook"></i>
-                                </span>
-                            </a>
-                            <a class="hero__link" href="https://www.instagram.com/estrategiaperuana/">
-                                <span>
-                                    <i class="fab fa-instagram"></i>
-                                </span>
-                            <a class="hero__link" href="https://api.whatsapp.com/send?phone=51913457959&text=&source=&data=&app_absent=">
-                                <span>
-                                    <i class="fab fa-whatsapp"></i>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-        </section>
-
         <footer class="footer">
-            <div class="grid-container-footer">
-                <div class="vision">
-                    <img loading="lazy" class="logo-footer" src="images/favicon.png" alt="">
-                    <p>Estrategia Peruana nace con la visión de ayudar al máximo número de Empresas y familias peruanas a través de la ecología.</p>
-                </div>
- 
-                <div class="footer-link">
-                    <h4>Productos</h4>
-                    <ol class="footer-ul">
-                        <li><a class="footer-li" href="#">Contenedores</a></li>
-                        <li><a class="footer-li" href="#">Bowls</a></li>
-                        <li><a class="footer-li" href="#">Platos</a></li>
-                        <li><a class="footer-li" href="#">Cubiertos</a></li>
-                        <li><a class="footer-li" href="#">Vasos</a></li>
-                    </ol>
+            <div class="footer__container footer__container-products">
+                <div class="footer__description">
+                    <img loading="lazy" class="footer__img" src="images/logo-largo.jpg" alt="Logo Estrategia Peruana">
+                    <p class="footer__text footer__text-products">Somos una empresa comprometida con el medio ambiente y la conservación de los recursos naturales con el fin de impulzar el uso de los Productos Biodegradables</p>
                 </div>
 
-                <div class="footer-link">
-                    <h4>Contactanos</h4>
-                    <ol class="footer-ul">
-                        <li>
-                            <!-- <img src="images/telefono.svg" alt="" width="15"> -->
-                            <a class="footer-li" href="#">(51) 986 011 971</a>
+                <div class="footer__link">
+                    <h4 class="footer__title footer__title-products">Nuestros Productos</h4>
+                    <ul class="footer__products">
+                        <li class="footer__products__link">
+                            <a class="footer__text footer__text-products" href="#">Contenedores</a>
                         </li>
-                        <li>
-                            <!-- <img src="images/maps.svg" alt="" width="16"> -->
-                            <a class="footer-li" href="#">Av.Salvador Allende</a>
-                        </li> 
-                    </ol>
+                        <li class="footer__products__link">
+                            <a class="footer__text footer__text-products" href="#">Bowls</a>
+                        </li>
+                        <li class="footer__products__link">
+                            <a class="footer__text footer__text-products" href="#">Platos</a>
+                        </li>
+                        <li class="footer__products__link">
+                            <a class="footer__text footer__text-products" href="#">Cubiertos</a>
+                        </li>
+                        <li class="footer__products__link">
+                            <a class="footer__text footer__text-products" href="#">Vasos</a>
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="footer-link">
-                    <h4 class="footer-ul">Cursos</h4>
-                    <ol>
-                        <li><a class="footer-li" href="#">Mis cursos</a></li>
-                        <li><a class="footer-li" href="#">Todos los cursos</a></li>
-                    </ol>
+                <div class="footer__link">
+                    <h4 class="footer__title footer__title-products">Contáctanos</h4>
+                    <p class="footer__text footer__text-products">+51 986011971</p>
+                    <p class="footer__text footer__text-products">+51 950458354</p>
+                    <p class="footer__text footer__text-products">info@estrategiaperuana.com</p>
+                    <p class="footer__text footer__text-products">ventas@estrategiaperuana.com</p>
+                    <a class="footer__social footer__social-products" href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="footer__social footer__social-products" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="footer__social footer__social-products" href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
                 </div>
+
             </div>
-    </footer>
-
+        </footer>
     </body>
-
-
 </html>
