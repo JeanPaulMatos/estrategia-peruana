@@ -718,6 +718,9 @@ li {
     justify-items: center;
     align-items: center;
 }
+.product__card__img {
+    padding-top: 20px;
+}
 .product__card__title {
     font-family: var(--fuente-secundaria);
     font-size: 36px;
@@ -810,7 +813,7 @@ li {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 8px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 .related__products__card {
     text-align: center;
