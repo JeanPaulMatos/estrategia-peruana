@@ -508,6 +508,22 @@ li {
 .footer__social-products {
     color: var(--color-blanco);
 }
+.footer__company {
+    background-color: var(--color-verde-oscuro);
+    padding: 8px 0;
+}
+.footer__company__name {
+    color: white;
+    text-align: center;
+    font-family: var(--fuente-secundaria);
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+.footer__line {
+    width: 95%;
+    margin: auto;
+    border: 1px solid var(--color-verde);
+}
 
 /* ------------------------------------ PRODUCT PAGE ------------------------------------ */
 /* --------------- PRODUCTS --------------- */
@@ -521,7 +537,7 @@ li {
     min-height: 22rem;
 }
 .line__container {
-    border: 1px dashed var(--color-verde);
+    border: 1px solid var(--color-verde);
 }
 .products__main {
     width: 84%;

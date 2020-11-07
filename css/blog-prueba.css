@@ -9,7 +9,7 @@
     margin-top: 20px;
 }
 .article__main {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/blog-portada.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/microplastico.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,13 +56,13 @@
     padding-left: 25px;
 }
 .article__2 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/blog-1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/bagazo-de-caña-de-azucar.jpg');
     min-height: 250px;
     border-radius: 4px;
     transition: all 0.7s ease;
 }
 .article__3 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/blog-2.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/comer-por-un-mundo-mejor.jpg');
     min-height: 250px;
     border-radius: 4px;
     transition: all 0.7s ease;
@@ -89,7 +89,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px 35px;
-    margin: 75px 0 50px;
+    margin: 22px 0 50px;
 }
 .lastpost__img {
     border-radius: 4px;
@@ -152,6 +152,9 @@
 .breadcrumbs {
     display: flex;
 }
+.breadcrumbs__blog {
+    margin-top: 30px;
+}
 .breadcrumbs__item {
     padding-right: 5px;
 }
@@ -167,6 +170,7 @@
 .breadcrumbs__link-active {
     color: var(--color-verde);
     font-weight: 700;
+    cursor: default;
 }
 .breadcrumbs__link:hover {
     color: var(--color-verde);
@@ -176,6 +180,14 @@
     font-size: 2.625rem;
     margin: 15px 0;
     letter-spacing: 0.8px;
+}
+.post__subtitle {
+    font-family: var(--fuente-principal);
+    font-size: 28px;
+    letter-spacing: 0.8px;
+}
+.post__subtitle__float {
+    margin-top: 22px;
 }
 .post__date {
     font-family: var(--fuente-secundaria);
@@ -196,6 +208,32 @@
     margin: 22px 0;
     color: #181B32;
 }
+.post__ul {
+    padding-left: 35px;
+}
+.post__list {
+    padding-left: 15px;
+}
+.post__list::marker {
+    content: '•';
+    font-family: var(--fuente-secundaria);
+}
+.post__li-one::marker {
+    content: '1';
+    font-family: var(--fuente-secundaria);
+}
+.post__li-two::marker {
+    content: '2';
+    font-family: var(--fuente-secundaria);
+}
+.post__li-three::marker {
+    content: '3';
+    font-family: var(--fuente-secundaria);
+}
+.post__li-four::marker {
+    font-family: var(--fuente-secundaria);
+    content: '4';
+}
 .next__post {
     margin-top: 45px;
 }
@@ -207,7 +245,7 @@
 }
 .next__post-img {
     width: 90%;
-    height: 85px;
+    height: 95px;
     border-radius: 4px;
 }
 .next__post-title{
@@ -279,7 +317,6 @@
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.8px;
-
 }
 
 /* --------------- SUGGESTIONS--------------- */
