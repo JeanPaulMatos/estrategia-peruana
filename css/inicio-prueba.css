@@ -1263,6 +1263,7 @@ li {
 
     .main__content__subtext {
         padding: 0 58px;
+        line-height: 24px;
     }
     .main__content__left {
         width: 95%;
@@ -1308,6 +1309,7 @@ li {
     .main__content__subtext {
         font-size: 16px;
         padding: 0 41px;
+        line-height: 23px;
     }
     .main__content__text {
         padding: 0 88px;
@@ -1321,7 +1323,7 @@ li {
 }
 
 @media screen and (max-width: 420px) {
-
+    
     .main__content__subtext {
         font-size: 15px;
         padding: 0 25px;
@@ -1332,6 +1334,27 @@ li {
     .main__content__link {
         font-size: 15px;
         padding: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+
+    .main__content__sub {
+        font-size: 14px;
+    }
+    .main__content__title {
+        font-size: 26px;
+    }
+    .main__content__text {
+        font-size: 18px;
+    }
+    .main__content__subtext {
+        font-size: 14px;
+    }
+    .main__content__link {
+        font-size: 14px;
+        padding: 14px;
     }
 
 }
