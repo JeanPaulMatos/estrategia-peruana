@@ -1220,8 +1220,8 @@ li {
 @media screen and (max-width: 1132px) {
 
     .main__background {
-        background: none;
-        min-height: 0;
+        /* background: none;
+        min-height: 0; */
     }
     .main__content {
         grid-template-columns: 1fr 1fr;
@@ -1300,6 +1300,10 @@ li {
 
 @media screen and (max-width: 476px) {
     
+    .main__background {
+        background-image: url('../images/fondo.jpg');
+        min-height: 40rem;
+    }
     .main__content__title {
         font-size: 28px;
     }
@@ -1324,6 +1328,9 @@ li {
 
 @media screen and (max-width: 420px) {
     
+    .main__background {
+        min-height: 39rem;
+    }
     .main__content__subtext {
         font-size: 15px;
         padding: 0 25px;
@@ -1339,7 +1346,10 @@ li {
 }
 
 @media screen and (max-width: 380px) {
-
+    
+    .main__background {
+        min-height: 37rem;
+    }
     .main__content__sub {
         font-size: 14px;
     }
@@ -1356,5 +1366,5 @@ li {
         font-size: 14px;
         padding: 14px;
     }
-
+    
 }
