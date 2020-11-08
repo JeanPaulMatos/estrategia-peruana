@@ -1205,3 +1205,133 @@ li {
     transform: translateY(-8px);
     transition: all .2s;
 }
+
+
+/* ------------------------------------ MEDIA QUERIES ------------------------------------ */
+/* --------------- INDEX--------------- */
+@media screen and (max-width: 1232px) {
+
+    .main__content__text {
+        padding: 0 80px;
+    }
+
+}
+
+@media screen and (max-width: 1132px) {
+
+    .main__background {
+        background: none;
+        min-height: 0;
+    }
+    .main__content {
+        grid-template-columns: 1fr 1fr;
+    }
+    .main__social__header {
+        color: var(--color-verde);
+    }
+    .main__content__title {
+        color: var(--color-verde);
+    }
+    .main__content__text {
+        color: var(--color-verde);
+        padding: 0 108px;
+    }
+    .main__content__subtext {
+        padding: 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .main__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .main__content__right {
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .main__content__left {
+        order: 2;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .main__content__subtext {
+        padding: 0 58px;
+    }
+    .main__content__left {
+        width: 95%;
+    }
+    .main__image {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    
+    
+    .main__content__title {
+        font-size: 32px;
+    }
+    .main__content__sub {
+        font-size: 18px;
+    }
+    .main__content__subtext {
+        font-size: 18px;
+    }
+    .main__content__text {
+        font-size: 22px;
+    }
+    .main__content__link {
+        font-size: 18px;
+    }
+    .main__content__left {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 476px) {
+    
+    .main__content__title {
+        font-size: 28px;
+    }
+    .main__content__sub {
+        font-size: 15px;
+    }
+    .main__content__subtext {
+        font-size: 16px;
+        padding: 0 41px;
+    }
+    .main__content__text {
+        padding: 0 88px;
+        font-size: 20px;
+    }
+    .main__content__link {
+        font-size: 16px;
+        padding: 15px 16px;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+
+    .main__content__subtext {
+        font-size: 15px;
+        padding: 0 25px;
+    }
+    .main__content__text {
+        padding: 0 67px;
+    }
+    .main__content__link {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+}
