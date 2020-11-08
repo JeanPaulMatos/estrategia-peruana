@@ -333,6 +333,7 @@ li {
     font-family: var(--fuente-secundaria);
     font-weight: 700;
     font-size: 1.125rem;
+    letter-spacing: 0.5px;
 }
 
 /* --------------- FORM --------------- */
@@ -1246,6 +1247,10 @@ li {
     .recomendations__logo {
         top: 54%;
     }
+    .icons__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1297,6 +1302,10 @@ li {
     .process__container__image {
         display: none;
     }
+    .icons__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -1334,6 +1343,12 @@ li {
     }
     .process__title {
         font-size: 32px;
+    }
+    .icons__title {
+        font-size: 32px;
+    }
+    .icons__img {
+        width: 180px;
     }
     
 }
@@ -1394,7 +1409,22 @@ li {
     .process__title {
         font-size: 28px;
     }
-    
+    .icons__section {
+        padding: 3rem 0;
+    }
+    .icons__title {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .icons__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 0;
+        row-gap: 5px;
+    }
+    .icons__img {
+        width: 185px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -1427,6 +1457,16 @@ li {
     }
     .process__title {
         font-size: 24px;
+    }
+    .icons__title {
+        line-height: 34px;
+        font-size: 24px;
+    }
+    .icons__img {
+        width: 170px;
+    }
+    .icons__text {
+        font-size: 17px;
     }
 }
 
@@ -1466,5 +1506,11 @@ li {
     }
     .process__title {
         font-size: 22px;
+    }
+    .icons__title {
+        font-size: 22px;
+    }
+    .icons__text {
+        font-size: 16px;
     }
 }
