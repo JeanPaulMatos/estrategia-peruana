@@ -213,7 +213,6 @@ li {
     height: 250px;
     object-fit: cover;
     object-position: center center;
-    margin-bottom: px;
 }
 .recomendations__logo {
     width: 65px;
@@ -1210,18 +1209,20 @@ li {
 /* ------------------------------------ MEDIA QUERIES ------------------------------------ */
 /* --------------- INDEX--------------- */
 @media screen and (max-width: 1232px) {
-
+    
     .main__content__text {
         padding: 0 80px;
     }
-
+    
 }
 
+/* --------------- INDEX--------------- */
 @media screen and (max-width: 1132px) {
 
     .main__background {
-        /* background: none;
-        min-height: 0; */
+        background-image: url('../images/fondo.jpg');
+        min-height: 30rem;
+        
     }
     .main__content {
         grid-template-columns: 1fr 1fr;
@@ -1239,11 +1240,20 @@ li {
     .main__content__subtext {
         padding: 0 10px;
     }
-
+    .recomendations__img {
+        height: 290px;
+    }
+    .recomendations__logo {
+        top: 54%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
 
+    .main__background {
+        background-image: url('../images/fondo-estrategia.jpg');
+        min-height: 55rem;
+    }
     .main__content {
         display: flex;
         flex-direction: column;
@@ -1256,11 +1266,11 @@ li {
         order: 2;
         margin-left: 0;
     }
-
+    
 }
 
 @media screen and (max-width: 768px) {
-
+    
     .main__content__subtext {
         padding: 0 58px;
         line-height: 24px;
@@ -1271,12 +1281,20 @@ li {
     .main__image {
         width: 100%;
     }
+    .recomendations__img {
+        height: 280px;
+    }
+    .recomendations__logo {
+        top: 52%;
+    }
     
 }
 
 @media screen and (max-width: 550px) {
     
-    
+    .main__background {
+        min-height: 47rem;
+    }
     .main__content__title {
         font-size: 32px;
     }
@@ -1295,6 +1313,16 @@ li {
     .main__content__left {
         width: 90%;
     }
+    .recomendations__title {
+        font-size: 30px;
+    }
+    .recomendations__img {
+        height: 300px;
+    }
+    .recomendations__logo {
+        top: 55%;
+        width: 60px;
+    }
     
 }
 
@@ -1302,10 +1330,10 @@ li {
     
     .main__background {
         background-image: url('../images/fondo.jpg');
-        min-height: 40rem;
+        min-height: 46rem;
     }
     .main__content__title {
-        font-size: 28px;
+        font-size: 39px;
     }
     .main__content__sub {
         font-size: 15px;
@@ -1323,16 +1351,43 @@ li {
         font-size: 16px;
         padding: 15px 16px;
     }
+    .recomendations__title {
+        font-size: 28px;
+    }
+    .recomendations__img {
+        height: 265px;
+    }
+    .recomendations__logo {
+        top: 53%;
+    }
+    .recomendations__subtitle {
+        font-size: 18px;
+        padding-top: 65px;
+    }
+    .recomendations__company {
+        font-size: 15px;
+    }
+    .recomendations__button {
+        font-size: 17px;
+        padding: 18px 23px;
+    }
+    .recomendations__link {
+        font-size: 18px;
+        padding: 18px 35px;
+    }
     
 }
 
 @media screen and (max-width: 420px) {
     
     .main__background {
-        min-height: 39rem;
+        min-height: 43rem;
+    }
+    .main__content__title {
+        font-size: 34px;
     }
     .main__content__subtext {
-        font-size: 15px;
+        font-size: 16px;
         padding: 0 25px;
     }
     .main__content__text {
@@ -1342,19 +1397,27 @@ li {
         font-size: 15px;
         padding: 15px;
     }
-    
+    .recomendations__title {
+        font-size: 26px;
+    }
+    .recomendations__button {
+        padding: 16px 20px;
+    }
+    .recomendations__link {
+        padding: 16px 30px;
+    }
 }
 
 @media screen and (max-width: 380px) {
     
     .main__background {
-        min-height: 37rem;
+        min-height: 40.5rem;
     }
     .main__content__sub {
         font-size: 14px;
     }
     .main__content__title {
-        font-size: 26px;
+        font-size: 31px;
     }
     .main__content__text {
         font-size: 18px;
@@ -1366,5 +1429,16 @@ li {
         font-size: 14px;
         padding: 14px;
     }
-    
+    .recomendations__title {
+        font-size: 24px;
+    }
+    .recomendations__subtitle {
+        font-size: 17px;
+    }
+    .recomendations__button {
+        font-size: 16px;
+    }
+    .recomendations__link {
+        padding: 16px 27px;
+    }
 }
