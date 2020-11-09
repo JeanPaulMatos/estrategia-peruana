@@ -466,6 +466,10 @@ li {
     width: 84%;
     margin: auto;
     padding: 15px 0 10px;
+    border-top: 1px solid var(--color-verde);
+}
+.footer__container-none {
+    border: none;
 }
 .footer__container-products {
     width: 82%;
@@ -1286,7 +1290,12 @@ li {
     .contact-form__info {
         padding: 145px 15px;
     }
-    
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        row-gap: 20px;
+        padding: 15px 0;
+    }
 }
 
 @media screen and (max-width: 840px) {
@@ -1407,6 +1416,9 @@ li {
     .contact-form__title {
         font-size: 32px;
     }
+    .footer__text {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 476px) {
@@ -1496,6 +1508,20 @@ li {
     .contact-form__input {
         font-size: 15px;
     }
+    .footer__container {
+        row-gap: 0;
+        padding: 0;
+        padding-top: 14px;
+    }
+    .footer__mision {
+        display: none;
+    }
+    .footer__link {
+        margin: 14px 0;
+    }
+    .footer__title {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -1560,6 +1586,15 @@ li {
     }
     .contact-form__button {
         font-size: 15px;
+    }
+    .footer__title {
+        font-size: 17px;
+    }
+    .footer__text {
+        font-size: 15px;
+    }
+    .footer__company__name {
+        font-size: 13px;
     }
 }
 
