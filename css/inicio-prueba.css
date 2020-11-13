@@ -1098,7 +1098,7 @@ li {
     color:#6f6f6f;
 }
 .contact-form__input {
-    padding: 6px;
+    padding: 6px 8px;
     border-radius: 5px;
     background-color: #f9f9f99e;
 }
@@ -1265,6 +1265,9 @@ li {
 
 @media screen and (max-width: 1024px) {
 
+    .main__header {
+        display: none;
+    }
     .main__background {
         background-image: url('../images/fondo-estrategia.jpg');
         min-height: 55rem;
@@ -1584,7 +1587,7 @@ li {
         padding: 10px 20px;
     }
     .contact-form__input {
-        padding: 5px;
+        padding: 5px 8px;
         font-size: 14px;
     }
     .contact-form__button {
@@ -1660,7 +1663,7 @@ li {
         font-size: 16px;
     }
     .contact-form__input {
-        padding: 4px;
+        padding: 4px 8px;
     }
 
 }
