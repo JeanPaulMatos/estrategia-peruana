@@ -1261,7 +1261,6 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-    
     /* --------------- INDEX--------------- */
     .main__header {
         display: none;
@@ -1300,6 +1299,7 @@ li {
     /* --------------- PRODUCTS--------------- */
     .products__main {
         grid-template-columns: 1fr;
+        margin-top: 22px;
     }
     .products__category__title {
         text-align: center;
