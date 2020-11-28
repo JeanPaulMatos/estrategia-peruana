@@ -459,6 +459,9 @@ li {
 .footer {
     background-color: var(--color-verde);
 }
+.footer__space {
+    margin-top: 55px;
+}
 .footer__container {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
