@@ -115,6 +115,7 @@
 .lastpost__info {
     display: flex;
     margin-bottom: 8px;
+    align-items: center;
 }
 .lastpost__category {
     font-family: var(--fuente-secundaria);
@@ -356,4 +357,132 @@
 }
 .suggestions__subtitle:hover {
     color: var(--color-verde);
+}
+
+/* ------------------------------------ MEDIA QUERIES ------------------------------------ */
+/* --------------- BLOG--------------- */
+@media screen and (max-width: 1024px) {
+
+    .blog__container {
+        grid-template-columns: 1fr;
+    }
+    .blog__main {
+        margin-bottom: 20px;
+        gap: 0;
+    }
+    .blog__container-sub {
+        grid-template-columns: 1fr 1fr;
+        gap: 0 20px;
+    }
+    .lastpost__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .article__main__title {
+        font-size: 38px;
+    }
+    .article__main__text {
+        font-size: 17px;
+    }
+    .blog__container-sub {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .article__main__subtitle {
+        font-size: 24px;
+    }
+    .article__main__subtext {
+        font-size: 17px;
+    }
+    .lastpost__container {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .lastpost__title {
+        font-size: 22px;
+    }
+    .lastpost__category {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .article__main__title {
+        font-size: 28px;
+    }
+    .article__main__text {
+        font-size: 16px;
+    }
+    .article__main__subtitle {
+        font-size: 22px;
+    }
+    .article__main__subtext {
+        font-size: 15px;
+    }
+    .breadcrumbs__link {
+        font-size: 15px;
+    }
+    .lastpost__title {
+        font-size: 18px;
+    }
+    .lastpost__category {
+        font-size: 15px;
+    }
+    .lastpost__date {
+        font-size: 14px;
+    }
+    .lastpost__text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .blog__container {
+        width: 90%;
+    }
+    .article__1 {
+        min-height: 400px;
+    }
+    .article__content {
+        padding-left: 25px;
+    }
+    .article__main__title {
+        font-size: 26px;
+    }
+    .article__main__text {
+        font-size: 15px;
+    }
+    .article__main__subtitle {
+        font-size: 20px;
+    }
+    .lastpost {
+        width: 90%;
+    }
+    .lastpost__title {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+    .article__1 {
+        min-height: 350px;
+    }
+    .article__content {
+        padding-left: 20px;
+    }
+    .article__main__title {
+        font-size: 24px;
+    }
+    .lastpost__container {
+        row-gap: 35px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .article__main__title {
+        font-size: 22px;
+    }
 }
