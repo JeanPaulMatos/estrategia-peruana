@@ -640,3 +640,12 @@
         font-size: 17px;
     }
 }
+
+@media screen and (max-width: 368px) {
+    .post__title {
+        font-size: 20px;
+    }
+    .post__date {
+        line-height: 1.5;
+    }
+}
