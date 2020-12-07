@@ -125,7 +125,7 @@ li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 5.875rem;
+    min-height: 5rem;
 }
 .main__logo__mobile {
     max-width: 3.125rem;
@@ -137,11 +137,11 @@ li {
 }
 .slideMenu {
     position: fixed;
-    top: 5.875rem;
+    top: 5rem;
     left: -100%;
     background-color: var(--color-blanco);
     text-align: center;
-    padding: 2px 2.25rem 2.30rem;
+    padding: 15px 2.25rem 2.30rem;
     width: 100%;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -1564,12 +1564,19 @@ li {
 
 @media screen and (max-width: 476px) {
     
+    .main__logo__mobile {
+        max-width: 45px;
+    }
+    .burger-menu {
+        font-size: 30px;
+    }
     .main__background {
         background-image: url('../images/fondo.jpg');
         min-height: 46rem;
     }
     .main__content__title {
         font-size: 39px;
+        margin: 20px 0;
     }
     .main__content__sub {
         font-size: 15px;
