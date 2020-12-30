@@ -365,6 +365,7 @@
     
     .blog__container {
         grid-template-columns: 1fr;
+        margin-top: 5rem;
     }
     .blog__main {
         margin-bottom: 20px;
@@ -381,6 +382,9 @@
     /* --------------- BLOGPOST--------------- */
     .breadcrumbs {
         justify-content: center;
+    }
+    .breadcrumbs__space {
+        margin-top: 3rem;
     }
     .post__title {
         text-align: center;

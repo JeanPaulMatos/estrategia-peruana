@@ -1393,6 +1393,9 @@ li {
         margin-top: 22px;
         padding: 0;
     }
+    .breadcrumbs {
+        margin-top: 5rem;
+    }
     .quick-quote__container {
         display: none;
     }
@@ -1462,6 +1465,9 @@ li {
         grid-template-columns: repeat(2, 1fr);
     }
     /* --------------- PRODUCTS--------------- */
+    .breadcrumbs {
+        justify-content: center;
+    }
     .products__category__ul {
         grid-template-columns: repeat(2, 1fr);
     }
