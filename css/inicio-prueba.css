@@ -15,7 +15,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -399,125 +401,6 @@ li {
     letter-spacing: 0.5px;
 }
 
-/* --------------- FORM --------------- */
-    /* .contact {
-        margin-top: 25px;
-    }
-    .contact__background {
-        padding: 8.625rem 0 11.875rem 0;
-        position: relative;
-        background-image: url('../images/portada-form.jpg');
-        background-size: cover;
-        background-position: top;
-        background-attachment: fixed;
-    }
-    .contact__overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color:rgba(0, 0, 0, 0.1);
-        top: 0;
-        z-index: 1;
-    }
-    .contact__container {
-        position: relative;
-        z-index: 2;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-    .contact__directions {
-        background: var(--color-blanco);
-        border: 6px double var(--color-footer);
-        padding: 2.25rem;
-        text-align: center;
-        width: 22%;
-    }
-    .contact__title {
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 2.6875rem;
-        margin-bottom: 1.125rem;
-        border-bottom: 1px solid var(--color-footer);
-    }
-    .contact__info {
-        font-size: 1rem;
-        color: var(--color-input);
-    }
-    .form {
-        position: relative;
-        z-index: 3;
-        background: var(--color-blanco);
-        max-width: 40.625rem;
-        margin: 0 auto;
-        padding: 2.25rem;
-        margin-top: -6.25rem;
-        width: 90%;
-    }
-    .form__input-group {
-        position: relative;
-        margin-bottom: 2rem;
-    }
-    .form__label {
-        font-family: var(--fuente-principal);
-        letter-spacing: 1.2px;
-        font-size: 1.125rem;
-        color: var(--color-input);
-    }
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        font-family: var(--fuente-secundaria);
-        font-size: 1rem;
-        color: #000;
-        width: 100%;
-        outline: none;
-        padding: 0.9375rem 0;
-        background: none;
-        border: none;
-        border-bottom: 2px solid var(--color-verde);
-        vertical-align: top;
-    }
-    textarea {
-        max-width: 100%;
-        max-height: 10.25rem;
-        min-height: 5.125rem;   
-        min-width: 100%;
-    }
-    label.label {
-        position: absolute;
-        top: 1rem;
-        left: 0;
-        font-size: 1rem;
-        line-height: 1rem;
-        margin-left: 1rem;
-        transition: all 0.3s ease;
-    }
-    .label:active {
-        top: -0.75rem;
-        margin-left: 0;
-        font-size: 0.75rem;
-        line-height: 0.75rem;
-        color: var(--color-footer);
-    }
-    .form__submit {
-        font-family: var(--fuente-principal);
-        background: var(--color-verde);
-        color: var(--color-blanco);
-        border-radius: 1px;
-        border: 2px solid var(--color-blanco);
-        cursor: pointer;
-        display: block;
-        margin: 0 auto;
-        margin-top: 3.125rem;
-        padding: 0.9375rem;
-        width: 20%;
-        outline: none;
-        transition: all 0.3s ease;
-        font-size: 1.125rem;
-        letter-spacing: 1.2px;
-    } */
-
 /* --------------- FOOTER --------------- */
 .footer {
     background-color: var(--color-verde);
@@ -531,7 +414,7 @@ li {
     justify-items: center;
     width: 84%;
     margin: auto;
-    padding: 15px 0 10px;
+    padding: 15px 0 20px;
     border-top: 1px solid var(--color-verde);
 }
 .footer__container-none {
@@ -613,6 +496,9 @@ li {
     grid-template-columns: 1fr 2.7fr;
     margin-top: 30px;
 }
+.products__main__category {
+    margin-bottom: 3rem;
+}
 .products__category {
     margin-right: 12px;
 }
@@ -621,6 +507,13 @@ li {
     font-size: 2.25rem;
     border-bottom: 3px solid var(--color-verde);
     padding-bottom: 2px;
+}
+.products__categorys {
+    font-family: var(--fuente-principal);
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: -20px;
+    letter-spacing: 0.7px;
 }
 .products__category__ul {
     margin: 15px 8px 0 0;
@@ -764,8 +657,6 @@ li {
     transition: all .2s;
     border: 1px solid #ffff0ff2;
 }
-
-
 
 /* --------------- PRODUCTS-PAGE --------------- */
 .main__product-page {
@@ -933,17 +824,6 @@ li {
     color: var(--color-verde);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------ FRECUENT QUESTIONS ------------------------------------ */
 /* --------------- FQA --------------- */
 .fqa {
@@ -1077,6 +957,9 @@ li {
     font-weight: 700;
     margin-bottom: 1.9rem;
     letter-spacing: 0.3px;
+}
+.contact__button {
+    padding: 26px 40px 20px;
 }
 .contact__arrow__container {
     background-color: var(--color-blanco);
@@ -1273,7 +1156,6 @@ li {
     transition: all .2s;
 }
 
-
 /* ------------------------------------ MEDIA QUERIES ------------------------------------ */
 /* --------------- INDEX--------------- */
 @media screen and (max-width: 1232px) {
@@ -1368,7 +1250,7 @@ li {
         grid-template-columns: 1fr;
         text-align: center;
         row-gap: 20px;
-        padding: 15px 0 5px;
+        padding: 15px 0 7px;
     }
     /* --------------- PRODUCTS--------------- */
     .banner__products {
@@ -1406,7 +1288,6 @@ li {
 }
 
 @media screen and (max-width: 840px) {
-    
     .contact-form__container {
         grid-template-columns: 1fr;
     }
@@ -1429,11 +1310,34 @@ li {
     .contact-form__button {
         width: 100%;
     }
-    
+    /* --------------- CONTACT--------------- */
+    .contact__tit {
+        font-size: 42px;
+    }
+    .contact__sub {
+        font-size: 22px;
+        text-align: center;
+    }
+    .contact__button {
+        padding: 24px 40px 15px;
+        font-size: 18px;
+    }
+    .contact__arrow__container {
+        width: 50px;
+        height: 50px;
+    }
+    .contact__arrow {
+        font-size: 36px;
+    }
+    .maps {
+        width: 82%;
+    }
+    .maps__direction {
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
     .main__content__subtext {
         padding: 0 58px;
         line-height: 24px;
@@ -1488,10 +1392,34 @@ li {
         grid-template-columns: 1fr 1fr;
         gap: 20px 15px;
     }
+    /* --------------- FAQ--------------- */
+    .fqa {
+        width: 86%;
+    }
+    .fqa__title {
+        font-size: 38px;
+    }
+    .fqa__link {
+        line-height: 1.4;
+    }
+    /* --------------- CONTACT--------------- */
+    .contact__back {
+        margin-top: 3rem;
+    }
+    .contact__tit {
+        font-size: 40px;
+    }
+    .contact__sub {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .contact__button {
+        padding: 20px 40px 7px;
+    }
+    
 }
 
 @media screen and (max-width: 550px) {
-    
     .menu-bar-movil {
         padding: 0 2.25rem;
     }
@@ -1568,6 +1496,56 @@ li {
     }
     .products__category__title {
         font-size: 32px;
+    }
+    /* --------------- FAQ--------------- */
+    .fqa__title {
+        font-size: 32px;
+    }
+    .fqa__description {
+        font-size: 15px;
+    }
+    .fqa__link {
+        font-size: 18px;
+    }
+    .fqa__text {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    /* --------------- CONTACT--------------- */
+    .contact__back {
+        min-height: 26rem;
+    }
+    .contact__tit {
+        font-size: 32px;
+    }
+    .contact__sub {
+        font-size: 18px;
+    }
+    .contact__button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    .contact__arrow__container {
+        width: 45px;
+        height: 45px;
+        top: 70%;
+    }
+    .contact__arrow {
+        font-size: 32px;
+    }
+    .maps__container {
+        grid-template-columns: 1fr;
+    }
+    .maps__info {
+        order: 1;
+        text-align: center;
+        margin-left: 0;
+    }
+    .maps__title {
+        font-size: 32px;
+    }
+    .maps__direction {
+        order: 2;
     }
 }
 
@@ -1746,6 +1724,42 @@ li {
     .related__products__link {
         font-size: 15px;
     }
+    /* --------------- FAQ--------------- */
+    .fqa {
+        width: 85%;
+    }
+    .fqa__title {
+        font-size: 28px;
+    }
+    .fqa__link {
+        font-size: 17px;
+    }
+    .fqa__text {
+        font-size: 14px;
+    }
+    /* --------------- CONTACT--------------- */
+    .contact__tit {
+        font-size: 28px;
+    }
+    .contact__sub {
+        font-size: 16px;
+    }
+    .contact__button {
+        padding: 13px 25px;
+        font-size: 16px;
+    }
+    .contact__arrow__container {
+        top: 45%;
+    }
+    .maps__title {
+        font-size: 28px;
+    }
+    .maps__subtitle {
+        font-size: 18px;
+    }
+    .maps__text {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -1855,6 +1869,45 @@ li {
         font-size: 20px;
         letter-spacing: 0.8px;
     }
+    /* --------------- FAQ --------------- */
+    .fqa__title {
+        font-size: 26px;
+    }
+    .fqa__description {
+        font-size: 14px;
+    }
+    .fqa__link {
+        font-size: 16px;
+    }
+    .fqa__text {
+        font-size: 13px;
+    }
+    /* --------------- CONTACT --------------- */
+    .contact__back {
+        margin-top: 1.5rem;
+    }
+    .contact__tit {
+        font-size: 26px;
+    }
+    .contact__sub {
+        padding: 0 21px;
+    }
+    .recomendations__link {
+        padding: 15px 25px;
+    }
+    .contact__arrow__container {
+        width: 42px;
+        height: 42px;
+    }
+    .contact__arrow {
+        font-size: 30px;
+    }
+    .maps__title {
+        font-size: 26px;
+    }
+    .maps__subtitle {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -1943,16 +1996,33 @@ li {
     .shipping__content__link {
         font-size: 15px;
     }
-    .fqa__link {
-        font-size: 17px;
-    }
-    .fqa__text {
-        font-size: 14px;
-    }
     .related__products__title  {
         font-size: 18px;
     }
     .related__products__subtitle {
+        font-size: 16px;
+    }
+    /* --------------- FAQ--------------- */
+    .fqa__title {
+        font-size: 24px;
+    }
+    .fqa__link {
+        font-size: 16px;
+    }
+    /* --------------- CONTACT--------------- */
+    .contact__tit {
+        font-size: 24px;
+    }
+    .contact__sub {
+        font-size: 15px;
+    }
+    .recomendations__link {
+        padding: 12px 22px;
+    }
+    .maps__title {
+        font-size: 24px;
+    }
+    .maps__subtitle {
         font-size: 16px;
     }
 }
