@@ -1275,6 +1275,10 @@ li {
         margin-top: 22px;
         padding: 0;
     }
+    .products__categorys {
+        font-size: 2rem;
+        margin-top: 40px;
+    }
     .breadcrumbs {
         margin-top: 5rem;
     }
@@ -1496,6 +1500,9 @@ li {
     }
     .products__category__title {
         font-size: 32px;
+    }
+    .products__categorys {
+        font-size: 28px;
     }
     /* --------------- FAQ--------------- */
     .fqa__title {
@@ -1853,6 +1860,9 @@ li {
     .pagination__link {
         font-size: 14px;
     }
+    .products__categorys {
+        font-size: 26px;
+    }
     .breadcrumbs {
         margin-bottom: 10px;
     }
@@ -1980,6 +1990,9 @@ li {
     }
     .product__card__subtitle {
         font-size: 17px;
+    }
+    .products__categorys {
+        font-size: 24px;
     }
     .shipping__img {
         font-size: 19px;

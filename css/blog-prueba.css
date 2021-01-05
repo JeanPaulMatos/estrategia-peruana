@@ -1,5 +1,11 @@
 /* ------------------------------------ BLOG PAGE ------------------------------------ */
 /* --------------- MAIN BLOG--------------- */
+.blog__breadcrumbs {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: -6px;
+}
 .blog__container {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -66,6 +72,24 @@
     min-height: 250px;
     border-radius: 4px;
     transition: all 0.7s ease;
+}
+.article__azucar {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/bagazo-de-caña-de-azucar.jpg');
+}
+.article__comer {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/comer-por-un-mundo-mejor.jpg');
+}
+.article__microplastico {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/microplastico.jpeg');
+}
+.article__contaminacion {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/economia.jpg');
+}
+.article__receta {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/receta-maicena.jpg');
+}
+.article__pla {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/que-es-el-pla.jpg');
 }
 .article__main__subtitle {
     font-family: var(--fuente-principal);
@@ -366,6 +390,9 @@
     .blog__container {
         grid-template-columns: 1fr;
         margin-top: 5rem;
+    }
+    .blog__container__category {
+        margin-top: 2rem;
     }
     .blog__main {
         margin-bottom: 20px;
