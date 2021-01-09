@@ -362,7 +362,24 @@ li {
     transition: all .2s;
 }
 
-
+.mision {
+    width: 83%;
+    margin: auto;
+}
+.mision__container--title {
+    font-size: 2.25rem;
+    font-family: var(--fuente-principal);
+    letter-spacing: 1.125px;
+    margin-bottom: 15px;
+}
+.mision___title--green {
+    color: var(--color-verde-background);
+}
+.mision__container--text {
+    font-family: var(--fuente-secundaria);
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
 
 /* --------------- PROCESS COMPOST --------------- */
 .process__compost {
