@@ -89,7 +89,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/receta-maicena.jpg');
 }
 .article__pla {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/que-es-el-pla.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('../images/cambio-portada.jpg');
 }
 .article__main__subtitle {
     font-family: var(--fuente-principal);
@@ -229,7 +229,7 @@
 .post__text {
     font-family: var(--fuente-secundaria);
     line-height: 1.5;
-    letter-spacing: 0.3px;
+    text-align: justify;
     margin: 22px 0;
     color: #181B32;
 }

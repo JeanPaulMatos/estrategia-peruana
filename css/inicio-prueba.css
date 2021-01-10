@@ -366,6 +366,14 @@ li {
     width: 83%;
     margin: auto;
 }
+.mision__container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+}
+.mision__container__right {
+    margin-top: 40px;
+}
 .mision__container--title {
     font-size: 2.25rem;
     font-family: var(--fuente-principal);
