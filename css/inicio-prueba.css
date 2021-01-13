@@ -1283,6 +1283,20 @@ li {
         order: 2;
         margin-left: 0;
     }
+    .mision__container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .mision__container--title {
+        text-align: center;
+    }
+    .mision__container--text {
+        text-align: center;
+    }
+    .mision__container__right {
+        margin-top: -15px;
+        width: 500px;
+    }
     .contact-form {
         width: 82%;
     }
@@ -1404,12 +1418,15 @@ li {
     .recomendations__logo {
         top: 52%;
     }
+    .mision__container__right {
+        width: 440px;
+    }
     .process__compost {
         grid-template-columns: 1fr;
         margin-bottom: 55px;
     }
     .process__title {
-        margin: 20px 0 25px;
+        margin: -27px 0 25px;
     }
     .process__container__image {
         display: none;
@@ -1509,6 +1526,12 @@ li {
     .recomendations__logo {
         top: 55%;
         width: 60px;
+    }
+    .mision__container--title {
+        font-size: 32px;
+    }
+    .mision__container--text {
+        font-size: 15px;
     }
     .process__title {
         font-size: 30px;
@@ -1664,6 +1687,12 @@ li {
     .recomendations__link {
         font-size: 18px;
         padding: 18px 35px;
+    }
+    .mision__container--title {
+        font-size: 28px;
+    }
+    .mision__container__right {
+        width: 400px;
     }
     .process__compost {
         width: 100%;
@@ -1849,6 +1878,15 @@ li {
     .recomendations__link {
         padding: 17px 30px;
     }
+    .mision__container--title {
+        font-size: 26px;
+    }
+    .mision__container--text {
+        font-size: 14px;
+    }
+    .mision__container__right {
+        width: 350px;
+    }
     .process__title {
         font-size: 24px;
     }
@@ -2005,6 +2043,12 @@ li {
     }
     .recomendations__link {
         padding: 17px 27px;
+    }
+    .mision__container--title {
+        font-size: 24px;
+    }
+    .mision__container__right {
+        width: 300px;
     }
     .process__title {
         font-size: 22px;
