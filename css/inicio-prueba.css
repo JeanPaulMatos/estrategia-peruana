@@ -1,6 +1,6 @@
 :root {
-    --fuente-principal: 'Alegreya Sans', sans-serif;
-    --fuente-secundaria: 'Lato', sans-serif;
+    --fuente-principal: 'Alegreya Sans', system-ui;
+    --fuente-secundaria: 'Lato', system-ui;
     --color-blanco: #fff;
     --color-verde: #20d51b;
     --color-verde-oscuro: #27b526;
@@ -20,6 +20,7 @@ html {
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+    font-weight: 700;
 }
 figure {
     margin: 0;
