@@ -363,6 +363,7 @@ li {
     transition: all .2s;
 }
 
+/* --------------- MISION --------------- */
 .mision {
     width: 83%;
     margin: auto;
@@ -1533,6 +1534,9 @@ li {
     }
     .mision__container--text {
         font-size: 15px;
+    }
+    .mision__container--hidden {
+        display: none;
     }
     .process__title {
         font-size: 30px;
