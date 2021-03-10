@@ -1244,6 +1244,9 @@ li {
     .main__content__subtext {
         padding: 0 10px;
     }
+    .shipping_content__description {
+        line-height: 1.4;
+    }
     .recomendations__img {
         height: 290px;
     }
