@@ -5,10 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Landing</title>
-        <link rel="stylesheet" href="css/landing/normalize.css">
-        <link rel="stylesheet" href="css/landing/landing.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/landing/normalize.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+        <link rel="stylesheet" href="css/landing/landing.css">
     </head>
 
     <body>
@@ -338,35 +339,44 @@
                                 <div class="form__container--contact--container--wrap--group--inputs">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="name">Empresa / Persona Natural</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="Estrategia Peruana" type="text" id="name" name="name" required>
+                                    <div class="underline__form"></div>
                                 </div>
                                 <div class="form__container--contact--container--wrap--group--inputs">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="email">Correo Electrónico</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="ejemplo@gmail.com" type="email" id="email" name="email" required>
+                                    <div class="underline__form"></div>
                                 </div>
                             </div>
                             <div class="form__container--contact--container--wrap--group">
                                 <div class="form__container--contact--container--wrap--group--inputs">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="code">Código de los Productos</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="EP-003 / EP-06 / EP-09" type="text" id="code" name="code" required>
+                                    <div class="underline__form"></div>
                                 </div>
                                 <div class="form__container--contact--container--wrap--group--inputs">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="quantity">Cantidad de Unidades</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="1000 Unidades" type="number" id="quantity" name="quantity" required>
+                                    <div class="underline__form"></div>
                                 </div>
                             </div>
                             <div class="form__container--contact--container--wrap--group">
                                 <div class="form__container--contact--container--wrap--group--inputs">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="charge">Cargo</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="Gerente de Ventas" type="text" id="charge" name="charge" required>
+                                    <div class="underline__form"></div>
                                 </div>
                                 <div class="form__container--contact--container--wrap--group--inputs">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="phone">Teléfono</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="985 525 176" type="number" id="phone" name="phone" required>
+                                    <div class="underline__form"></div>
                                 </div>
                             </div>
                             <div class="form__container--contact--container--wrap--message">
-                                <label class="form__container--contact--container--wrap--group--inputs--label" for="message">Mensaje</label>
-                                <textarea class="form__container--contact--container--wrap--group--inputs--input--message" placeholder="Por favor, describanos aquí los detalles de su cotización" name="message" id="message"></textarea>
+                                <div class="form__container--contact--container--wrap--message--container">
+                                    <label class="form__container--contact--container--wrap--group--inputs--label" for="message">Mensaje</label>
+                                    <textarea class="form__container--contact--container--wrap--message--container--text" placeholder="Por favor, describanos aquí los detalles de su cotización" name="message" id="message" required></textarea>
+                                    <div class="underline__form"></div>
+                                </div>
                             </div>
                             <div class="form__container--contact--container--wrap--buttons">
                                 <button type="submit" class="form__container--contact--container--wrap--buttons--link">
@@ -380,6 +390,218 @@
             </div>
         </section>
         <!-- Form section ends here -->
+        
+        <!-- Faq section starts here -->
+        <section class="faq">
+            <h2 class="faq--title">PREGUNTAS FRECUENTES</h2>
+            <p class="faq--text">Si tienes alguna duda de nuestros productos, entregas, cantidades, certificaciones, horarios.</p>
+            <p class="faq--text faq--subtext">Con tan solo un clic encuentra la respuesta.</p>
+            <div class="faq__container">
+                <!-- Accordion 1 -->
+                <div class="faq__container--item">
+                    <input type="radio" name="faq" id="faq-1" checked>
+                    <label for="faq-1">
+                        <span>¿Estrategia Peruana ofrece garantía por sus productos?</span>
+                        <img class="icon-disabled" src="images/landings/contenedores/desktop/faq-disabled.svg" alt="Icono de Preguntas Frecuentes Activo">
+                        <img class="icon-active" src="images/landings/contenedores/desktop/faq-active.svg" alt="Icono de Preguntas Frecuentes Activo">
+                    </label>
+                    <div class="faq__container--item--content">
+                        <p>Sí, son 15 días de garantía para coordinar la inspección del producto y proceder al cambio. Estrategia Peruana garantiza defectos de fabricación y manipulación antes de entregar el pedido solicitado. Para evitar confusiones de garantía, ambas partes revisamos el producto antes de la entrega.</p>
+                    </div>
+                    <div class="underline__faq"></div>
+                </div>
+                <!-- Accordion 2 -->
+                <div class="faq__container--item">
+                    <input type="radio" name="faq" id="faq-2">
+                    <label for="faq-2">
+                        <span>¿Hacen envíos a nivel nacional?</span>
+                        <img class="icon-disabled" src="images/landings/contenedores/desktop/faq-disabled.svg" alt="Icono de Preguntas Frecuentes Activo">
+                        <img class="icon-active" src="images/landings/contenedores/desktop/faq-active.svg" alt="Icono de Preguntas Frecuentes Activo">
+                    </label>
+                    <div class="faq__container--item--content">
+                        <p>Si, realizamos envíos a nivel nacional. Coordinamos todos los requerimientos para el envío con el cliente, nos adaptamos a sus agencias de confianza y enviamos el pedido en el tiempo requerido por la agencia. Por nuestra parte trabajamos con Shalom y Marvisur, garantizando el envío con el menor tiempo posible y el cuidado debido.</p>
+                    </div>
+                    <div class="underline__faq"></div>
+                </div>
+                <!-- Accordion 3 -->
+                <div class="faq__container--item">
+                    <input type="radio" name="faq" id="faq-3">
+                    <label for="faq-3">
+                        <span>¿En cuánto tiempo se descomponen sus productos biodegradables?</span>
+                        <img class="icon-disabled" src="images/landings/contenedores/desktop/faq-disabled.svg" alt="Icono de Preguntas Frecuentes Activo">
+                        <img class="icon-active" src="images/landings/contenedores/desktop/faq-active.svg" alt="Icono de Preguntas Frecuentes Activo">
+                    </label>
+                    <div class="faq__container--item--content">
+                        <p>Nuestros envases de almidón de maíz y caña de azúcar se degradan en un periodo de entre 120 y 180 días. Sin embargo, un estudio reciente por parte de Wageningen University & Research (WUR), de los países bajos, ha analizado el destino de los envases compostables en una instalación de tratamiento de desechos orgánicos industriales a gran escala. Los resultados muestran que los productos se descomponen en un máximo de 22 días.</p>
+                    </div>
+                    <div class="underline__faq"></div>
+                </div>
+                <!-- Accordion 4 -->
+                <div class="faq__container--item">
+                    <input type="radio" name="faq" id="faq-4">
+                    <label for="faq-4">
+                        <span>¿Sus Envases Biodegradables cuentan con certificaciones?</span>
+                        <img class="icon-disabled" src="images/landings/contenedores/desktop/faq-disabled.svg" alt="Icono de Preguntas Frecuentes Activo">
+                        <img class="icon-active" src="images/landings/contenedores/desktop/faq-active.svg" alt="Icono de Preguntas Frecuentes Activo">
+                    </label>
+                    <div class="faq__container--item--content">
+                        <p>Si, todos nuestros productos cuentan con certificaciones internacionales de compostaje. Además, son libres de BPA y cuentan con certificación FDA que aprueban el contacto directo entre los alimentos y nuestros empaques.</p>
+                    </div>
+                    <div class="underline__faq"></div>
+                </div>
+                <!-- Accordion 5 -->
+                <div class="faq__container--item">
+                    <input type="radio" name="faq" id="faq-5">
+                    <label for="faq-5">
+                        <span>¿Puedo colocar sus Envases en el congelador, microondas y horno?</span>
+                        <img class="icon-disabled" src="images/landings/contenedores/desktop/faq-disabled.svg" alt="Icono de Preguntas Frecuentes Activo">
+                        <img class="icon-active" src="images/landings/contenedores/desktop/faq-active.svg" alt="Icono de Preguntas Frecuentes Activo">
+                    </label>
+                    <div class="faq__container--item--content">
+                        <p>Nuestros productos de caña de azúcar si, porque tienen resistencia a altas temperaturas. Sin embargo, los bioplásticos de fécula de maíz no tienen esa resistencia al calor extremo que genera un horno microondas.</p>
+                    </div>
+                    <div class="underline__faq"></div>
+                </div>
+                <!-- Accordion 6 -->
+                <div class="faq__container--item">
+                    <input type="radio" name="faq" id="faq-6">
+                    <label for="faq-6">
+                        <span>¿Sus Envases de caña de azúcar resisten cremas, pastas, líquidos y grasas?</span>
+                        <img class="icon-disabled" src="images/landings/contenedores/desktop/faq-disabled.svg" alt="Icono de Preguntas Frecuentes Activo">
+                        <img class="icon-active" src="images/landings/contenedores/desktop/faq-active.svg" alt="Icono de Preguntas Frecuentes Activo">
+                    </label>
+                    <div class="faq__container--item--content">
+                        <p>Si, nuestros productos son resistentes a altas temperaturas, cremas y grasas. Pero al igual que cualquier envase de caña de azúcar, perderá fuerza en su estructura con alimentos líquidos o extremadamente calientes.</p>
+                    </div>
+                    <div class="underline__faq"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Faq section ends here -->
+
+        <!-- Testimonials section starts here -->
+        <section class="testimonials">
+            <h2 class="testimonials--title">LO QUE DICEN <span>NUESTROS CLIENTES</span> DE NOSOTROS</h2>
+            <p class="testimonials--text">Nuestra mejor carta de presentación son nuestros clientes. Ellos confiaron en nosotros y nos enorgullece trabajar con ellos.</p>
+
+            <div class="testimonials__container">
+                <button class="testimonials__container--previous" aria-label="Anterior">
+                    <img loading="lazy" src="images/landings/contenedores/desktop/arrow-left.svg" alt="Icono de Flecha Izquierda para retroceder al Anterior">
+                </button>
+
+                <div class="testimonials__container--carousel">
+                    <!-- Slide1 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/denis-wilmer.webp" alt="Imagen de Nuestro Cliente Denis Wilmer Días, Jefe de Compras">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--one">Me ayudarón a mejorar la presentación de mi delivery, cambiando envases de Tecnopor que son dañino para nuestros clientes con Envases Biodegradables.</p>
+                        <h6>Denis Wilmer Díaz</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Jefe de Compras</p>
+                    </div>
+                    <!-- Slide2 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/sergio-bronstein.webp" alt="Imagen de Nuestro Cliente Sergio Bronstein, Gerente Comercial">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--two">Utilizo sus Bowls de Bambú en diferentes platos de mi restaurant. La calidad del envase es muy buena y tiene una tapa hermética en la cual no se filtra líquido.</p>
+                        <h6>Sergio Bronstein</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Gerente Comercial</p>
+                    </div>
+                    <!-- Slide3 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/indira-valeska.webp" alt="Imagen de Nuestra Cliente Indira Valeska, Evaluadora de Proveedores">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--three">Sus envíos son a tiempo y tienen variedad de productos. Personalmente compro los envases de caña de azúcar y sus empaques tienen muy buena estructura.</p>
+                        <h6>Indira Valeska</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Evaluadora de Proveedores</p>
+                    </div>
+                    <!-- Slide4 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/maris-mendoza.webp" alt="Imagen de Nuestro Clienta Maris Mendoza, Emprendedora">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--four">Ahora mis postres realizados en casa los envío en Bolsas Kraft y Envases Biodegradables, así mis clientes no contaminan el medio ambiente.</p>
+                        <h6>Maris Mendoza</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Emprendedora</p>
+                    </div>
+                    <!-- Slide5 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/juan-pablo-mansilla.webp" alt="Imagen de Nuestro Cliente Juan Pablo Mansilla, Administrador">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--five">Lo mejor de Estrategia es que es una empresa muy comprometida con sus clientes, no tardan en las entregas y tienen muy buenos precios.</p>
+                        <h6>Juan Pablo Mansilla</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Administrador</p>
+                    </div>
+                    <!-- Slide6 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/nancy-zegarra.webp" alt="Imagen de Nuestro Clienta Nancy Zegarra, Gerenta de Logística">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--six">Son bien proactivos y tienen buenos precios. Antes utilizabamos envases de otro proveedor, pero los envases de Estrategia son más gruesos y resistentes.</p>
+                        <h6>Nancy Zegarra</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Gerenta de Logística</p>
+                    </div>
+                    <!-- Slide7 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/alex-bicmer.webp" alt="Imagen de Nuestro Cliente Alex Bicmer, Emprendedor">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--seven">Antes de cambiarme de envases plásticos a Biodegradables, vi muchas alternativas, escogí Estrategia por sus precios y la calidad de producto que tienen.</p>
+                        <h6>Alex Bicmer</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Emprendedor</p>
+                    </div>
+                    <!-- Slide8 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/jose-torres.webp" alt="Imagen de Nuestro Cliente José Torres, Emprendedor">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--eight">Yo revendo sus productos en provincia. Me brindan muy buenos precios y facilidades para realizar mis pedidos de manera mensual.</p>
+                        <h6>José Torres</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Emprendedor</p>
+                    </div>
+                    <!-- Slide9 -->
+                    <div class="testimonials__container--carousel--slide">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <img loading="lazy" src="images/landings/contenedores/desktop/omar-armando-moreno.webp" alt="Imagen de Nuestro Cliente Omar Armando Moreno, Dueño de Restaurant">
+                        </picture>
+                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--nine">Sus vasos de café son muy resistentes y la apreciación por parte de mis clientes es buena. También compro sus vasos para bebidas frías de fécula de maíz.</p>
+                        <h6>Omar Armando Moreno</h6>
+                        <p class="testimonials__container--carousel--slide--charge">Dueño de Restaurant</p>
+                    </div>
+                </div>
+                
+
+                <button class="testimonials__container--after" aria-label="Siguiente">
+                    <img loading="lazy" src="images/landings/contenedores/desktop/arrow-right.svg" alt="Icono de Flecha Derecha para avanzar al Siguiente">
+                </button>
+                
+                <div role="tablist" class="testimonials__indicators"></div>
+            </div>
+
+
+        </section>
+        <!-- Testimonials section ends here -->
 
         <!-- Certification section starts here -->
         <section class="certification">
@@ -408,11 +630,6 @@
         </section>
         <!-- Warranty section ends here -->
 
-        
-        
-
-        <!-- Main section starts here -->
-        <!-- Main section ends here -->
 
 
         <!-- Footer section starts here -->
@@ -476,6 +693,7 @@
         </footer>
         <!-- Footer section ends here -->
 
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
         <script src="js/landing.js"></script>
 
     </body>
