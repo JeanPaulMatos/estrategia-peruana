@@ -54,18 +54,24 @@ li {
 
 /* ----------------------------------------- HEADER ----------------------------------------- */
 .header {
-    margin: 10px 46px 0 42px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--color-blanco);
+    /* border-bottom: 1px solid var(--color-subrayado); */
 }
 
 .header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 46px 0 42px;
 }
 
-.header__container--logo {
-    width: 147px;
-    height: 94px;
+.header__container--logo img{
+    width: 144px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .header__container--links ul{
@@ -91,7 +97,7 @@ li {
     color: var(--color-principal);
     border-bottom: 2px solid var(--color-principal);
     padding-bottom: 1.5px;
-    transition: all 0.4s;
+    transition: all 0.2s;
 }
 
 .header__container--button {
@@ -110,7 +116,7 @@ li {
 
 /* ----------------------------------------- MAIN SECTION ----------------------------------------- */
 .main {
-    margin: 65px 0 0 46px;
+    margin: 65px 0 0 42px;
 }
 
 .main__container {
@@ -790,6 +796,12 @@ li {
 
 .form__container--contact--container--wrap--buttons {
     display: grid;
+}
+
+.form__container--contact--container--wrap--buttons:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
 }
 
 .form__container--contact--container--wrap--buttons--link {

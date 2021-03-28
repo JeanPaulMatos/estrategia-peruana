@@ -17,35 +17,37 @@
         <!-- Header section starts here -->
         <section class="header">
             <div class="header__container">
-                <picture class="header__container--logo">
-                    <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
-                    <img loading="lazy" src="images/landings/contenedores/desktop/logo-estrategia.webp" alt="Logo Oficial de Estrategia Peruana">
-                </picture>
+                <a href="landing.html">
+                    <picture class="header__container--logo">
+                        <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                        <img loading="lazy" src="images/landings/contenedores/desktop/logo-estrategia.webp" alt="Logo Oficial de Estrategia Peruana">
+                    </picture>
+                </a>
                 <nav class="header__container--links">
                     <ul>
-                        <li><a class="header__container--links--active" href="#">Home</a></li>
-                        <li><a class="header__container--links--disabled" href="#">Productos</a></li>
-                        <li><a class="header__container--links--disabled" href="#">Contacto</a></li>
+                        <li><a class="header__container--links--active" href="#main">Home</a></li>
+                        <li><a class="header__container--links--disabled" href="#products">Productos</a></li>
+                        <li><a class="header__container--links--disabled" href="#form">Contacto</a></li>
                     </ul>
                 </nav>
-                <a href="#" class="header__container--button">Cotizar</a>
+                <a href="#form" class="header__container--button">Cotizar</a>
             </div>
         </section>
         <!-- Header section ends here -->
 
         <!-- Main section starts here -->
-        <main class="main">
+        <main class="main" id="main">
             <div class="main__container">
                 <div class="main__container--left">
                     <h3 class="main__container--left--subtitle">Se parte de la SOLUCIÓN, no del PROBLEMA</h3>
                     <h1 class="main__container--left--title">Utilizar Envases Biodegrables brinda seguridad y bienestar a nuestro planeta</h1>
                     <p class="main__container--left--text">No producen residuos y no liberan elementos químicos ni gases a la atmósfera, reduciendo así la huella de carbono.</p>
                     <div class="main__container--left--buttons">
-                        <a href="#" class="main__container--left--buttons--left">
+                        <a href="#form" class="main__container--left--buttons--left">
                             <img src="images/landings/contenedores/desktop/enviar-form.svg" alt="Icono de Enviar cotización">
                             <span>Solicitar cotización</span>
                         </a>
-                        <a href="#" class="main__container--left--buttons--left main__container--left--buttons--right">
+                        <a href="#info" class="main__container--left--buttons--left main__container--left--buttons--right">
                             <img src="images/landings/contenedores/desktop/informacion.svg" alt="Icono para solicitar más información">
                             <span>Más información</span>
                         </a>
@@ -77,7 +79,7 @@
         <!-- Main section ends here -->
 
         <!-- Use section starts here -->
-        <section class="use">
+        <section class="use" id="info">
             <div class="use__container">
                 <picture class="use__container--left">
                     <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
@@ -157,7 +159,7 @@
 
 
         <!-- Products section starts here -->
-        <section class="products">
+        <section class="products" id="products">
             <h2 class="products--title">TE PRESENTAMOS NUESTROS ENVASES BIODEGRADABLES</h2>
             <p class="products--text">Descubre nuestra Línea de Contenedores para alimentos.</p>
             <p class="products--text products--description">Tenemos el Contenedor que tu negocio necesita.</p>
@@ -175,7 +177,7 @@
                         <h3 class="products__container--box--info--category">Envase de Hamburguesa</h3>
                         <p class="products__container--box--info--size">15 x 15 cm</p>
                         <img class="products__container--box--info--stars" src="images/landings/contenedores/desktop/stars-products.svg" alt="Estrellas de los Review de los Envases Biodegradables en Lima">
-                        <a class="products__container--box--info--button products__container--box--info--button--one" href="#">Cotizar Ahora</a>
+                        <a class="products__container--box--info--button products__container--box--info--button--one" href="#form">Cotizar Ahora</a>
                     </div>
                 </div>
 
@@ -191,7 +193,7 @@
                         <h3 class="products__container--box--info--category">Envase de Menú</h3>
                         <p class="products__container--box--info--size">23 x 15 x 7.6 cm</p>
                         <img class="products__container--box--info--stars" src="images/landings/contenedores/desktop/stars-products.svg" alt="Estrellas de los Review de los Envases Biodegradables en Lima">
-                        <a class="products__container--box--info--button products__container--box--info--button--two" href="#">Cotizar Ahora</a>
+                        <a class="products__container--box--info--button products__container--box--info--button--two" href="#form">Cotizar Ahora</a>
                     </div>
                 </div>
 
@@ -207,7 +209,7 @@
                         <h3 class="products__container--box--info--category">Envase de 1/2 Pollo</h3>
                         <p class="products__container--box--info--size">20 x 20 cm</p>
                         <img class="products__container--box--info--stars" src="images/landings/contenedores/desktop/stars-products.svg" alt="Estrellas de los Review de los Envases Biodegradables en Lima">
-                        <a class="products__container--box--info--button products__container--box--info--button--three" href="#">Cotizar Ahora</a>
+                        <a class="products__container--box--info--button products__container--box--info--button--three" href="#form">Cotizar Ahora</a>
                     </div>
                 </div>
 
@@ -223,7 +225,7 @@
                         <h3 class="products__container--box--info--category">Envase de Menú Mediano</h3>
                         <p class="products__container--box--info--size">17 x 12 x 6 cm</p>
                         <img class="products__container--box--info--stars" src="images/landings/contenedores/desktop/stars-products.svg" alt="Estrellas de los Review de los Envases Biodegradables en Lima">
-                        <a class="products__container--box--info--button products__container--box--info--button--four" href="#">Cotizar Ahora</a>
+                        <a class="products__container--box--info--button products__container--box--info--button--four" href="#form">Cotizar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -290,7 +292,7 @@
         <!-- <input type="text" placeholder="Hola" style="border: none; outline: none;"> -->
 
         <!-- Form section starts here -->
-        <section class="form">
+        <section class="form" id="form">
             <h2 class="form--title">COTIZA CON NOSOTROS</h2>
             <p class="form--text">Al cotizar con nosotros recibirás Atención Inmediata  y Asesoramiento Personalizado</p>
             <p class="form--text form--subtext">Cotiza tus Envases Biodegradables a un Precio Competitivo y recibe tu pedido en menos de 6 horas!</p>
@@ -527,9 +529,9 @@
                     <div class="testimonials__container--carousel--slide">
                         <picture>
                             <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
-                            <img loading="lazy" src="images/landings/contenedores/desktop/maris-mendoza.webp" alt="Imagen de Nuestro Clienta Maris Mendoza, Emprendedora">
+                            <img src="images/landings/contenedores/desktop/maris-mendoza.webp" alt="Imagen de Nuestro Clienta Maris Mendoza, Emprendedora">
                         </picture>
-                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
                         <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--four">Ahora mis postres realizados en casa los envío en Bolsas Kraft y Envases Biodegradables, así mis clientes no contaminan el medio ambiente.</p>
                         <h6>Maris Mendoza</h6>
                         <p class="testimonials__container--carousel--slide--charge">Emprendedora</p>
@@ -538,9 +540,9 @@
                     <div class="testimonials__container--carousel--slide">
                         <picture>
                             <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
-                            <img loading="lazy" src="images/landings/contenedores/desktop/juan-pablo-mansilla.webp" alt="Imagen de Nuestro Cliente Juan Pablo Mansilla, Administrador">
+                            <img src="images/landings/contenedores/desktop/juan-pablo-mansilla.webp" alt="Imagen de Nuestro Cliente Juan Pablo Mansilla, Administrador">
                         </picture>
-                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
                         <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--five">Lo mejor de Estrategia es que es una empresa muy comprometida con sus clientes, no tardan en las entregas y tienen muy buenos precios.</p>
                         <h6>Juan Pablo Mansilla</h6>
                         <p class="testimonials__container--carousel--slide--charge">Administrador</p>
@@ -549,9 +551,9 @@
                     <div class="testimonials__container--carousel--slide">
                         <picture>
                             <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
-                            <img loading="lazy" src="images/landings/contenedores/desktop/nancy-zegarra.webp" alt="Imagen de Nuestro Clienta Nancy Zegarra, Gerenta de Logística">
+                            <img src="images/landings/contenedores/desktop/nancy-zegarra.webp" alt="Imagen de Nuestro Clienta Nancy Zegarra, Gerenta de Logística">
                         </picture>
-                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
                         <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--six">Son bien proactivos y tienen buenos precios. Antes utilizabamos envases de otro proveedor, pero los envases de Estrategia son más gruesos y resistentes.</p>
                         <h6>Nancy Zegarra</h6>
                         <p class="testimonials__container--carousel--slide--charge">Gerenta de Logística</p>
@@ -560,9 +562,9 @@
                     <div class="testimonials__container--carousel--slide">
                         <picture>
                             <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
-                            <img loading="lazy" src="images/landings/contenedores/desktop/alex-bicmer.webp" alt="Imagen de Nuestro Cliente Alex Bicmer, Emprendedor">
+                            <img src="images/landings/contenedores/desktop/alex-bicmer.webp" alt="Imagen de Nuestro Cliente Alex Bicmer, Emprendedor">
                         </picture>
-                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
                         <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--seven">Antes de cambiarme de envases plásticos a Biodegradables, vi muchas alternativas, escogí Estrategia por sus precios y la calidad de producto que tienen.</p>
                         <h6>Alex Bicmer</h6>
                         <p class="testimonials__container--carousel--slide--charge">Emprendedor</p>
@@ -571,9 +573,9 @@
                     <div class="testimonials__container--carousel--slide">
                         <picture>
                             <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
-                            <img loading="lazy" src="images/landings/contenedores/desktop/jose-torres.webp" alt="Imagen de Nuestro Cliente José Torres, Emprendedor">
+                            <img src="images/landings/contenedores/desktop/jose-torres.webp" alt="Imagen de Nuestro Cliente José Torres, Emprendedor">
                         </picture>
-                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
                         <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--eight">Yo revendo sus productos en provincia. Me brindan muy buenos precios y facilidades para realizar mis pedidos de manera mensual.</p>
                         <h6>José Torres</h6>
                         <p class="testimonials__container--carousel--slide--charge">Emprendedor</p>
@@ -582,9 +584,9 @@
                     <div class="testimonials__container--carousel--slide">
                         <picture>
                             <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
-                            <img loading="lazy" src="images/landings/contenedores/desktop/omar-armando-moreno.webp" alt="Imagen de Nuestro Cliente Omar Armando Moreno, Dueño de Restaurant">
+                            <img src="images/landings/contenedores/desktop/omar-armando-moreno.webp" alt="Imagen de Nuestro Cliente Omar Armando Moreno, Dueño de Restaurant">
                         </picture>
-                        <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
+                        <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
                         <p class="testimonials__container--carousel--slide--testimonial testimonials__container--carousel--slide--nine">Sus vasos de café son muy resistentes y la apreciación por parte de mis clientes es buena. También compro sus vasos para bebidas frías de fécula de maíz.</p>
                         <h6>Omar Armando Moreno</h6>
                         <p class="testimonials__container--carousel--slide--charge">Dueño de Restaurant</p>
