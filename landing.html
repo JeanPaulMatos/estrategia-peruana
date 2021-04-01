@@ -19,7 +19,7 @@
             <div class="header__container">
                 <a href="landing.html">
                     <picture class="header__container--logo">
-                        <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                        <source media="(max-width: 834px)" srcset="images/landings/contenedores/desktop/logo-footer.webp">
                         <img loading="lazy" src="images/landings/contenedores/desktop/logo-estrategia.webp" alt="Logo Oficial de Estrategia Peruana">
                     </picture>
                 </a>
@@ -31,6 +31,45 @@
                     </ul>
                 </nav>
                 <a href="#form" class="header__container--button">Cotizar</a>
+            </div>
+
+
+
+            <div class="menu-bar-movil">
+                <a class="main__logo" href="landing.html">
+                    <img loading="lazy" class="main__logo__mobile" src="images/landings/contenedores/mobile/logo-estrategia.webp" alt="Logo Oficial de Estrategia Peruana">
+                </a>
+                <span class="burger-menu" id="burger_menu">
+                    <img src="images/landings/contenedores/mobile/menu.svg" alt="Menú movil de Estrategia Peruana">
+                </span>
+                <div class="slideMenu" id="slideMenu">
+                    <nav class="menu-principal">
+                        <a class="menu-principal-link" href="#main">
+                            <img class="menu-principal-link-home" src="images/landings/contenedores/mobile/home-menu.svg" alt="Icono del Home de Estrategia Peruana">
+                            <span>Home</span>
+                        </a>       
+                        <a class="menu-principal-link" href="#products">
+                            <img class="menu-principal-link-products" src="images/landings/contenedores/mobile/products-menu.svg" alt="Icono de los Productos de Estrategia Peruana">
+                            <span>Productos</span>
+                        </a>
+                        <a class="menu-principal-link" href="#form">
+                            <img class="menu-principal-link-contact" src="images/landings/contenedores/mobile/email-menu.svg" alt="Icono del Contacto de Estrategia Peruana">
+                            <span>Contacto</span>
+                        </a>
+                        <!-- <a class="menu-principal--button" href="#form">
+                            <img class="menu-principal-link-contact" src="images/landings/contenedores/desktop/enviar-form.svg" alt="Icono de Enviar cotización">
+                            <span>Solicitar cotización</span>
+                        </a>
+                        <a href="#form" class="menu-principal--button">
+                            <img src="images/landings/contenedores/desktop/enviar-form.svg" alt="Icono de Enviar cotización">
+                            <span>Solicitar cotización</span>
+                        </a> -->
+                    </nav>
+                    <a class="menu-principal-link menu-principal--button" href="#form">
+                        <img src="images/landings/contenedores/desktop/enviar-form.svg" alt="Icono del Contacto de Estrategia Peruana">
+                        <span>Solicitar cotización</span>
+                    </a>
+                </div>
             </div>
         </section>
         <!-- Header section ends here -->
@@ -70,7 +109,8 @@
 
                 <div class="main__container--right">
                     <picture class="main__container--right--img">
-                        <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                        <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/main-portada.webp">
+                        <source media="(max-width: 834px)" srcset="images/landings/contenedores/desktop/main-portada-completa.webp">
                         <img loading="lazy" src="images/landings/contenedores/desktop/main-portada.webp" alt="Portada Principal de la Landing Page de Estrategia Peruana">
                     </picture>
                 </div>
@@ -82,7 +122,7 @@
         <section class="use" id="info">
             <div class="use__container">
                 <picture class="use__container--left">
-                    <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                    <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/use.webp">
                     <img loading="lazy" src="images/landings/contenedores/desktop/use.webp" alt="Imagen del Pack de Envases Biodegradables: EP06 / EP09 / EP003">
                 </picture>
 
@@ -105,7 +145,7 @@
                             <img src="images/landings/contenedores/desktop/why-icon-four.svg" alt="Icono para representar que nuestros productos son aptos para comidas frías y calientes">
                             <p>Apto para comidas frías y calientes</p>
                         </div>
-                        <div class="use__container--right--container--group">
+                        <div class="use__container--right--container--group use__container--right--container--hidden">
                             <img src="images/landings/contenedores/desktop/why-icon-five.svg" alt="Icono para representar que nuestros productos son un ejemplo de sostenibilidad para nuestros clientes">
                             <p>Ejemplo de sostenibilidad para sus clientes</p>
                         </div>
@@ -113,14 +153,13 @@
                             <img src="images/landings/contenedores/desktop/why-icon-six.svg" alt="Icono para representar que nuestros productos son resistentes a microondas y horno convencionales">
                             <p>Resistencia a microondas y horno convencional</p>
                         </div>
-                        <div class="use__container--right--container--group">
+                        <div class="use__container--right--container--group use__container--right--container--hidden">
                             <img src="images/landings/contenedores/desktop/why-icon-seven.svg" alt="Icono para representar que nuestros productos se convierten en abono para plantas">
                             <p>Se convierte en abono para plantas</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
         <!-- Use section ends here -->
 
@@ -150,9 +189,10 @@
                         <p>Asesoramiento Personalizada</p>
                     </div>
                 </div>
-                <figure class="quote__container--right">
-                    <img src="images/landings/contenedores/desktop/quote.webp" alt="Imagen del Pack de Envases Biodegradables: EP06 / EP09 / EP003 / EP001">
-                </figure>
+                <picture class="quote__container--right">
+                    <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/quote.webp">
+                    <img loading="lazy" src="images/landings/contenedores/desktop/quote.webp" alt="Imagen del Pack de Envases Biodegradables: EP06 / EP09 / EP003 / EP001">
+                </picture>
             </div>
         </section>
         <!-- Quote section ends here -->
@@ -163,12 +203,12 @@
             <h2 class="products--title">TE PRESENTAMOS NUESTROS ENVASES BIODEGRADABLES</h2>
             <p class="products--text">Descubre nuestra Línea de Contenedores para alimentos.</p>
             <p class="products--text products--description">Tenemos el Contenedor que tu negocio necesita.</p>
+            <p class="products--text products--description products--description--hidden">Tenemos los Envases Biodegrables que tu negocio necesita.</p>
             <div class="products__container">
-
                 <div class="products__container--box">
                     <div class="products__container--box--background products__container--box--background--one">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/ep003.webp">
                             <img loading="lazy" src="images/landings/contenedores/desktop/EP003.webp" alt="Imagen oficial del Envase Biodegradable EP003 de Estrategia Peruana">
                         </picture>
                     </div>
@@ -184,7 +224,7 @@
                 <div class="products__container--box">
                     <div class="products__container--box--background products__container--box--background--two">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/ep06.webp">
                             <img loading="lazy" src="images/landings/contenedores/desktop/EP06.webp" alt="Imagen oficial del Envase Biodegradable EP06 de Estrategia Peruana">
                         </picture>
                     </div>
@@ -200,7 +240,7 @@
                 <div class="products__container--box">
                     <div class="products__container--box--background products__container--box--background--three">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/ep09.webp">
                             <img loading="lazy" src="images/landings/contenedores/desktop/EP09.webp" alt="Imagen oficial del Envase Biodegradable EP09 de Estrategia Peruana">
                         </picture>
                     </div>
@@ -216,7 +256,7 @@
                 <div class="products__container--box">
                     <div class="products__container--box--background products__container--box--background--four">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/ep001.webp">
                             <img loading="lazy" src="images/landings/contenedores/desktop/EP001.webp" alt="Imagen oficial del Envase Biodegradable EP001 de Estrategia Peruana">
                         </picture>
                     </div>
@@ -242,7 +282,8 @@
                 </div>
                 <div class="should__container--box">
                     <img class="should__container--box--two" src="images/landings/contenedores/desktop/utlizar-dos.svg" alt="Imagen que representa la preocupación por el consumo responsable y el medio ambiente">
-                    <p class="should__container--box--text should__container--box--text--two">Buscas posicionar a tu marca como una empresa sostenible y ecofriendly <br> entre tus consumidores </p>
+                    <p class="should__container--box--text should__container--box--text--two should__container--box--text--display">Buscas posicionar a tu marca como una empresa sostenible y ecofriendly <br> entre tus consumidores </p>
+                    <p class="should__container--box--text should__container--box--text--two should__container--box--text--hidden">Buscas posicionar a tu marca como una empresa sostenible y ecofriendly entre tus consumidores </p>
                 </div>
                 <div class="should__container--box">
                     <img class="should__container--box--three" src="images/landings/contenedores/desktop/utilizar-tres.svg" alt="Imagen que representa la preocupación por el consumo responsable y el medio ambiente">
@@ -277,19 +318,18 @@
                         <img src="images/landings/contenedores/desktop/elegir-cinco.svg" alt="Icono de reciclaje que representa que nuestros productos son fáciles de reciclar">
                         <p>Son productos faciles de reciclar y son más resistentes</p>
                     </div>
-                    <div class="business__container--left--container">
+                    <div class="business__container--left--container business__container--left--container--hidden">
                         <img src="images/landings/contenedores/desktop/elegir-seis.svg" alt="Icono de crecimiento que representa que nuestros productos son más económicos que envases de plástico">
                         <p>Son mucho más económicos que los envases de plástico</p>
                     </div>
                 </div>
-                <figure class="business__container--right">
+                <picture class="business__container--right">
+                    <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/business.webp">
                     <img src="images/landings/contenedores/desktop/business.webp" alt="Imagen del Pack de Envases Biodegradables y Torre de Envases Biodegradables">
-                </figure>
+                </picture>
             </div>
         </section>
         <!-- Business section ends here -->
-
-        <!-- <input type="text" placeholder="Hola" style="border: none; outline: none;"> -->
 
         <!-- Form section starts here -->
         <section class="form" id="form">
@@ -313,8 +353,12 @@
 
             <div class="form__container">
                 <div class="form__container--info">
+                    <figure class="form__container--info--hidden">
+                        <img src="images/landings/contenedores/mobile/email.svg" alt="Icono del Email de Estrategia Peruana">
+                    </figure>
                     <h3 class="form__container--info--title">Formulario de Cotización</h3>
                     <p class="form__container--info--text">Complete el Formulario y Nuestro Equipo se comunicará con usted lo más pronto posible.</p>
+                    <p class="form__container--info--text form__container--info--display">Nuestro Equipo se comunicará con usted lo más pronto posible</p>
                     <div class="form__container--info--wrap">
                         <img class="form__container--info--wrap--one" src="images/landings/contenedores/desktop/telefono-form.svg" alt="Icono del Teléfono de Estrategia Peruana" class="form__container--info--wrap--one">
                         <p>+51 913 457 959</p>
@@ -338,45 +382,75 @@
                     <form class="form__container--contact--container" action="mensaje/exito.html" name="formulario_LANDING_WEB" method="POST" data-netlify="true">
                         <div class="form__container--contact--container--wrap">
                             <div class="form__container--contact--container--wrap--group">
-                                <div class="form__container--contact--container--wrap--group--inputs">
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--display">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="name">Empresa / Persona Natural</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="Estrategia Peruana" type="text" id="name" name="name" required>
                                     <div class="underline__form"></div>
                                 </div>
-                                <div class="form__container--contact--container--wrap--group--inputs">
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--hidden">
+                                    <label class="form__container--contact--container--wrap--group--inputs--label" for="names">Empresa / Persona Natural</label>
+                                    <input class="form__container--contact--container--wrap--group--inputs--input" type="text" id="names" name="names" required>
+                                    <div class="underline__form"></div>
+                                </div>
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--display">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="email">Correo Electrónico</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="ejemplo@gmail.com" type="email" id="email" name="email" required>
                                     <div class="underline__form"></div>
                                 </div>
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--hidden">
+                                    <label class="form__container--contact--container--wrap--group--inputs--label" for="emails">Correo Electrónico</label>
+                                    <input class="form__container--contact--container--wrap--group--inputs--input" type="email" id="emails" name="emails" required>
+                                    <div class="underline__form"></div>
+                                </div>
                             </div>
                             <div class="form__container--contact--container--wrap--group">
-                                <div class="form__container--contact--container--wrap--group--inputs">
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--display">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="code">Código de los Productos</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="EP-003 / EP-06 / EP-09" type="text" id="code" name="code" required>
                                     <div class="underline__form"></div>
                                 </div>
-                                <div class="form__container--contact--container--wrap--group--inputs">
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--hidden">
+                                    <label class="form__container--contact--container--wrap--group--inputs--label" for="codes">Código de los Productos</label>
+                                    <input class="form__container--contact--container--wrap--group--inputs--input" type="text" id="codes" name="codes" required>
+                                    <div class="underline__form"></div>
+                                </div>
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--display">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="quantity">Cantidad de Unidades</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="1000 Unidades" type="number" id="quantity" name="quantity" required>
                                     <div class="underline__form"></div>
                                 </div>
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--hidden">
+                                    <label class="form__container--contact--container--wrap--group--inputs--label" for="quantitys">Cantidad de Unidades</label>
+                                    <input class="form__container--contact--container--wrap--group--inputs--input" type="number" id="quantitys" name="quantitys" required>
+                                    <div class="underline__form"></div>
+                                </div>
                             </div>
                             <div class="form__container--contact--container--wrap--group">
-                                <div class="form__container--contact--container--wrap--group--inputs">
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--display">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="charge">Cargo</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="Gerente de Ventas" type="text" id="charge" name="charge" required>
                                     <div class="underline__form"></div>
                                 </div>
-                                <div class="form__container--contact--container--wrap--group--inputs">
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--display">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="phone">Teléfono</label>
                                     <input class="form__container--contact--container--wrap--group--inputs--input" placeholder="985 525 176" type="number" id="phone" name="phone" required>
                                     <div class="underline__form"></div>
                                 </div>
+                                <div class="form__container--contact--container--wrap--group--inputs form__container--contact--container--wrap--group--hidden">
+                                    <label class="form__container--contact--container--wrap--group--inputs--label" for="phones">Teléfono</label>
+                                    <input class="form__container--contact--container--wrap--group--inputs--input" type="number" id="phones" name="phones" required>
+                                    <div class="underline__form"></div>
+                                </div>
                             </div>
                             <div class="form__container--contact--container--wrap--message">
-                                <div class="form__container--contact--container--wrap--message--container">
+                                <div class="form__container--contact--container--wrap--message--container form__container--contact--container--wrap--group--display">
                                     <label class="form__container--contact--container--wrap--group--inputs--label" for="message">Mensaje</label>
                                     <textarea class="form__container--contact--container--wrap--message--container--text" placeholder="Por favor, describanos aquí los detalles de su cotización" name="message" id="message" required></textarea>
+                                    <div class="underline__form"></div>
+                                </div>
+                                <div class="form__container--contact--container--wrap--message--container form__container--contact--container--wrap--message--hidden">
+                                    <label class="form__container--contact--container--wrap--group--inputs--label" for="messages">Mensaje</label>
+                                    <textarea class="form__container--contact--container--wrap--message--container--text" name="messages" id="messages" required></textarea>
                                     <div class="underline__form"></div>
                                 </div>
                             </div>
@@ -495,7 +569,7 @@
                     <!-- Slide1 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/denis-wilmer.webp">
                             <img loading="lazy" src="images/landings/contenedores/desktop/denis-wilmer.webp" alt="Imagen de Nuestro Cliente Denis Wilmer Días, Jefe de Compras">
                         </picture>
                         <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -506,7 +580,7 @@
                     <!-- Slide2 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/sergio-bronstein.webp">
                             <img loading="lazy" src="images/landings/contenedores/desktop/sergio-bronstein.webp" alt="Imagen de Nuestro Cliente Sergio Bronstein, Gerente Comercial">
                         </picture>
                         <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -517,7 +591,7 @@
                     <!-- Slide3 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/indira-valeska.webp">
                             <img loading="lazy" src="images/landings/contenedores/desktop/indira-valeska.webp" alt="Imagen de Nuestra Cliente Indira Valeska, Evaluadora de Proveedores">
                         </picture>
                         <img loading="lazy" src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -528,7 +602,7 @@
                     <!-- Slide4 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/maris-mendoza.webp">
                             <img src="images/landings/contenedores/desktop/maris-mendoza.webp" alt="Imagen de Nuestro Clienta Maris Mendoza, Emprendedora">
                         </picture>
                         <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -539,7 +613,7 @@
                     <!-- Slide5 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/juan-pablo-mansilla.webp">
                             <img src="images/landings/contenedores/desktop/juan-pablo-mansilla.webp" alt="Imagen de Nuestro Cliente Juan Pablo Mansilla, Administrador">
                         </picture>
                         <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -550,7 +624,7 @@
                     <!-- Slide6 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/nancy-zegarra.webp">
                             <img src="images/landings/contenedores/desktop/nancy-zegarra.webp" alt="Imagen de Nuestro Clienta Nancy Zegarra, Gerenta de Logística">
                         </picture>
                         <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -561,7 +635,7 @@
                     <!-- Slide7 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/alex-bicmer.webp">
                             <img src="images/landings/contenedores/desktop/alex-bicmer.webp" alt="Imagen de Nuestro Cliente Alex Bicmer, Emprendedor">
                         </picture>
                         <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -572,7 +646,7 @@
                     <!-- Slide8 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/jose-torres.webp">
                             <img src="images/landings/contenedores/desktop/jose-torres.webp" alt="Imagen de Nuestro Cliente José Torres, Emprendedor">
                         </picture>
                         <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -583,7 +657,7 @@
                     <!-- Slide9 -->
                     <div class="testimonials__container--carousel--slide">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="images/mobile/peaky-blinders.webp">
+                            <source media="(max-width: 425px)" srcset="images/landings/contenedores/mobile/omar-armando-moreno.webp">
                             <img src="images/landings/contenedores/desktop/omar-armando-moreno.webp" alt="Imagen de Nuestro Cliente Omar Armando Moreno, Dueño de Restaurant">
                         </picture>
                         <img src="images/landings/contenedores/desktop/stars-products.svg" alt="Iconos de Estrellas de los Reviews de nuestros clientes">
@@ -625,7 +699,7 @@
             <h2 class="warranty--title">15 DÍAS DE GARANTÍA POR NUESTROS PRODUCTOS</h2>
             <p class="warranty--text">Todos nuestros productos incluyen una <span>garantía de 15 días</span></p>
             <picture class="warranty--img">
-                <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                <source media="(max-width: 767px)" srcset="images/landings/contenedores/mobile/garantia.webp">
                 <img loading="lazy" src="images/landings/contenedores/desktop/garantia.webp" alt="Imagen oficial de la garantía de 15 días que ofrece Estrategia Peruana">
             </picture>
             <p class="warranty--subtext">Si en caso los Envases Biodegradables que solicites cuenten con algún defecto de fabrica, puedes hacer uso de la <span>garantía de 15 días</span> y pedir <span>la devolución</span> del importe gastado.</p>
@@ -637,9 +711,9 @@
         <!-- Footer section starts here -->
         <footer class="footer">
             <div class="footer__container">
-                <div>
+                <div class="footer__container--wrap">
                     <picture class="footer__container--img">
-                        <source media="(max-width: 767px)" srcset="images/mobile/logo-netflix.svg">
+                        <source media="(max-width: 767px)" srcset="images/landings/contenedores/mobile/logo-footer-estrategia.webp">
                         <img loading="lazy" src="images/landings/contenedores/desktop/logo-footer.webp" alt="Logo Oficial de Estrategia Peruana">
                     </picture>
                     <p class="footer__container--mision">Somos una empresa comprometida con el cuidado del Medio Ambiente y la conservación de los Recursos Naturales</p>
@@ -689,14 +763,15 @@
             </div>
 
             <div class="footer__copyright">
-                <h6 class="footer__copyright--text">Copyright © 2021 Estrategia Peruana | Una Página creada por <a class="footer__copyright--text--author" href="#">Jean Paul Matos</a></h6>
+                <h6 class="footer__copyright--text">Copyright © 2021 Estrategia Peruana E.I.R.L</h6>
             </div>
 
         </footer>
         <!-- Footer section ends here -->
 
         <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
-        <script src="js/landing.js"></script>
+        <script src="js/landing/slider.js"></script>
+        <script src="js/landing/menu.js"></script>
 
     </body>
 

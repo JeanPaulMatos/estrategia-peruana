@@ -333,6 +333,10 @@ li {
     margin: 12px 0 50px;
 }
 
+.products--description--hidden {
+    display: none;
+}
+
 .products__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -489,6 +493,10 @@ li {
     width: 197px;
 }
 
+.should__container--box--text--hidden {
+    display: none;
+}
+
 .should__container--box p {
     text-align: center;
     font-family: var(--fuente-secundaria);
@@ -620,7 +628,6 @@ li {
     color: var(--color-texto);
 }
 
-
 .form__container {
     align-items: center;
     margin-top: 100px;
@@ -634,6 +641,10 @@ li {
     padding: 100px 43px 149.5px;
     border-radius: 25px 0px 0px 25px;
     width: 406px;
+}
+
+.form__container--info--hidden {
+    display: none;
 }
 
 .form__container--info--title {
@@ -652,6 +663,10 @@ li {
     color: var(--color-blanco);
     margin-bottom: 35.17px;
 }
+
+.form__container--info--display {
+    display: none;
+} 
 
 .form__container--info--wrap {
     display: flex;
@@ -711,6 +726,14 @@ li {
     margin-bottom: 40px;
     position: relative;
 }
+
+.form__container--contact--container--wrap--group--hidden {
+    display: none;
+}
+.form__container--contact--container--wrap--message--hidden {
+    display: none !important;
+}
+
 
 .form__container--contact--container--wrap--group--inputs--label {
     font-size: 18px;
@@ -1056,7 +1079,7 @@ input[type="checkbox"]{
 }
 
 .testimonials__container--carousel--slide--testimonial {
-    font-size: var(--fuente-secundaria);
+    font-family: var(--fuente-secundaria);
     font-size: 17px;
     letter-spacing: 0.02rem;
     line-height: 207.8%;
@@ -1299,8 +1322,1587 @@ input[type="checkbox"]{
     font-weight: 600;
 }
 
-.footer__copyright--text--author {
-    color: var(--color-blanco);
-    border-bottom: 1px solid var(--color-blanco);
-    padding-bottom: 1.5px;
+/* ----------------------------------------- MEDIA QUERIES ----------------------------------------- */
+/* ----------------------------------------- MEDIA QUERIES ----------------------------------------- */
+/* ----------------------------------------- MEDIA QUERIES ----------------------------------------- */
+
+/* -------------------- HEADER -------------------- */
+@media screen and (max-width: 1366px) {
+    
+    /* -------------------- MAIN -------------------- */
+    .main__container--right--img img {
+        width: 795px;
+    }
+    /* -------------------- SHOULD -------------------- */
+    .should__container--box p {
+        font-size: 19px;
+    }
+    /* -------------------- WARRANTY -------------------- */
+    .warranty--subtext {
+        padding: 0 273px;
+    }
+    
 }
+
+@media screen and (max-width: 1280px) {
+    
+    /* -------------------- HEADER -------------------- */
+    .header__container--logo img {
+        width: 130px;
+    }
+
+    .header__container--links a {
+        font-size: 19px;
+    }
+
+    .header__container--button {
+        font-size: 21px;
+    }
+    /* -------------------- MAIN -------------------- */
+    .main {
+        margin-top: 65px;
+    }
+
+    .main__container--left {
+        margin-top: -20px;
+    }
+    
+    .main__container--left--title {
+        font-size: 30px;
+    }
+    
+    .main__container--left--text {
+        padding-right: 26px;
+    }
+    
+    .main__container--left--buttons--left {
+        padding: 15px 25px;
+    }
+    
+    .main__container--right--img img {
+        width: 750px;
+    }
+    /* -------------------- USE -------------------- */
+    .use__container--right--title {
+        font-size: 26px;
+    }
+
+    /* -------------------- QUOTE -------------------- */
+    .quote__container--left--title {
+        font-size: 26px;
+    }
+    
+    /* -------------------- PRODUCTS -------------------- */
+    .products--title {
+        font-size: 26px;
+    }
+    .products__container {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 60px;
+    }
+    .products__container--box--background--two {
+        padding: 12px 20px 17px;
+    }
+    
+    .products__container--box--background--three {
+        padding: 8px 41px 17px 40px;
+    }
+    
+    .products__container--box--info--button {
+        font-size: 20px;
+    }
+    /* -------------------- SHOULD -------------------- */
+    .should--title {
+        font-size: 26px;
+    }
+    .should__container--box p {
+        font-size: 18px;
+    }
+    
+    /* -------------------- BUSINESS -------------------- */
+    .business__container--left--title {
+        font-size: 26px;
+    }
+    .business__container--left {
+        width: 62%;
+    }
+    
+    /* -------------------- FORM -------------------- */
+    .form--title {
+        font-size: 26px;
+    }
+    .form__container--info {
+        width: 394px;
+    }
+    
+    .form__container--contact--container {
+        width: 680px;
+    }
+    
+    /* -------------------- FAQ -------------------- */
+    .faq--title {
+        font-size: 26px;
+    }
+    
+    /* -------------------- TESTIMONIALS -------------------- */
+    .testimonials--title {
+        font-size: 26px;
+    }
+    .testimonials--text {
+        padding: 0 259px;
+    }
+    
+    .testimonials__container--carousel--slide--one {
+        padding: 0 20px;
+    }
+    .testimonials__container--carousel--slide--two {
+        padding: 0 24px;
+    }
+    .testimonials__container--carousel--slide--three {
+        padding: 0 18px;
+    }
+    .testimonials__container--carousel--slide--four {
+        padding: 0 43px;
+    }
+    .testimonials__container--carousel--slide--six {
+        padding: 0 27px;
+    }
+    .testimonials__container--carousel--slide--seven {
+        padding: 0 22px;
+    }
+    .testimonials__container--carousel--slide--eight {
+        padding: 0 40px;
+    }
+    .testimonials__container--carousel--slide--nine {
+        padding: 0 23px;
+    }
+    
+    /* -------------------- CERTIFICATION -------------------- */
+    .certification--title {
+        font-size: 26px;
+    }
+    .certification__container--one {
+        width: 330.75px;
+    }
+    .certification__container--two {
+        width: 408px;
+    }
+    .certification__container--three {
+        width: 306px;
+    }
+    .certification__wrap--one {
+        width: 320px;
+    }
+    .certification__wrap--two {
+        width: 418px;
+    }
+    
+    /* -------------------- WARRANTY -------------------- */
+    
+    .warranty--title {
+        font-size: 26px;
+    }
+    .warranty--subtext {
+        padding: 0 230px;
+    }
+    
+    /* -------------------- FOOTER -------------------- */
+    .footer__container {
+        grid-template-columns: 0.65fr 1fr;
+    }
+    .footer__container--box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .footer__container--box--wrap--three {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    
+    /* -------------------- MAIN -------------------- */
+    .main__container--left--subtitle {
+        font-size: 18px;
+    }
+    
+    .main__container--left--title {
+        font-size: 27px;
+    }
+    
+    .main__container--left--text {
+        font-size: 18px;
+        padding-right: 29px;
+    }
+    
+    .main__container--left--buttons--left {
+        padding: 14px 22px;
+    }
+    
+    .main__container--left--buttons--left {
+        font-size: 18px;
+    }
+    
+    .main__container--left--buttons--left img {
+        width: 20px;
+    }
+    
+    .main__container--left--buttons--right img{
+        width: 21px;
+    }
+    
+    .main__container--right--img img {
+        width: 660px;
+    }
+    
+    .main__container--left--benefits--description img {
+        width: 33px;
+    }
+    .main__container--left--benefits--description p {
+        font-size: 18px;
+    }
+    
+    /* -------------------- USE -------------------- */
+    .use__container--right--title {
+        font-size: 24px;
+    }
+    
+    .use__container--left img {
+        width: 500px;
+    }
+    
+    .use__container--right--container--group {
+        column-gap: 15px;
+    }
+
+    /* -------------------- SHOULD -------------------- */
+    .should--title {
+        font-size: 24px;
+    }
+    
+    /* -------------------- QUOTE -------------------- */
+    .quote__container--left--title {
+        font-size: 24px;
+    }
+
+    .quote__container--right img {
+        width: 520px;
+    }
+
+    /* -------------------- PRODUCTS -------------------- */
+    .products--title {
+        font-size: 24px;
+    }
+    
+    /* -------------------- PRODUCTS -------------------- */
+    .business__container--left--title {
+        font-size: 24px;
+    }
+
+    /* -------------------- FORM -------------------- */
+    .form--title {
+        font-size: 24px;
+    }
+
+    .form__container--info {
+        width: 360px;
+    }
+    
+    .form__container--info--title {
+        font-size: 21px;
+    }
+    
+    .form__container--contact--container {
+        width: 580px;
+    }
+    
+    /* -------------------- FAQ -------------------- */
+    .faq__container  {
+        width: 70%;
+    }
+    .faq--title {
+        font-size: 24px;
+    }
+
+    /* -------------------- TESTIMONIALS -------------------- */
+    .testimonials--title {
+        font-size: 24px;
+    }
+    .testimonials--text {
+        padding: 0 195px;
+    }
+    .testimonials__container--previous {
+        left: -45px;
+    }
+    .testimonials__container--after {
+        right: -45px;
+    }
+
+    /* -------------------- CERTIFICATION -------------------- */
+    .certification--title {
+        font-size: 24px;
+    }
+    
+    /* -------------------- WARRANTY -------------------- */
+    .warranty--title {
+        font-size: 24px;
+    }
+    .warranty--subtext {
+        padding: 0 166px;
+    }
+    
+    /* -------------------- WARRANTY -------------------- */
+    .footer__container--box--wrap--title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    /* -------------------- HEADER -------------------- */
+    .header__container--links a {
+        font-size: 18px;
+    }
+    
+    .header__container--button {
+        font-size: 20px;
+    }
+    
+    /* -------------------- MAIN -------------------- */
+    .main__container--left--subtitle {
+        font-size: 17px;
+    }
+    .main__container--left--title {
+        font-size: 24px;
+    }
+    
+    .main__container--left--text {
+        padding-right: 17px;
+    }
+    
+    .main__container--left--buttons--left {
+        font-size: 17px;
+    }
+    
+    .main__container--left--buttons--left img {
+        width: 18px;
+    }
+    
+    .main__container--right--img img {
+        width: 550px;
+    }
+    
+    .main__container--left--benefits--description img {
+        width: 29px;
+    }
+    
+    .main__container--left--benefits--description p {
+        font-size: 17px;
+    }
+    
+    .main__container--left--buttons--right img {
+        width: 21px;
+    }
+    
+    .main__container--right--img img {
+        top: -10px;
+    }
+    
+    /* -------------------- USE -------------------- */
+    .use__container--left img {
+        width: 440px;
+    }
+    .use__container--right--title {
+        font-size: 22px;
+        padding-right: 5px;
+    }
+    
+    .use__container--right--container--group img {
+        width: 46px;
+    }
+    
+    .use__container--right--container--group p {
+        font-size: 17px;
+    }
+    
+    /* -------------------- USE -------------------- */
+    .quote__container--left--title {
+        font-size: 22px;
+    }
+    
+    .quote__container--left--container {
+        column-gap: 22px;
+    }
+    
+    .quote__container--left--container img {
+        width: 47px;
+    }
+    
+    .quote__container--left--container p {
+        font-size: 17px;
+    }
+    
+    .quote__container--right img {
+        width: 500px;
+    }
+
+    /* -------------------- PRODUCTS -------------------- */
+    .products--title {
+        font-size: 22px;
+    }
+    
+    .products--text {
+        font-size: 17px;
+    }
+
+    /* -------------------- SHOULD -------------------- */
+    .should--title {
+        font-size: 22px;
+    }
+    
+    .should__container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+    }
+    
+    .should__container--box--one {
+        width: 177px;
+    }
+    .should__container--box--two {
+        width: 127px;
+    }
+    .should__container--box--three {
+        width: 177px;
+    }
+    
+    .should__container--box p {
+        font-size: 17px;
+        padding: 0 5px;
+    }
+    .should__container--box--text--hidden {
+        display: block;
+    }
+    
+    .should__container--box--text--display {
+        display: none;
+    }
+
+    /* -------------------- BUSINESS -------------------- */
+    .business__container--left--title {
+        font-size: 22px;
+    }
+
+    .business__container--left--container img {
+        width: 47px;
+    }
+    
+    .business__container--left--container p {
+        font-size: 17px;
+    }
+    
+    .business__container--right {
+        width: 65%;
+    }
+    
+    /* -------------------- FORM -------------------- */
+    .form--title {
+        font-size: 22px;
+    }
+    
+    .form--text {
+        font-size: 17px;
+    }
+
+    .form__icons {
+        display: none;
+    }
+    
+    .form__container {
+        display: grid;
+        margin-top: 50px;
+    }
+    
+    .form__container--info {
+        width: 100%;
+        padding: 12px 0 10px;
+        border-radius: 22px 22px 0px 0px;
+    }
+    
+    .form__container--info--hidden {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .form__container--info--hidden img{
+        width: 45px;
+    }
+    
+    .form__container--info--title {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+    
+    .form__container--info--text {
+        display: none;
+    }
+    
+    .form__container--info--wrap {
+        display: none;
+    }
+    
+    .form__container--info--social {
+        display: none;
+    }
+    
+    .form__container--contact {
+        border-radius: 0px 0px 22px 22px;
+    }
+    
+    .form__container--contact--container--wrap--group--hidden {
+        display: grid;
+    }
+    
+    .form__container--contact--container--wrap--group--display {
+        display: none;
+    }
+    
+    .form__container--contact--container--wrap--message--hidden {
+        display: grid !important;
+    }
+    
+    .form__container--contact--container {
+        width: 100%;
+    }
+    
+    /* -------------------- FAQ -------------------- */
+    .faq--title {
+        font-size: 22px;
+    }
+    
+    .faq--text {
+        font-size: 17px;
+    }
+    
+    .faq__container  {
+        width: 75%;
+    }
+    
+    .faq__container--item label {
+        font-size: 19px;
+    }
+    
+    /* -------------------- TESTIMONIALS -------------------- */
+    .testimonials--title {
+        font-size: 22px;
+    }
+    .testimonials--text {
+        padding: 0 131px;
+        font-size: 17px;
+    }
+    
+    .testimonials__container--carousel--slide h6 {
+        font-size: 19px;
+    }
+    
+    .testimonials__container--carousel--slide--charge {
+        font-size: 16px;
+    }
+    
+    /* -------------------- CERTIFICATION -------------------- */
+    .certification--title {
+        padding: 0 167px;
+    }
+    .certification__container--one {
+        width: 280.75px;
+    }
+    .certification__container--two {
+        width: 358px;
+    }
+    .certification__container--three {
+        width: 256px;
+    }
+    .certification__wrap--one {
+        width: 270px;
+    }
+    .certification__wrap--two {
+        width: 368px;
+    }
+
+    /* -------------------- WARRANTY -------------------- */
+    .warranty--title {
+        font-size: 22px;
+    }
+    
+    .warranty--text {
+        font-size: 17px;
+    }
+    
+    .warranty--img img {
+        width: 225px;
+    }
+    
+    .warranty--subtext {
+        font-size: 17px;
+        padding: 0 124px;
+    }
+
+    /* -------------------- FOOTER -------------------- */
+    .footer__container {
+        grid-template-columns: 0.5fr 1fr;
+    }
+    .footer__container--img img {
+        width: 320px;
+    }
+    .footer__container--mision {
+        font-size: 17px;
+    }
+    .footer__container--social--links {
+        width: 42px;
+    }
+    .footer__container--box--wrap--title {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    
+    /* -------------------- HEADER -------------------- */
+    .header__container--logo img {
+        /* width: 290px; */
+        height: 70px;
+        width: unset;
+    }
+    
+    .header__container--links {
+        display: none;
+    }
+    
+    /* -------------------- MAIN -------------------- */
+    .main__container {
+        display: grid;
+        flex-wrap: wrap;
+        position: unset;
+    }
+    .main__container--left {
+        width: unset;
+        display: grid;
+        justify-items: center;
+    }
+    .main__container--left--subtitle {
+        font-size: 18px;
+    }
+    .main__container--left--title {
+        text-align: center;
+        padding: 0 46px;
+        font-size: 28px;
+    }
+    .main__container--left--text {
+        text-align: center;
+        padding: 0 79px;
+    }
+    
+    .main__container--left--buttons {
+        column-gap: 12px;
+    }
+    
+    .main__container--left--buttons--left {
+        font-size: 19px;
+    }
+    
+    .main__container--left--buttons--left img {
+        width: 19px;
+    }
+    
+    .main__container--left--buttons--right img {
+        width: 22px;
+    }
+    
+    .main__container--left--benefits--description img {
+        width: 31px;
+    }
+    
+    .main__container--left--benefits--description p {
+        font-size: 18px;
+    }
+    
+    .main__container--right {
+        margin-top: 5px;
+    }
+    
+    .main__container--right--img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .main__container--right--img img {
+        position: unset;
+        width: 700px;
+        padding-right: 50px;
+    }
+
+    /* -------------------- USE -------------------- */
+    .use__container {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .use__container--right {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        width: unset;
+        order: 1;
+    }
+    
+    .use__container--right--title{
+        text-align: center;
+        padding: 0 49px;
+        font-size: 24px;
+    }
+    
+    .use__container--right--container--group img {
+        width: 48px;
+    }
+    
+    .use__container--right--container--group p {
+        font-size: 18px;
+    }
+    
+    .use__container--left {
+        width: unset;
+        order: 2;
+    }
+    
+    .use__container--left img {
+        width: 520px;
+        margin-top: 13px;
+    }
+    
+    /* -------------------- QUOTE -------------------- */
+    .quote__container {
+        display: grid;
+        justify-items: center
+    }
+    
+    .quote__container--left--title {
+        font-size: 24px;
+    }
+    
+    .quote__container--left--container img {
+        width: 49px;
+    }
+    
+    .quote__container--left--container p {
+        font-size: 18px;
+    }
+    
+    .quote__container--right img {
+        width: 550px;
+    }
+
+    /* -------------------- PRODUCTS -------------------- */
+    .products--title {
+        font-size: 24px;
+        padding: 0 29px;
+    }
+    
+    .products--text {
+        font-size: 18px;
+    }
+    
+    .products__container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
+    }
+
+    /* -------------------- SHOULD -------------------- */
+    .should--title {
+        font-size: 24px;
+        padding: 0 46px;
+    }
+    
+    .should__container--box--one {
+        width: 167px;
+    }
+    .should__container--box--two {
+        width: 117px;
+    }
+    .should__container--box--three {
+        width: 167px;
+    }
+    .should__container--box p {
+        padding: 0;
+    }
+    .should__container--box--text--one {
+        margin-top: 30.4px;
+    }
+    .should__container--box--text--two {
+        margin-top: 13.19px;
+    }
+    .should__container--box--text--three {
+        margin-top: 36.5px;
+    }
+
+    /* -------------------- BUSINESS -------------------- */
+    .business__container {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .business__container--left--title {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .business__container--left {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .business__container--left--container img {
+        width: 49px;
+    }
+    
+    .business__container--left--container p {
+        font-size: 18px;
+    }
+    
+    .business__container--right {
+        width: unset;
+    }
+    
+    .business__container--right img {
+        width: 500px;
+        margin-top: 12px;
+    }
+
+    /* -------------------- FORM -------------------- */
+    .form--title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .form--text {
+        padding: 0 146px;
+        line-height: 181.8%;
+    }
+    
+    .form--subtext {
+        display: none;
+    }
+    
+    .form__container {
+        margin-top: 30px;
+    }
+
+    /* -------------------- FAQ -------------------- */
+    .faq--title {
+        font-size: 24px;
+    }
+    
+    .faq--text {
+        padding: 0 91px;
+        line-height: 188.1%;
+    }
+    
+    .faq__container {
+        width: 78%;
+    }
+    
+    .faq__container--item label img {
+        width: 22px;
+    }
+    
+    .faq__container--item label {
+        font-size: 18px;
+    }
+    
+    /* -------------------- TESTIMONIALS -------------------- */
+    .testimonials--title {
+        font-size: 24px;
+    }
+    
+    .testimonials--text {
+        padding: 0 104px;
+    }
+    
+    /* -------------------- CERTIFICATION -------------------- */
+    .certification {
+        display: none;
+    }
+
+    /* -------------------- WARRANTY -------------------- */
+    .warranty--title {
+        font-size: 24px;
+    }
+    .warranty--subtext {
+        padding: 0 105px;
+    }
+
+    /* -------------------- FOOTER -------------------- */
+    .footer__container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    
+    .footer__container--wrap {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .footer__container--mision {
+        text-align: center;
+        padding: 0 39px;
+    }
+    
+    .footer__container--img img {
+        width: 406px;
+    }
+    
+    .footer__container--social {
+        column-gap: 18px;
+        margin-bottom: 30px;
+    }
+    
+    .footer__container--social--links {
+        width: 46px;
+    }
+    
+    .footer__container--box {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 25px;
+    }
+    
+    .footer__container--box--wrap--three {
+        display: grid;
+    }
+    
+    .footer__container--box--four {
+        display: none;
+    }
+    
+    .footer__container--box--wrap--title {
+        margin-bottom: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    
+    /* -------------------- HEADER -------------------- */
+    .header__container {
+        display: none;
+    }
+    
+    .menu-bar-movil {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 15px;
+        background-color: var(--color-blanco);
+    }
+    
+    .main__logo img {
+        width: 187.63px;
+    }
+    
+    .burger-menu img{
+        width: 26.98px;
+        cursor: pointer;
+    }
+    
+    .slideMenu {
+        position: fixed;
+        top: 4.8rem;
+        right: -100%;
+        background-color: var(--color-blanco);
+        width: 100%;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+        height: 100%;
+        padding-left: 110px;
+    } 
+    
+    .active {
+        right: 0;
+    }
+    
+    .menu-principal {
+        padding-left: 10px;
+    }
+    
+    .menu-principal-link {
+        border-top: 1px solid #eff3f5;
+        display: flex;
+        column-gap: 10px;
+        font-family: var(--fuente-principal);
+        padding: 20px 0;
+        color: var(--color-principal);
+        font-size: 17.5px;
+        letter-spacing: 0.5px;
+        align-items: center;
+    }
+    
+    .menu-principal-link-home {
+        width: 25px;
+    }
+    .menu-principal-link-products {
+        width: 25px;
+    }
+    .menu-principal-link-contact {
+        width: 25px;
+        padding-left: 3px;
+    }
+    
+    .menu-principal--button {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+        background-color: var(--color-principal);
+        padding: 12px 15px;
+        border-radius: 4px 0px 0px 4px;
+        margin-top: 6px;
+    }
+    
+    .menu-principal--button img {
+        width: 18px;
+    }
+    
+    .menu-principal--button span {
+        color: var(--color-blanco);
+        font-size: 18px;
+    }
+    
+    /* -------------------- MAIN -------------------- */
+    .main {
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .main__container--left--subtitle {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .main__container--left--title {
+        font-size: 22px;
+        padding: 0;
+    }
+
+    .main__container--left--text {
+        font-size: 16px;
+        padding: 0 16px;
+        line-height: 165.2%;
+        margin-bottom: 25px;
+    }
+
+    .main__container--left--buttons {
+        display: grid;
+        row-gap: 19px;
+    }
+
+    .main__container--left--buttons--left {
+        padding: 12px 55px;
+        align-items: unset;
+    }
+
+    .main__container--left--buttons--left span {
+        font-size: 17px;
+    }
+
+    .main__container--left--buttons--left img {
+        width: 18px;
+    }
+
+    .main__container--left--buttons--right {
+        padding: 11px 55px;
+    }
+
+    .main__container--left--buttons--right img {
+        width: 20.67px;
+    }
+
+    .main__container--left--benefits--description img {
+        width: 28.48px;
+    }
+    .main__container--left--benefits--description p {
+        font-size: 15.5px;
+    }
+
+    .main__container--right--img img {
+        padding: 0;
+    }
+
+    /* -------------------- USE -------------------- */
+    .use {
+        margin: 75px 0 0 0;
+    }
+    .use__container--right--title {
+        font-size: 20px;
+        padding: 0;
+        line-height: 1.5;
+        padding: 0 15px;
+        margin-bottom: 28px;
+    }
+
+    .use__container--right--container--group {
+        margin-bottom: 24px;
+    }
+
+    .use__container--right--container--group img {
+        width: 40px;
+    }
+    .use__container--right--container--group p {
+        font-size: 15px;
+    }
+    .use__container--right--container--hidden {
+        display: none;
+    }
+
+    .use__container--left img {
+        width: 356.53px;
+    }
+
+    /* -------------------- QUOTE -------------------- */
+    .quote {
+        margin: 75px 15px 0;
+    }
+
+    .quote__container--left {
+        margin: auto;
+        width: 80%;
+    }
+    .quote__container--left--title {
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 28px;
+    }
+
+    .quote__container--left--container {
+        margin-bottom: 32px;
+    }
+
+    .quote__container--left--container img {
+        width: 40px;
+    }
+
+    .quote__container--left--container p {
+        font-size: 15px;
+    }
+
+    .quote__container--right img{
+        width: 328px;
+    }
+
+    /* -------------------- PRODUCTS -------------------- */
+    .products {
+        margin: 75px 15px 0;
+    }
+
+    .products--title {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .products--text {
+        display: none;
+    }
+
+    .products--description {
+        display: none;
+        font-size: 15px;
+        padding: 0 59px;
+    }
+
+    .products--description--hidden {
+        display: block;
+        margin-bottom: 40px;
+        line-height: 148.8%;
+        letter-spacing: 0.02rem;
+    }
+
+    .products__container {
+        grid-template-columns: 1fr;
+        row-gap: 35px;
+    }
+
+    .products__container--box--info--product {
+        font-size: 20px;
+    }
+
+    .products__container--box--info--stars {
+        width: 140px;
+    }
+
+    /* -------------------- SHOULD -------------------- */
+    .should {
+        margin: 75px 15px 0;
+    }
+    .should--title {
+        font-size: 20px;
+        padding: 0 19px;
+        margin-bottom: 28px;
+    }
+
+    .should__container {
+        grid-template-columns: 1fr;
+    }
+
+    .should__container--box--text {
+        margin-top: 25px;
+    }
+
+    .should__container--box p {
+        font-size: 15px;
+    }
+
+    .should__container--box--one {
+        width: 153px;
+    }
+    
+
+    .should__container--box--text--one {
+        padding: 0 44px !important;
+    }
+
+    .should__container--box--two {
+        width: 102px;
+    }
+
+    .should__container--box--text--hidden {
+        padding: 0 51px !important;
+    }
+
+    .should__container--box--three {
+        width: 155.58px;
+    }
+
+    .should__container--box--text--three {
+        padding: 0 40px !important;
+    }
+
+    /* -------------------- BUSINESS -------------------- */
+    .business {
+        margin: 75px 15px 0;
+    }
+
+    .business__container--left {
+        width: unset;
+    }
+
+    .business__container--left--title {
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+
+    .business__container--left--container {
+        column-gap: 20px;
+        padding: 0 32px;
+    }
+
+    .business__container--left--container--hidden {
+        display: none;
+    }
+
+    .business__container--left--container img {
+        width: 43px;
+    }
+
+    .business__container--left--container p {
+        font-size: 15px;
+    }
+
+    .business__container--right img {
+        width: 328px;
+    }
+
+    /* -------------------- FORM -------------------- */
+    .form {
+        margin: 75px 0;
+    }
+
+    .form--title {
+        font-size: 20px;
+    }
+
+    .form--text {
+        font-size: 15px;
+        padding: 0 4px;
+        display: none;
+    }
+
+    .form--subtext {
+        display: block;
+    }
+
+    .form__container {
+        padding: 0 15px;
+    }
+
+    .form__container--info {
+        padding: 16px 0 15px;
+    }
+    
+    .form__container--info--hidden img {
+        width: 35px;
+    }
+
+    .form__container--info--title {
+        font-size: 20px;
+    }
+
+    .form__container--info--display {
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 0 36px;
+        margin-top: 5px;
+    } 
+
+    .form__container--contact {
+        padding: 23px 31px;
+    }
+
+    .form__container--contact--container--wrap--group {
+        grid-template-columns: 1fr;
+    }
+    
+    .form__container--contact--container--wrap--group--inputs--label {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .form__container--contact--container--wrap--group--inputs--input {
+        font-size: 16px;
+    }
+
+    .form__container--contact--container--wrap--buttons--link {
+        padding: 10px 15px;
+    }
+
+    .form__container--contact--container--wrap--buttons--link span {
+        font-size: 17px;
+    }
+
+    .form__container--contact--container--wrap--buttons--link img {
+        width: 19px;
+    }
+    
+    /* -------------------- FAQ -------------------- */
+    .faq--title {
+        font-size: 20px;
+    }
+
+    .faq--text {
+        padding: 0 8px;
+        font-size: 16px;
+    }
+
+    .faq__container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .faq__container--item label {
+        font-size: 16px;
+        line-height: 185.8%;
+    }
+
+    .faq__container--item--content p {
+        font-size: 15px;
+    }
+
+    .faq__container--item label img {
+        width: 20px;
+    }
+
+    /* -------------------- TESTIMONIALS -------------------- */
+    .testimonials {
+        margin-top: 75px;
+        padding: 0 15px;
+    }
+    .testimonials--title {
+        font-size: 20px;
+        padding: 0 19px;
+        margin-bottom: 22px;
+    }
+
+    .testimonials__container {
+        margin-top: 30px;
+    }
+    
+    .testimonials--text {
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    .testimonials__container--carousel--slide {
+        padding: 30px 0;
+    }
+    
+    .testimonials__container--after img, 
+    .testimonials__container--previous img{
+        width: 25px;
+    }
+    
+    .testimonials__container--after img {
+        right: 0;
+    }
+    .testimonials__container--previous img {
+        left: 0;
+    }
+    
+    .glider {
+        overflow: unset;
+        overflow-y: hidden !important;
+    }
+    
+    .testimonials__container--previous,
+    .testimonials__container--after {
+        display: none;
+    }
+    
+    .testimonials__container--carousel--slide {
+        padding: 25px 0;
+    }
+    
+    .testimonials__container--carousel--slide picture img {
+        width: 71px;
+        margin-bottom: 17px;
+    }
+    
+    .testimonials__container--carousel--slide img {
+        width: 122px;
+        margin-bottom: 17px;
+    }
+    
+    .testimonials__container--carousel--slide--testimonial {
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+    
+    .testimonials__container--carousel--slide h6 {
+        font-size: 16px;
+    }
+
+    .testimonials__container--carousel--slide--charge {
+        font-size: 15px;
+        margin-top: 14px;
+    }
+    
+    .testimonials__container--carousel--slide--one {
+        padding: 0 19px;
+    }
+    
+    .testimonials__container--carousel--slide--four {
+        padding: 0 12px;
+    }
+    
+    .testimonials__container--carousel--slide--five {
+        padding: 0 6px;
+    }
+    
+    .testimonials__container--carousel--slide--six {
+        padding: 0 10px;
+    }
+    
+    .testimonials__container--carousel--slide--eight {
+        padding: 0 18px;
+    }
+    
+    .testimonials__container--carousel--slide--nine {
+        padding: 0 8px;
+    }
+    
+    .testimonials__indicators {
+        display: none;
+    }
+
+    /* -------------------- WARRANTY -------------------- */
+    .warranty {
+        margin: 75px 0 0;
+    }
+    .warranty--title {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 22px;
+    }
+
+    .warranty--text {
+        text-align: center;
+        padding: 0 35px;
+        line-height: 158%;
+        font-size: 16px;
+        margin-bottom: 22px;
+    }
+
+    .warranty--img img {
+        width: 195px;
+        margin-bottom: 22px;
+    }
+
+    .warranty--subtext {
+        font-size: 16px;
+        padding: 0 24px;
+    }
+
+    /* -------------------- FOOTER -------------------- */
+    .footer__container {
+        margin: 0 15px;
+    }
+    .footer__container--img img {
+        width: 295.32px;
+    }
+
+    .footer__container--mision {
+        font-size: 16px;
+        padding: 0 5px;
+    }
+
+    .footer__container--social--links {
+        width: 38px;
+    }
+
+    .footer__container--box {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 60px;
+    }
+
+    .footer__container--box--wrap--three {
+        display: none;
+    }
+
+    .footer__container--box--wrap--title {
+        font-size: 18px;
+    }
+
+    .footer__container--box--wrap--link {
+        font-size: 15px;
+    }
+
+    .footer__copyright--text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    /* -------------------- HEADER -------------------- */
+    .main__container--left--subtitle {
+        font-size: 15px;
+    }    
+
+    .main__container--left--title {
+        font-size: 20px;
+    }
+
+    .main__container--left--text {
+        font-size: 15px;
+    }
+    
+}
+/* -------------------- HEADER -------------------- */
