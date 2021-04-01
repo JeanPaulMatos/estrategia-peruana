@@ -2401,7 +2401,7 @@ input[type="checkbox"]{
 
     .main__container--left--buttons {
         display: grid;
-        row-gap: 19px;
+        row-gap: 15px;
     }
 
     .main__container--left--buttons--left {
@@ -2760,6 +2760,10 @@ input[type="checkbox"]{
         overflow: unset;
         overflow-y: hidden !important;
     }
+
+    .glider-track {
+        padding-bottom: 20px;
+    }
     
     .testimonials__container--previous,
     .testimonials__container--after {
@@ -2889,9 +2893,39 @@ input[type="checkbox"]{
     }
 }
 
+@media screen and (max-width: 414px) {
+
+    .main__container--left--buttons--left {
+        padding: 12px 50px;
+    }
+
+}
+
 @media screen and (max-width: 375px) {
 
     /* -------------------- HEADER -------------------- */
+    .menu-principal-link-home, 
+    .menu-principal-link-products,
+    .menu-principal-link-contact{
+        width: 23px;
+    }
+    .menu-principal-link {
+        font-size: 16.5px;
+    }
+
+    .menu-principal--button {
+        column-gap: 14px;
+    }
+
+    .menu-principal--button img {
+        width: 17px;
+    }
+
+    .menu-principal--button span {
+        font-size: 17px;
+    }
+
+    /* -------------------- MAIN -------------------- */
     .main__container--left--subtitle {
         font-size: 15px;
     }    
@@ -2902,7 +2936,301 @@ input[type="checkbox"]{
 
     .main__container--left--text {
         font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .main__container--left--buttons--left {
+        padding: 12.5px 45px;
+    }
+
+    .main__container--left--buttons--left span {
+        font-size: 16px;
+    }
+
+    .main__container--left--buttons--left img {
+        width: 16px;
+    }
+
+    .main__container--left--buttons--right img {
+        width: 18.67px;
+    }
+
+    .main__container--left--benefits--description img {
+        width: 26px;
+    }
+
+    .main__container--left--benefits--description p {
+        font-size: 15px;
     }
     
+    /* -------------------- PRODUCTS -------------------- */
+    .use__container--right--title {
+        font-size: 18px;
+    }
+    
+    .use__container--right--container--group {
+        column-gap: 12px;
+    }
+    
+    .use__container--right--container--group img {
+        width: 35px;
+    }
+    
+    .use__container--right--container--group p {
+        font-size: 14.5px;
+        line-height: 1.3;
+    }
+    
+    .use__container--right--container {
+        margin: 0 30px;
+    }
+    
+    .use__container--left img {
+        width: 320.53px;
+    }
+    /* -------------------- QUOTE -------------------- */
+    .quote__container--left--title {
+        font-size: 18px;
+    }
+
+    .quote__container--left {
+        width: 82%;
+    }
+
+    .quote__container--left--container img {
+        width: 37px;
+    }
+
+    .quote__container--left--container p {
+        font-size: 14.5px;
+    }
+
+    .quote__container--right img {
+        width: 288px;
+    }
+
+    /* -------------------- PRODUCTS -------------------- */
+    .products--title {
+        font-size: 18px;
+    }
+
+    .products--description--hidden {
+        font-size: 14.5px;
+        padding: 0 38px;
+    }
+
+    .products__container--box--info--product {
+        font-size: 19px;
+    }
+
+    .products__container--box--info--category {
+        font-size: 17px;
+    }
+
+    .products__container--box--info--size {
+        font-size: 16px;
+    }
+
+    .products__container--box--info--stars {
+        width: 130px;
+    }
+
+    .products__container--box--info--button {
+        font-size: 18px;
+    }
+
+    .products__container--box--info--button {
+        padding: 7px 15px;
+    }
+
+    .products__container--box--info--one {
+        padding: 10px 43px 17px;
+    }
+
+    .products__container--box--info--two {
+        padding: 10px 62px 17px;
+    }
+
+    .products__container--box--info--three {
+        padding: 10px 59px 17px;
+    }
+
+    .products__container--box--info--four {
+        padding: 10px 40.5px 17px;
+    }
+
+    /* -------------------- SHOULD -------------------- */
+    .should--title {
+        font-size: 18px;
+    }
+
+    .should__container {
+        row-gap: 35px;
+    }
+
+    .should__container--box--one {
+        width: 143px;
+    }
+
+    .should__container--box p {
+        font-size: 14.5px;
+    }
+
+    .should__container--box--two {
+        width: 96px;
+    }
+
+    .should__container--box--three {
+        width: 145.58px;
+    }
+
+    /* -------------------- BUSINESS -------------------- */
+    .business__container--left--title {
+        font-size: 18px;
+        line-height: 148.8%;
+    }
+
+    .business__container--left--container {
+        padding: 0 21px;
+        column-gap: 17px;
+    }
+
+    .business__container--left--container img {
+        width: 41px;
+    }
+
+    .business__container--left--container p {
+        font-size: 14.5px;
+    }
+
+    .business__container--right img {
+        width: 295px;
+    }
+
+    /* -------------------- FORM -------------------- */
+    .form--title {
+        font-size: 18px;
+    }
+
+    .form--text {
+        font-size: 14.5px;
+        padding: 0 28px;
+    }
+
+    .form__container--info--hidden {
+        margin-bottom: 7px;
+    }
+
+    .form__container--info--display {
+        margin-bottom: 0;
+    }
+
+    .form__container--info--hidden img {
+        width: 33px;
+    }
+
+    .form__container--info--title {
+        font-size: 18px;
+    }
+
+    .form__container--info--text {
+        font-size: 16px;
+    }
+
+    .form__container--contact--container--wrap--group--inputs--label {
+        font-size: 16px;
+    }
+
+    .form__container--contact--container--wrap--group--inputs--input {
+        font-size: 15px;
+    }
+
+    .form__container--contact--container--wrap--buttons--link span {
+        font-size: 16px;
+    }
+
+    .form__container--contact--container--wrap--buttons--link img {
+        width: 18px;
+    }
+
+    /* -------------------- FAQ -------------------- */
+    .faq--title {
+        font-size: 18px;
+    }
+
+    .faq--text {
+        font-size: 14.5px;
+    }
+
+    .faq__container {
+        margin-top: 25px;
+    }
+
+    .faq__container--item label {
+        font-size: 15.5px;
+    }
+
+    .faq__container--item label span {
+        padding-right: 18px;
+    }
+
+    .faq__container--item--content p {
+        font-size: 14px;
+    }
+
+    /* -------------------- TESTIMONIALS -------------------- */
+    .testimonials--title {
+        font-size: 18px;
+        padding: 0 11px;
+    }
+    
+    .testimonials--text {
+        font-size: 15px;
+    }
+
+    /* -------------------- WARRANTY -------------------- */
+    .warranty--title {
+        font-size: 18px;
+        padding: 0 16px;
+    }
+
+    .warranty--text {
+        font-size: 15px;
+        padding: 0 21px;
+    }
+
+    .warranty--subtext {
+        font-size: 14.5px;
+        padding: 0 16px;
+    }
+
+    .warranty--img img {
+        width: 185px;
+    }
+
+    /* -------------------- FOOTER -------------------- */
+    .footer__container--img img {
+        width: 275.32px;
+    }
+
+    .footer__container--mision {
+        font-size: 14.5px;
+    }
+
+    .footer__container--social--links {
+        width: 36.5px;
+    }
+
+    .footer__container--box--wrap--title {
+        font-size: 17px;
+    }
+
+    .footer__container--box--wrap--link {
+        font-size: 14.5px;
+    }
+
+    .footer__copyright--text {
+        font-size: 14px;
+    }
 }
 /* -------------------- HEADER -------------------- */
