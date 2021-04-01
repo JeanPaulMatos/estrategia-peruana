@@ -66,11 +66,15 @@ li {
     align-items: center;
     justify-content: space-between;
     margin: 0 46px 0 42px;
+    padding: 12px 0 8px;
+}
+
+.menu-bar-movil {
+    display: none;
 }
 
 .header__container--logo img{
     width: 144px;
-    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -704,7 +708,8 @@ li {
 .form__container--contact {
     background-color: var(--color-blanco);
     border-radius: 0 25px 25px 0;
-    padding: 47.5px 49px 42.6px;
+    /* padding: 47.5px 49px 42.6px; */
+    padding: 35.5px 49px 33.6px;
 }
 
 .form__container--contact--container {
