@@ -21,12 +21,9 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 1152,
                 settings: {
-                    // slidesToShow: '3',
-                    // slidesToScroll: '3',
                     slidesToShow: 'auto',
                     slidesToScroll: 'auto',
                     itemWidth: 350,
-                    // draggable: false,
                     rewind: true,
                     duration: 0.6
                     
@@ -73,7 +70,6 @@ window.addEventListener('load', function () {
                 settings: {
                     draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -82,9 +78,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 424,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -93,9 +87,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 423,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -104,9 +96,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 422,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -115,9 +105,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 421,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -126,9 +114,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 420,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -137,9 +123,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 419,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -148,9 +132,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 418,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -159,9 +141,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 417,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -170,9 +150,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 416,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -181,9 +159,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 415,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -192,9 +168,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 414,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -203,9 +177,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 413,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -214,9 +186,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 412,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -225,9 +195,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 411,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -236,9 +204,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 410,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -247,9 +213,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 409,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -258,9 +222,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 408,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -269,9 +231,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 407,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -280,9 +240,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 406,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -291,9 +249,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 405,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -302,9 +258,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 404,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -313,9 +267,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 403,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -324,9 +276,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 402,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -335,9 +285,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 401,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -346,9 +294,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 400,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -357,9 +303,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 399,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -368,9 +312,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 398,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -379,9 +321,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 397,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -390,9 +330,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 396,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -401,9 +339,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 395,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -412,9 +348,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 394,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -423,9 +357,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 393,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -434,9 +366,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 392,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -445,9 +375,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 391,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -456,9 +384,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 390,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -467,9 +393,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 389,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -478,9 +402,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 388,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -489,9 +411,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 387,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -500,9 +420,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 386,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -511,9 +429,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 385,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -522,9 +438,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 384,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -533,9 +447,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 383,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -544,9 +456,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 382,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -555,9 +465,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 381,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -566,9 +474,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 380,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -577,9 +483,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 379,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -588,9 +492,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 378,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -599,9 +501,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 377,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -610,9 +510,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 376,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.25',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -621,9 +519,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 375,
                 settings: {
-                    // draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -632,9 +528,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 374,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -643,9 +537,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 373,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -654,9 +546,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 372,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -665,9 +555,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 371,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -676,9 +564,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 370,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -687,9 +573,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 369,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -698,9 +582,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 368,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -709,9 +591,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 367,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -720,9 +600,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 366,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -731,20 +609,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 365,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
-                    itemWidth: 450,
-                }
-            }
-            , 
-            
-            {
-                breakpoint: 400,
-                settings: {
-                    draggable: true,
-                    slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -753,9 +618,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 364,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -764,9 +627,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 363,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -775,9 +636,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 362,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -786,9 +645,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 361,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.15',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
@@ -797,9 +654,7 @@ window.addEventListener('load', function () {
             {
                 breakpoint: 360,
                 settings: {
-                    draggable: true,
                     slidesToShow: '1.1',
-                    // slidesToScroll: 'auto',
                     itemWidth: 450,
                 }
             }
