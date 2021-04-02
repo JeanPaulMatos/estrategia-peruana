@@ -1756,6 +1756,20 @@ li {
     .footer__title {
         font-size: 18px;
     }
+    .success__img {
+        height: 240px;
+    }
+    .success__title {
+        text-align: center;
+        font-size: 36px;
+        padding: 0 32px;
+    }
+    .success__text {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 31px;
+        line-height: 1.35;
+    }
     /* --------------- PRODUCTS--------------- */
     .products {
         grid-template-columns: repeat(1, 1fr);
@@ -2141,5 +2155,20 @@ li {
     }
     .maps__subtitle {
         font-size: 16px;
+    }
+    .success__img {
+        height: 220px;
+    }
+    .success__title {
+        font-size: 32px;
+        padding: 0 30px;
+    }
+    .success__text {
+        font-size: 17px;
+        padding: 0;
+        line-height: 1.4;
+    }
+    .success__home {
+        font-size: 18px;
     }
 }
