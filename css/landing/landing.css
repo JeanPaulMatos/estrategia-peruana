@@ -870,7 +870,6 @@ li {
     background-color: var(--color-blanco);
     border-radius: 0 25px 25px 0;
     padding: 47.5px 49px 42.6px;
-    /* padding: 35.5px 49px 33.6px; */
 }
 
 .form__container--contact--container {
@@ -1752,6 +1751,9 @@ input[type="checkbox"]{
     }
 
     /* -------------------- TESTIMONIALS -------------------- */
+    .testimonials {
+        margin-top: 50px;
+    }
     .testimonials--title {
         font-size: 22px;
     }

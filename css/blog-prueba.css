@@ -190,7 +190,7 @@
 .breadcrumbs__link {
     font-family: var(--fuente-secundaria);
     color: #181B32;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.02rem;
 }
 .breadcrumbs__link-active {
     color: var(--color-verde);
@@ -498,7 +498,7 @@
         font-size: 15px;
     }
     .breadcrumbs__link {
-        font-size: 15px;
+        font-size: 16px;
     }
     .lastpost__title {
         font-size: 18px;
@@ -578,9 +578,6 @@
     /* --------------- BLOGPOST--------------- */
     .breadcrumbs__item {
         padding-right: 0;
-    }
-    .breadcrumbs__link {
-        font-size: 14px;
     }
     .post__title {
         font-size: 26px;
@@ -669,6 +666,9 @@
     }
     .suggestions__subtitle {
         font-size: 17px;
+    }
+    .breadcrumbs__link {
+        font-size: 15px;
     }
 }
 
