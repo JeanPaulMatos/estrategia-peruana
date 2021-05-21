@@ -3030,7 +3030,9 @@ li {
     .form__container--contact--container--wrap--buttons--link img {
         width: 19px;
     }
-    
+    .main__product-page {
+        margin-top: 4.5rem;
+    }
 }
 
 @media screen and (max-width: 465px) {

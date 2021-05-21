@@ -3226,7 +3226,7 @@ li {
         display: flex;
     }
     .main__product-page {
-        margin-top: 4.2rem;
+        margin-top: 4.5rem;
     }
     .breadcrumbs__item {
         text-align: center;
@@ -3378,7 +3378,9 @@ li {
     .form__container--contact--container--wrap--buttons--link img {
         width: 19px;
     }
-    
+    .main__product-page {
+        margin-top: 4.5rem;
+    }
 }
 
 @media screen and (max-width: 465px) {
@@ -3956,8 +3958,7 @@ li {
         margin: 55px 0 0 0;
     }
 
-}
-/* ------------------------------------ BLOG PAGE ------------------------------------ */
+}/* ------------------------------------ BLOG PAGE ------------------------------------ */
 /* --------------- MAIN BLOG--------------- */
 .blog__breadcrumbs {
     width: 95%;
