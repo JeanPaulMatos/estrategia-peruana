@@ -4,331 +4,435 @@
 
 <url>
   <loc>https://estrategiaperuana.com/</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/index.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.90</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/descartables-biodegradables.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/preguntas-frecuentes.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/contacto.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://estrategiaperuana.com/descartables/envase-biodegradable-menu-23x15x7.6cm.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
-</url>
-<url>
-  <loc>https://estrategiaperuana.com/descartables/salsero-biodegradable-2oz-tapa.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
-</url>
-<url>
-  <loc>https://estrategiaperuana.com/descartables/envase-biodegradable-ct3-20x20cm.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
-</url>
-<url>
-  <loc>https://estrategiaperuana.com/descartables/bowls-biodegradables-de-bambu.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://estrategiaperuana.com/landings/envases-biodegradables.html</loc>
-  <lastmod>2021-04-13T03:08:17+00:00</lastmod>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/descartables/envases-biodegradables.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/cubiertos-biodegradables.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <loc>https://estrategiaperuana.com/descartables/bowls-biodegradables-de-bambu.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/descartables/salseros-biodegradables.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-para-bebidas-frias.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <loc>https://estrategiaperuana.com/descartables/bolsas-de-papel-kraft-personalizadas.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/cubiertos-biodegradables.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/descartables/vasos-descartables-para-bebida-caliente.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/envase-biodegradable-hamburguesa-15x15cm.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-para-bebidas-frias.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/envase-biodegradable-menu-mediano-17x12x6cm.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/sorbetes-ecologicos-biodegradables.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/envase-biodegradable-ct1-23x23cm.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-hamburguesa-15x15cm.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/tenedor-descartable-biodegradable.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-menu-23x15x7.6cm.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/cuchillo-descartable-biodegradable.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-ct3-20x20cm.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-8oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-16oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-32oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bowls-bambu/bowl-biodegradable-750ml.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bowls-bambu/bowl-biodegradable-1000ml.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bowls-bambu/bowl-biodegradable-1300ml.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/productos-biodegradables.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.98</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/descartables-para-alimentos.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.98</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/biodegradables-para-comida.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.98</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/productos-descartables.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.98</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/medio-ambiente/micro-plastico.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/biodegradable/el-azucar-hecho-plastico.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/biodegradable/comer-hasta-salvar-el-mundo.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/medio-ambiente/hablemos-del-cambio.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/medio-ambiente.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.70</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.75</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/medio-ambiente/ser-ecologicos-es-una-ambicion-posible.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/ecologico/sencilla-receta-plastico-de-maicena-casero.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/ecologico.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://estrategiaperuana.com/blog/ecologico/que-es-el-pla-y-por-que-esta-en-nuestros-vasos-y-cubiertos-biodegradables.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.75</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/contaminacion/economia-desde-la-basura.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/contaminacion.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.70</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.75</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/salsero-fecula-de-maiz-4oz-con-tapa.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-menu-mediano-17x12x6cm.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/salsero-fecula-de-maiz-2oz-con-tapa.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-ct1-23x23cm.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/bowl-biodegradable-750ml.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/salseros-biodegradables/salsero-biodegradable-2oz-tapa.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/bowl-biodegradable-1000ml.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/salseros-biodegradables/salsero-fecula-de-maiz-2oz-con-tapa.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/bowl-biodegradable-1300ml.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/salseros-biodegradables/salsero-fecula-de-maiz-4oz-con-tapa.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/bowl-sopero-biodegradable-de-bambu-8oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-25-de-80gr.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/bowl-sopero-biodegradable-de-bambu-16oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-30-de-80gr.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/bowl-sopero-biodegradable-de-bambu-32oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-40-de-80gr.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/cuchara-descartable-biodegradable.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-125gr.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-de-bambu-biodegradables-14oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-personalizadas.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-de-bambu-biodegradables-16oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-100gr.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-cana-de-azucar-8oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/cubiertos-biodegradables/tenedor-descartable-biodegradable.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-transparentes-tapa-domo-pla-9oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/cubiertos-biodegradables/cuchillo-descartable-biodegradable.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-transparentes-tapa-domo-pla-12oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/cubiertos-biodegradables/cuchara-descartable-biodegradable.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-transparentes-tapa-domo-pla-16oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-10oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-transparentes-tapa-plana-pla-9oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-14oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-transparentes-tapa-plana-pla-12oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-16oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-transparentes-tapa-plana-pla-16oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-8oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-bambu-10oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-12oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-bambu-14oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-16oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-biodegradables-bambu-16oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-corrugados-biodegradables-8oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-corrugados-biodegradables-8oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-corrugados-biodegradables-12oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-corrugados-biodegradables-12oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-cana-de-azucar-8oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-de-carton-biodegradable-para-cafe-8oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-9oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-de-carton-biodegradable-para-cafe-12oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-12oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://estrategiaperuana.com/descartables/vasos-de-carton-biodegradable-para-cafe-16oz.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <priority>0.65</priority>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-16oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-de-bambu-biodegradables-14oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-de-bambu-biodegradables-16oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-9oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-12oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-16oz.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-6mm.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-biodegradables-de-papel-vip.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://estrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-10mm.html</loc>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://estrategiaperuana.com/blog/biodegradable.html</loc>
-  <lastmod>2021-04-12T23:30:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.70</priority>
+  <lastmod>2021-05-24T01:11:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.75</priority>
 </url>
-
 
 </urlset>
