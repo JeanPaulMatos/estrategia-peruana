@@ -1,3 +1,4 @@
+# MAIN PAGES
 [[redirects]]
   from = "/"
   to = "https://ecoestrategiaperuana.com/"
@@ -7,5 +8,33 @@
 [[redirects]]
   from = "/descartables-biodegradables.html"
   to = "https://ecoestrategiaperuana.com/descartables-biodegradables.html"
+  status = 301
+  force = true
+
+# PRODUCTS CATEGORY
+[[redirects]]
+  from = "/descartables/bowls-biodegradables-de-bambu.html"
+  to = "https://ecoestrategiaperuana.com/descartables/bowls-biodegradables-de-bambu.html"
+  status = 301
+  force = true
+
+# PRODUCTS PAGE
+[[redirects]]
+  from = "/descartables/bowls-bambu/bowl-biodegradable-1000ml.html"
+  to = "https://ecoestrategiaperuana.com/descartables/bowls-bambu/bowl-biodegradable-de-bambu-1000ml.html"
+  status = 301
+  force = true
+
+# BLOG CATEGORY
+[[redirects]]
+  from = "/blog/biodegradable.html"
+  to = "https://ecoestrategiaperuana.com/blog/biodegradable.html"
+  status = 301
+  force = true
+
+# BLOG POST
+[[redirects]]
+  from = "/blog/biodegradable/comer-hasta-salvar-el-mundo.html"
+  to = "https://ecoestrategiaperuana.com/blog/biodegradable/comer-hasta-salvar-el-mundo.html"
   status = 301
   force = true
