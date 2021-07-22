@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,AAAC,CACnB,UAAU,CAAE,eAAe,CAC3B,aAAa,CAAE,IAAI,CACpB",
+    "sources": [
+        "testimonials.scss"
+    ],
+    "names": [],
+    "file": "testimonials.css"
+}

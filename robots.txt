@@ -1,7 +1,0 @@
-User-Agent: *
-Disallow: 
-Disallow: /author/
-Disallow: /author/estrategiaperuana123gmail-com
-Disallow: /el-efecto-de-los-envases-biodegradables/
-
-Sitemap: https://estrategiaperuana.com/sitemap.xml

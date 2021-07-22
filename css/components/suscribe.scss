@@ -1,0 +1,371 @@
+.suscribe {
+
+  display: grid;
+  justify-items: center;
+  @extend .space;
+  margin-bottom: 3rem;
+
+  &--img {
+    margin-bottom: 30px;
+  }
+
+  &--title {
+    @extend .subtitle;
+    margin-bottom: 15px;
+  }
+
+  &--text {
+    @extend .subtext;
+    margin-bottom: 30px;
+    padding: 0 420px;
+  }
+
+  &__form {
+
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+
+    &--input {
+      width: 565px;
+      height: 55px;
+      padding: 0 32px;
+      border-radius: 8px 0px 0px 8px;
+      border: none;
+      outline: none;
+      color: $color-verde;
+      font-size: 16px;
+      letter-spacing: 0.02rem;
+
+    }
+
+    &--button {
+
+      width: 200px;
+      height: 57px;
+      border-radius: 0px 8px 8px 0px;
+      background-color: $color-verde;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 12px;
+      font-size: 20px;
+      line-height: 30px;
+      color: $color-blanco;
+      font-weight: 600;
+
+      &--img {
+        width: 18px;
+      }
+
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1356px) {
+
+  .suscribe {
+
+    &--text {
+      padding: 0 378px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1272px) {
+
+  .suscribe {
+
+    &--text {
+      padding: 0 336px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1188px) {
+
+  .suscribe {
+
+    &--title {
+      font-size: 30px;
+    }
+
+    &--text {
+      padding: 0 294px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1104px) {
+
+  .suscribe {
+
+    &--text {
+      padding: 0 252px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1020px) {
+
+  .suscribe {
+
+    &--text {
+      padding: 0 210px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 936px) {
+
+  .suscribe {
+
+    &--text {
+      padding: 0 168px;
+    }
+
+    &__form {
+
+      &--input {
+        width: 525px;
+        height: 50px;
+      }
+
+      &--button {
+        font-size: 18px;
+        width: 190px;
+        height: 52px;
+        column-gap: 10px;
+
+        &--img {
+          width: 16px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 834px) {
+
+  .suscribe {
+
+    &--title {
+      font-size: 28px;
+    }
+
+    &--text {
+      padding: 0 117px;
+    }
+
+    &__form {
+
+      &--input {
+        width: 480px;
+      }
+
+      &--button {
+        width: 175px;
+
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 685px) {
+
+  .suscribe {
+
+    &--title {
+      padding: 0 93px;
+    }
+
+    &--text {
+      padding: 0 85px;
+    }
+
+    &__form {
+      display: grid;
+      row-gap: 15px;
+      filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.25));
+
+      &--input {
+        width: 520px;
+        border-radius: 8px;
+      }
+
+      &--button {
+        width: 100%;
+        border-radius: 8px;
+        font-size: 20px;
+        column-gap: 12px;
+
+        &--img {
+          width: 18px;
+        }
+
+      }
+
+    }
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .suscribe {
+
+    &--title {
+      padding: 0 37px;
+    }
+
+    &--text {
+      padding: 0 6px;
+    }
+
+    &__form {
+
+      &--input {
+        width: 455px;
+      }
+
+    }
+  }
+
+}
+
+@media screen and (max-width: 465px) {
+
+  .suscribe {
+
+    &--img {
+      width: 395px;
+    }
+
+    &--title {
+      font-size: 22px;
+      line-height: 36px;
+      padding: 0 44px;
+    }
+
+    &--text {
+      font-size: 16px;
+      padding: 0 43px;
+      margin-bottom: 22px;
+    }
+
+    &__form {
+
+      &--input {
+        width: 385px;
+      }
+
+    }
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .suscribe {
+
+    &--img {
+      width: 385px;
+    }
+  
+    &--title {
+      font-size: 21px;
+      padding: 0 33px;
+      margin-bottom: 12px;
+    }
+  
+    &--text {
+      padding: 0 45px;
+    }
+  
+    &__form {
+  
+      &--input {
+        width: 345px;
+        height: 45px;
+      }
+  
+      &--button {
+        height: 46px;
+        font-size: 18px;
+  
+        &--img {
+          width: 15px;
+        }
+  
+      }
+  
+    }
+
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .suscribe {
+  
+    &--text {
+      padding: 0 11px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .suscribe {
+
+    &--img {
+      width: 350px;
+    }
+  
+    &--title {
+      font-size: 20px;
+      padding: 0 16px;
+      line-height: 34px;
+    }
+  
+    &--text {
+      padding: 0 19px;
+    }
+  
+    &__form {
+  
+      &--input {
+        width: 322px;
+        height: 43px;
+      }
+  
+      &--button {
+        height: 45px;
+  
+      }
+  
+    }
+
+  }
+
+}

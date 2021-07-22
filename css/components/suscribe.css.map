@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,AAAC,CAER,OAAO,CAAE,IAAI,CACb,aAAa,CAAE,MAAM,CAkCtB,AAhCE,AAAD,cAAM,AAAC,CACL,aAAa,CAAE,IAAI,CACpB,AAEA,AAAD,gBAAQ,AAAC,CACP,aAAa,CAAE,IAAI,CACpB,AAEA,AAAD,eAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACpB",
+    "sources": [
+        "suscribe.scss"
+    ],
+    "names": [],
+    "file": "suscribe.css"
+}

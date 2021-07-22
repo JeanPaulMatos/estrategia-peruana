@@ -1,0 +1,898 @@
+.hero {
+  padding: 0 42px;
+  margin-top: 8.5rem;
+  @extend .space;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    align-items: center;
+    justify-content: center;
+
+    &--left {
+
+      &--promotion {
+
+        display: flex;
+        align-items: center;
+        padding-bottom: 18px;
+
+        img {
+          margin-right: 7px;
+        }
+
+        p {
+          color: $color-titulo;
+          font-weight: 600;
+          letter-spacing: 0.01rem;
+        }
+
+      }
+
+      &--title {
+        padding-bottom: 18px;
+        @extend .subtitle;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: unset;
+      }
+
+      &--text {
+        @extend .subtext;
+        padding-bottom: 24px;
+        text-align: unset;
+        padding-right: 46px;
+
+        &--display {
+          display: none;
+        }
+
+      }
+
+      &--button {
+        margin-bottom: 28px;
+        @extend .button;
+
+        &--info {
+          display: none;
+        }
+
+      }
+
+      &--shipping {
+        display: flex;
+        align-items: center;
+        padding-bottom: 24px;
+
+        &--icon {
+          @extend .iconShadow;
+        }
+        
+        &--text {
+          margin-left: 12px;
+        }
+
+      }
+
+      &--social {
+        display: flex;
+        align-items: center;
+
+        &--text {
+          margin-right: 15px;
+        }
+
+        &--icon {
+          margin-right: 15px;
+        }
+
+      }
+
+
+
+    }
+
+    &--right {
+      
+      display: grid;
+      margin-top: 30px;
+
+      &--display {
+        display: none;
+      }
+
+      &--img {
+        // padding-bottom: 80px;
+      }
+
+    }
+
+  }
+
+}
+
+// .swiper-slide-active,
+// -prev, 
+// .swiper-slide-next {
+//   width: 100% !important;
+// }
+
+.swiper-slide img {
+  padding-bottom: 50px;
+}
+
+// .swiper--slide{
+//   width: 1000px !important;
+// }
+
+.swiper-margin {
+  margin: 0;
+}
+
+.swiper--controls--link {
+  bottom: 3px;
+  left: 10%;
+}
+
+.swiper-button-next {
+  right: -4%;
+}
+
+.swiper-button-prev {
+  left: 6%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 101%;
+}
+
+.swiper-pagination-fraction {
+  bottom: 3px;
+  color: #37474F;
+  font-family: "Lato",system-ui;
+  left: 84%;
+  text-align: unset;
+  width: unset;
+}
+
+@media screen and (max-width: 1300px) {
+
+  .hero {
+
+    &__container {
+
+      grid-template-columns: 1fr 1.3fr;
+
+      &--left {
+
+        &--title {
+          font-size: 34px;
+        }
+
+        &--text {
+          padding-right: 47px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1180px) {
+
+  .hero {
+
+    &__container {
+
+      &--left {
+
+        &--title {
+          font-size: 31px;
+        }
+
+        &--text {
+          padding-right: 17px;
+          font-size: 17px;
+        }
+
+        &--button {
+          padding: 9px 20px;
+
+          img {
+            width: 18px;
+            margin-right: 13px;
+          }
+
+          p {
+            font-size: 19px;
+          }
+
+        }
+
+        &--shipping {
+
+          &--icon {
+            width: 45px;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1084px) {
+
+  .hero {
+
+    &__container {
+      grid-template-columns: 1fr;
+
+      &--left {
+        display: grid;
+        justify-items: center;
+        
+        &--promotion {
+          padding-bottom: 15px;
+
+          img {
+            width: 30px;
+            margin-right: 10px;
+          }
+
+          p {
+            font-size: 20px;
+          }
+
+        }
+
+        &--title {
+          text-align: center;
+          padding-bottom: 15px;
+          font-size: 36px;
+        }
+
+        &--text {
+          text-align: center;
+          padding: 0 55px 22px;
+          font-size: 19px;
+        }
+
+        &--button {
+          margin: 5px 0 25px;
+          padding: 12px 22px;
+
+
+          img {
+            width: 22px;
+            margin-right: 15px;
+          }
+
+          p {
+            font-size: 22px;
+          }
+
+        }
+
+        &--shipping {
+
+          &--icon {
+            width: 50px;
+          }
+
+          &--text {
+            font-size: 18px;
+            margin-left: 15px;
+          }
+
+        }
+
+        &--social {
+
+          &--text {
+            font-size: 17px;
+          }
+
+          &--icon {
+            
+            // img {
+            //   width: 13px;
+            // }
+
+          }
+
+        }
+
+      }
+
+      &--right {
+
+        &--img {
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .swiper-grid {
+    display: grid;
+    justify-content: center;
+  }
+
+  .swiper--controls--link {
+    left: 11%;
+  }
+  
+  .swiper-button-next {
+    right: -1%;
+  }
+  
+  .swiper-button-prev {
+    left: 6%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .hero {
+
+    margin-top: 8rem;
+
+  }
+
+}
+
+@media screen and (max-width: 834px) {
+
+  .hero {
+
+    &__container {
+
+      &--left {
+        
+        &--promotion {
+
+          img {
+            width: 24px;
+            margin-right: 8px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+
+        }
+
+        &--title {
+          font-size: 32px;
+        }
+
+        &--text {
+          padding: 0 55px 22px;
+          font-size: 18px;
+        }
+
+        &--button {
+          padding: 9px 20px;
+
+
+          img {
+            width: 18px;
+            margin-right: 12px;
+          }
+
+          p {
+            font-size: 20px;
+          }
+
+        }
+
+        &--shipping {
+
+          &--icon {
+            width: 45px;
+          }
+
+          &--text {
+            font-size: 17px;
+            margin-left: 12px;
+          }
+
+        }
+
+        &--social {
+
+          &--text {
+            font-size: 17px;
+          }
+
+          &--icon {
+            
+            // img {
+            //   width: 13px;
+            // }
+
+          }
+
+        }
+
+      }
+
+      &--right {
+
+        &--img {
+
+        }
+
+      }
+
+    }
+
+  }
+
+  // .swiper-grid {
+  //   display: grid;
+  //   justify-content: center;
+  // }
+
+  // .swiper--controls--link {
+  //   left: 11%;
+  // }
+  
+  // .swiper-button-next {
+  //   right: -1%;
+  // }
+  
+  // .swiper-button-prev {
+  //   left: 6%;
+  // }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .hero {
+
+    &__container {
+
+      &--left {
+
+        &--promotion {
+
+          p {
+            font-size: 17.5px;
+          }
+
+        }
+
+        &--text {
+          padding: 0 40px 22px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .hero {
+    padding: 0;
+    margin-top: 5.6rem;
+
+
+    &__container {
+
+      &--left {
+        padding: 0;
+        
+        &--promotion {
+
+          img {
+            width: 22px;
+          } 
+
+          p {
+            font-size: 16px;
+            letter-spacing: 0.02rem;
+          }
+
+        }
+
+        &--title {
+          font-size: 26px;
+          line-height: 44px;
+        }
+
+        &--text {
+          font-size: 17px;
+          padding: 0 0px 22px;
+        }
+
+        &--button {
+          padding: 7px 16px;
+
+          img{
+            width: 17px;
+            margin-right: 12px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+
+        }
+
+        &--shipping {
+
+          &--icon {
+            width: 42px;
+          }
+
+          &--text {
+            font-size: 16px;
+          }
+
+        }
+
+        &--social {
+
+          &--text {
+            font-size: 16px;
+          }
+
+          &--icon {
+            
+            &--facebook {
+              width: 11px;
+            }
+
+            &--instagram,
+            &--whathsapp {
+              width: 19px;
+            }
+
+          }
+
+        }
+
+      }
+
+      &--right {
+        padding: 0 12px;
+
+        
+        img {
+          width: 100% !important;
+        }
+        
+      }
+
+    }
+
+  }
+
+  .swiper--controls--link {
+    font-size: 17px;
+    left: 5%;
+  }
+
+  .swiper-pagination-fraction {
+    font-size: 16.5px;
+    left: 88%;
+    bottom: 4px;
+  }
+
+  .swiper-button-prev {
+    left: 3%;
+  }
+
+  .swiper-button-next {
+    right: -4%;
+  }
+
+}
+
+@media screen and (max-width: 465px) {
+
+  .hero {
+
+    &__container {
+
+      &--left {
+
+        &--promotion {
+
+          img {
+            width: 20px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+
+        }
+
+        &--title {
+          font-size: 24px;
+          line-height: 40px;
+        }
+
+        &--text {
+          font-size: 16px;
+          display: none;
+        }
+
+        &--text {
+
+          &--display {
+            display: block;
+            padding: 0 31px;
+          }
+
+        }
+
+        &--wrapper {
+          display: grid;
+          row-gap: 12px;
+          order: 2;
+        }
+
+        &--button {
+          padding: 9px 50px;
+          margin: 0;
+
+          img {
+            width: 18px;
+          }
+
+          p {
+            font-size: 18.5px;
+          }
+
+        }
+
+        &--button {
+
+          &--info {
+            display: flex;
+            background-color: $color-blanco;
+            border: 1px solid $color-verde;
+            padding: 8px 50px;
+            margin-bottom: 20px;
+
+            img {
+              width: 24px;
+              margin-right: 8px;
+            }
+
+            p {
+              color: $color-verde;
+            }
+          }
+
+        }
+
+        &--shipping {
+          order: 1;
+          padding-bottom: 20px;
+        }
+
+        &--social {
+          order: 3;
+        }
+
+      }
+
+      &--right {
+        display: none;
+      }
+
+      &--right {
+        margin-top: 25px;
+
+        &--display {
+          display: grid;
+          padding-bottom: 27px;
+        }
+
+      }
+
+    }
+
+  }
+
+  .swiper-button-prev {
+    left: 5%;
+  }
+
+  .swiper-button-next {
+    right: -7%;
+  }
+
+  .swiper-pagination-fraction {
+    left: 86%;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .hero {
+
+    &__container {
+
+      &--left {
+
+        &--promotion {
+
+          img {
+            width: 18px;
+            margin-right: 6px;
+          }
+
+          p {
+            font-size: 14.5px;
+          }
+        }
+
+        &--title {
+          font-size: 22px;
+          line-height: 38px;
+        }
+
+        &--text {
+
+          &--display {
+            padding: 0 11px;
+          }
+
+        }
+
+        &--button {
+          padding: 8px 50px;
+
+          img {
+            width: 17px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+
+        }
+
+        &--button {
+
+          &--info {
+            
+            img {
+              width: 22px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .swiper--controls--link {
+    font-size: 16px;
+    bottom: 5px;
+  }
+
+  .swiper-pagination-fraction {
+    font-size: 16px;
+    bottom: 5px;
+  }
+
+}
+
+@media screen and (max-width: 385px) {
+
+  .hero {
+
+    &__container {
+
+      
+      &--left {
+        
+        &--promotion {
+  
+          p {
+            font-size: 14px;
+          }
+        }
+
+        &--title {
+          padding: 0 9px 15px;
+        }
+
+        &--text {
+          padding: 0 9px;
+        }
+
+        &--shipping {
+
+          img {
+            width: 38px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+
+        }
+
+        &--button {
+
+          padding: 8px 45px;
+
+          img {
+            width: 15px;
+          }
+
+          p {
+            font-size: 17px;
+            letter-spacing: 0.01rem;
+            font-weight: 600;
+          }
+
+        }
+
+        &--button {
+
+          &--info {
+            padding: 7px 45px;;
+
+            img {
+              width: 20px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .swiper--controls--link {
+    left: 3%;
+    bottom: 5px;
+  }
+
+  .swiper-pagination-fraction {
+    left: 84%;
+    bottom: 5px;
+  }
+
+  .swiper-button-next {
+    right: -7%;
+  }
+
+  .swiper-button-prev {
+    left: 5%;
+  }
+
+}

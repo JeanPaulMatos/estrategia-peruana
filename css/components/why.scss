@@ -1,0 +1,754 @@
+.why {
+
+  display: grid;
+  justify-items: center;
+  @extend .space;
+
+  &--title {
+    @extend .subtitle;
+    padding: 0 409px 12px;
+  }
+
+  &--text {
+    @extend .subtext;
+    padding-bottom: 40px;
+  }
+
+  &__container {
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(97, 204, 31, 0.1);
+    border-radius: 12px;
+    align-items: center;
+    width: 800px;
+    padding: 25px 30px;
+    column-gap: 10px;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.10);
+    
+    &--left {
+
+      &--title {
+        font-family: $fuente1;
+        font-size: 20px;
+        color: $color-verde;
+        line-height: 31px;
+        font-weight: 600;
+        letter-spacing: 0.02rem;
+        padding-bottom: 13px
+        
+      }
+
+      &--text {
+        @extend .subtext;
+        font-size: 16px;
+        text-align: unset;
+        line-height: 31px;
+      }
+
+    }
+
+    &--right {
+
+      &--img {
+
+        img {
+          width: 1000px;
+        }
+
+      }
+
+    }
+
+  }
+
+  &__icons {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    width: 87%;
+    margin: auto;
+    margin-top: 40px;
+
+
+    &--group {
+
+      display: grid;
+      justify-items: center;
+
+      &--img {
+        filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.45));
+      }
+
+      &--text {
+        font-family: $fuente2;
+        font-size: 18px;
+        text-align: center;
+        line-height: 29px;
+        letter-spacing: 0.02rem;
+        padding: 15px 0 0;
+        font-weight: 400;
+        color: $color-titulo;
+      }
+
+      &--textTwo {
+        padding: 0 53px;
+        padding-top: 9px;
+      }
+      &--textThree {
+        padding: 0 47px;
+        padding-top: 9px;
+      }
+      &--textFour {
+        padding: 0 33px;
+        padding-top: 9px;
+      }
+
+    }
+
+    
+  }
+  
+  &__button {
+    @extend .button;
+    margin-top: 44px;
+    border-radius: 6px;
+    padding: 10px 25px;
+
+    img {
+      width: 17px;
+      margin-right: 12px;
+    }
+
+    p {
+      font-size: 19px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1366px) {
+
+  .why {
+
+    &__icons {
+
+      &--group {
+
+        &--textTwo {
+          padding: 9px 40px 0;
+        } 
+        &--textThree {
+          padding: 9px 34px 0;
+        }
+        &--textFour {
+          padding: 9px 19px 0;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1303px) {
+
+  .why {
+
+    &--title {
+      padding: 0 327px 12px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1248px) {
+  
+  .why {
+
+
+    &--title {
+      padding: 0 313px 12px;
+    }
+
+    &__icons {
+
+      &--group {
+
+        &--textTwo {
+          padding: 9px 28px 0;
+        }
+        &--textThree {
+          padding: 9px 22px 0;
+        }
+        &--textFour {
+          padding: 9px 6px 0;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 1118px) {
+  
+  .why {
+
+    &--title {
+      font-size: 30px;
+      padding: 0 267px 12px;
+    }
+
+    &__icons {
+
+      &--group {
+
+        &--textTwo {
+          padding: 9px 14px 0;
+        }
+        &--textThree {
+          padding: 9px 7px 0;
+        }
+        &--textFour {
+          padding: 9px 0px 0;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .why {
+
+    &--title {
+      padding: 0 220px 12px;
+    }
+
+    &__icons {
+      grid-template-columns: repeat(3, 1fr);
+
+      &--group {
+
+          &--fourth {
+            display: none;
+          }
+
+        &--textTwo {
+          padding: 9px 40px 0;
+        }
+        &--textThree {
+          padding: 9px 34px 0;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 921px) {
+
+  .why {
+
+    &--title {
+      padding: 0 168px 12px;
+    }
+
+    &__icons {
+
+      &--group {
+
+        &--textTwo {
+          padding: 9px 25px 0;
+        }
+        &--textThree {
+          padding: 9px 19px 0;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 834px) {
+
+  .why {
+
+    &--title {
+      font-size: 28px;
+      padding: 0px 132px 12px;
+    }
+
+    &--text {
+      padding: 0 131px 40px;
+    }
+
+    &__container {
+      width: 720px;
+      padding: 25px 20px;
+
+      &--left {
+
+        &--title {
+          font-size: 18px;
+        }
+
+        &--text {
+          font-size: 15px;
+        }
+
+      }
+
+      &--right {
+        
+        width: 970px;
+
+      }
+
+    }
+
+    &__icons {
+
+      &--group {
+
+        &--text {
+          font-size: 17px;
+        }
+
+        &--first {
+          img {
+            width: 80px;
+          }
+        }
+
+        &--second {
+          img {
+            width: 80px;
+          }
+        }
+
+        &--third {
+          img {
+            width: 120px;
+          }
+        }
+
+        &--textTwo {
+          padding: 9px 12px 0;
+        }
+        &--textThree {
+          padding: 12px 17px 0;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .why {
+
+    &--title {
+      padding: 0px 99px 12px;
+      line-height: 33px;
+    }
+
+    &--text {
+      padding: 0 98px 30px;
+    }
+
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 80%;
+      margin: auto;
+      padding: 20px 20px 15px;
+
+      &--left {
+        text-align: center;
+
+        &--title {
+          font-size: 22px;
+          padding: 0 67px 10px;
+        }
+
+        &--text {
+          margin-bottom: 15px;
+          padding: 0 19px;
+        }
+
+      }
+
+      &--right {
+        width: unset;
+
+        &--img {
+          img {
+            width: 500px;
+          }
+        }
+
+      }
+
+    }
+
+    &__icons {
+      margin-top: 32px;
+
+      &--group {
+
+        &--text {
+          font-size: 17px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .why {
+
+    &--title {
+      font-size: 24px;
+      line-height: 38px;
+      padding: 0px 30px 12px;
+    }
+
+    &--text {
+      padding: 0 0px 30px;
+    }
+
+    &__container {
+
+      &--left {
+
+        &--title {
+          display: none;
+        }
+
+        &--text {
+          display: none;
+        }
+
+      }
+    }
+
+    &__icons {
+
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      row-gap: 30px;
+
+      &--group {
+
+        &--fourth {
+          display: grid;
+
+          img {
+            width: 80px;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 465px) {
+
+  .why {
+
+    &--title {
+      font-size: 22px;
+      line-height: 36px;
+      padding: 0px 7px 12px;
+    }
+
+    &--text {
+      font-size: 16px;
+      padding: 0 0 30px;
+    }
+
+    &__container {
+      width: 85%;
+
+      &--left {
+
+        &--title {
+          display: none;
+        }
+
+        &--text {
+          display: none;
+        }
+
+      }
+    }
+
+    &__icons {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      row-gap: 30px;
+
+      &--group {
+
+        &--first {
+          img {
+            width: 65px;
+          }
+        }
+        &--second {
+          img {
+            width: 65px;
+          }
+        }
+
+        &--third {
+          img {
+            width: 97px;
+          }
+        }
+
+        &--fourth {
+          display: grid;
+
+          img {
+            width: 64px;
+          }
+        }
+
+        &--text {
+          font-size: 15.5px;
+          line-height: 28px;
+        }
+
+        &--textTwo {
+          padding: 9px 12px 0;
+        }
+        &--textThree {
+          padding: 12px 6px 0;
+        }
+
+      }
+
+    }
+
+
+    &__button {
+      margin-top: 35px;
+      padding: 9px 20px;
+
+      img {
+        width: 18px;
+        margin-right: 12px;
+      }
+
+      p {
+        font-size: 18.5px;
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .why {
+
+    &--title {
+      font-size: 21px;
+      line-height: 34px;
+    }
+
+    &--text {
+      padding: 0 16px 30px;
+    }
+
+    &__container {
+      width: 82%;
+
+    }
+
+    &__icons {
+      width: 90%;
+
+      &--group {
+
+        &--first {
+          img {
+            width: 60px;
+          }
+        }
+        &--second {
+          img {
+            width: 59px;
+          }
+        }
+
+        &--third {
+          img {
+            width: 84px;
+          }
+        }
+
+        &--fourth {
+          img {
+            width: 53px;
+          }
+        }
+
+        &--textTwo {
+          padding: 10px 7px 0;
+        }
+        &--textThree {
+          padding: 12px 1px 0;
+        }
+        &--textFour {
+          padding: 13px ​0px ;
+        }
+
+      }
+
+    }
+
+    &__button {
+      padding: 8px 20px;
+
+      img {
+        width: 17px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 405px) {
+
+  .why {
+
+    &--title {
+      padding: 0px 0px 12px;
+    }
+
+    &--text {
+      padding: 0 6px 30px;
+    }
+
+    &__icons {
+      width: 94%;
+
+      &--group {
+
+        &--text {
+          font-size: 15px;
+        }
+
+        &--textTwo {
+          padding: 9px 0px 0;
+        }
+        &--textThree {
+          padding: 12px 3px 0;
+        }
+        &--textFour {
+          padding: 13px ​0px ;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .why {
+
+    &--title {
+      font-size: 20px;
+    }
+
+    &--text {
+      padding: 0 0px 30px;
+    }
+
+    &__icons {
+      width: 100%;
+
+      &--group {
+
+        &--text {
+          font-size: 14.5px;
+        }
+
+        &--textTwo {
+          padding: 9px 10px 0;
+        }
+        
+        &--textThree {
+          padding: 12px 5px 0;
+        }
+
+      }
+
+    }
+
+    &__button {
+
+      padding: 8px 20px;
+
+      img {
+        width: 15px;
+        margin-right: 10px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+
+    }
+
+  }
+
+}
