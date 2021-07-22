@@ -3,3 +3,9 @@
   to = "https://ecoestrategiaperuana.com/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/descartables-biodegradables.html"
+  to = "https://ecoestrategiaperuana.com/descartables-biodegradables.html"
+  status = 301
+  force = true
