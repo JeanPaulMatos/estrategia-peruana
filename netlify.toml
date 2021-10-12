@@ -12,7 +12,19 @@
   force = true
 
 [[redirects]]
+  from = "/404"
+  to = "https://ecoestrategiaperuana.com/404.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/biodegradables-para-comida.html"
+  to = "https://ecoestrategiaperuana.com/biodegradables-para-comida.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/biodegradables-para-comida"
   to = "https://ecoestrategiaperuana.com/biodegradables-para-comida.html"
   status = 301
   force = true
@@ -24,7 +36,19 @@
   force = true
 
 [[redirects]]
+  from = "/blog"
+  to = "https://ecoestrategiaperuana.com/blog.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/contacto.html"
+  to = "https://ecoestrategiaperuana.com/contacto.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contacto"
   to = "https://ecoestrategiaperuana.com/contacto.html"
   status = 301
   force = true
@@ -36,7 +60,19 @@
   force = true
 
 [[redirects]]
+  from = "/descartables-biodegradables"
+  to = "https://ecoestrategiaperuana.com/descartables-biodegradables.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/descartables-para-alimentos.html"
+  to = "https://ecoestrategiaperuana.com/descartables-para-alimentos.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/descartables-para-alimentos"
   to = "https://ecoestrategiaperuana.com/descartables-para-alimentos.html"
   status = 301
   force = true
@@ -48,7 +84,19 @@
   force = true
 
 [[redirects]]
+  from = "/index"
+  to = "https://ecoestrategiaperuana.com/index.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/nosotros.html"
+  to = "https://ecoestrategiaperuana.com/nosotros.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nosotros"
   to = "https://ecoestrategiaperuana.com/nosotros.html"
   status = 301
   force = true
@@ -60,13 +108,31 @@
   force = true
 
 [[redirects]]
+  from = "/preguntas-frecuentes"
+  to = "https://ecoestrategiaperuana.com/preguntas-frecuentes.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/productos-biodegradables.html"
   to = "https://ecoestrategiaperuana.com/productos-biodegradables.html"
   status = 301
   force = true
 
 [[redirects]]
+  from = "/productos-biodegradables"
+  to = "https://ecoestrategiaperuana.com/productos-biodegradables.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/productos-descartables.html"
+  to = "https://ecoestrategiaperuana.com/productos-descartables.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/productos-descartables"
   to = "https://ecoestrategiaperuana.com/productos-descartables.html"
   status = 301
   force = true
@@ -80,7 +146,19 @@
   force = true
 
 [[redirects]]
+  from = "/descartables/bolsas-de-papel-kraft-personalizadas"
+  to = "https://ecoestrategiaperuana.com/descartables/bolsas-de-papel-kraft-personalizadas.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/descartables/bowls-biodegradables-de-bambu.html"
+  to = "https://ecoestrategiaperuana.com/descartables/bowls-biodegradables-de-bambu.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/descartables/bowls-biodegradables-de-bambu"
   to = "https://ecoestrategiaperuana.com/descartables/bowls-biodegradables-de-bambu.html"
   status = 301
   force = true
@@ -92,7 +170,19 @@
   force = true
 
 [[redirects]]
+  from = "/descartables/cubiertos-biodegradables"
+  to = "https://ecoestrategiaperuana.com/descartables/cubiertos-biodegradables.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/descartables/envases-biodegradables.html"
+  to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables-para-alimentos.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/descartables/envases-biodegradables"
   to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables-para-alimentos.html"
   status = 301
   force = true
@@ -104,7 +194,19 @@
   force = true
 
 [[redirects]]
+  from = "/descartables/salseros-biodegradables"
+  to = "https://ecoestrategiaperuana.com/descartables/salseros-biodegradables.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/descartables/sorbetes-ecologicos-biodegradables.html"
+  to = "https://ecoestrategiaperuana.com/descartables/sorbetes-ecologicos-biodegradables.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/descartables/sorbetes-ecologicos-biodegradables"
   to = "https://ecoestrategiaperuana.com/descartables/sorbetes-ecologicos-biodegradables.html"
   status = 301
   force = true
@@ -116,7 +218,19 @@
   force = true
 
 [[redirects]]
+  from = "/descartables/vasos-biodegradables-para-bebidas-frias"
+  to = "https://ecoestrategiaperuana.com/descartables/vasos-biodegradables-para-bebidas-frias.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/descartables/vasos-descartables-para-bebida-caliente.html"
+  to = "https://ecoestrategiaperuana.com/descartables/vasos-descartables-para-bebida-caliente.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/descartables/vasos-descartables-para-bebida-caliente"
   to = "https://ecoestrategiaperuana.com/descartables/vasos-descartables-para-bebida-caliente.html"
   status = 301
   force = true
@@ -128,9 +242,21 @@
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-10oz.html"
     status = 301
     force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-biodegradables-bambu-10oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-10oz.html"
+    status = 301
+    force = true
   
   [[redirects]]
     from = "/descartables/bebidas-calientes/vasos-biodegradables-bambu-14oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-14oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-biodegradables-bambu-14oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-14oz.html"
     status = 301
     force = true
@@ -142,7 +268,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-biodegradables-bambu-16oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-bambu-16oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bebidas-calientes/vasos-biodegradables-cana-de-azucar-8oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-cana-de-azucar-8oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-biodegradables-cana-de-azucar-8oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-cana-de-azucar-8oz.html"
     status = 301
     force = true
@@ -154,7 +292,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-corrugados-biodegradables-8oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-corrugados-biodegradables-8oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bebidas-calientes/vasos-corrugados-biodegradables-12oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-corrugados-biodegradables-12oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-corrugados-biodegradables-12oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-corrugados-biodegradables-12oz.html"
     status = 301
     force = true
@@ -164,15 +314,33 @@
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-para-cafe-8oz.html"
     status = 301
     force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-8oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-para-cafe-8oz.html"
+    status = 301
+    force = true
   
   [[redirects]]
     from = "/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-12oz.html"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-para-cafe-12oz.html"
     status = 301
     force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-12oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-para-cafe-12oz.html"
+    status = 301
+    force = true
   
   [[redirects]]
     from = "/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-16oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-para-cafe-16oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-calientes/vasos-de-carton-biodegradable-para-cafe-16oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-calientes/vasos-biodegradables-para-cafe-16oz.html"
     status = 301
     force = true
@@ -185,7 +353,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-9oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-9oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-12oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-12oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-12oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-12oz.html"
     status = 301
     force = true
@@ -197,7 +377,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-16oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-domo-pla-16oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-9oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-9oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-9oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-9oz.html"
     status = 301
     force = true
@@ -209,7 +401,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-12oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-12oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-16oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-16oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-16oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-biodegradables-transparentes-tapa-plana-pla-16oz.html"
     status = 301
     force = true
@@ -221,7 +425,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-de-bambu-biodegradables-14oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-de-bambu-biodegradables-14oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bebidas-frias/vasos-de-bambu-biodegradables-16oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-de-bambu-biodegradables-16oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bebidas-frias/vasos-de-bambu-biodegradables-16oz"
     to = "https://ecoestrategiaperuana.com/descartables/bebidas-frias/vasos-de-bambu-biodegradables-16oz.html"
     status = 301
     force = true
@@ -234,7 +450,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-25-de-80gr"
+    to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-biodegradables-de-papel-kraft-25-de-80gr.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-30-de-80gr.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-biodegradables-de-papel-kraft-30-de-80gr.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-30-de-80gr"
     to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-biodegradables-de-papel-kraft-30-de-80gr.html"
     status = 301
     force = true
@@ -246,7 +474,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-40-de-80gr"
+    to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-biodegradables-de-papel-kraft-40-de-80gr.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-100gr.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-100gr.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-100gr"
     to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-100gr.html"
     status = 301
     force = true
@@ -258,7 +498,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-125gr"
+    to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-125gr.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-personalizadas.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-personalizadas.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-personalizadas"
     to = "https://ecoestrategiaperuana.com/descartables/bolsas-kraft/bolsas-de-papel-kraft-con-asa-twist-personalizadas.html"
     status = 301
     force = true
@@ -289,13 +541,31 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-8oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-8oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-16oz.html"
     to = "https://ecoestrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-16oz.html"
     status = 301
     force = true
 
   [[redirects]]
+    from = "/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-16oz"
+    to = "https://ecoestrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-16oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-32oz.html"
+    to = "https://ecoestrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-32oz.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-32oz"
     to = "https://ecoestrategiaperuana.com/descartables/bowls-bambu/bowl-sopero-biodegradable-de-bambu-32oz.html"
     status = 301
     force = true
@@ -308,13 +578,31 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/cubiertos-biodegradables/cuchara-descartable-biodegradable"
+    to = "https://ecoestrategiaperuana.com/descartables/cubiertos-biodegradables/cuchara-descartable-biodegradable.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/cubiertos-biodegradables/cuchillo-descartable-biodegradable.html"
     to = "https://ecoestrategiaperuana.com/descartables/cubiertos-biodegradables/cuchillo-descartable-biodegradable.html"
     status = 301
     force = true
 
   [[redirects]]
+    from = "/descartables/cubiertos-biodegradables/cuchillo-descartable-biodegradable"
+    to = "https://ecoestrategiaperuana.com/descartables/cubiertos-biodegradables/cuchillo-descartable-biodegradable.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/cubiertos-biodegradables/tenedor-descartable-biodegradable.html"
+    to = "https://ecoestrategiaperuana.com/descartables/cubiertos-biodegradables/tenedor-descartable-biodegradable.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/cubiertos-biodegradables/tenedor-descartable-biodegradable"
     to = "https://ecoestrategiaperuana.com/descartables/cubiertos-biodegradables/tenedor-descartable-biodegradable.html"
     status = 301
     force = true
@@ -327,7 +615,19 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/envases-biodegradables/envase-biodegradable-ct1-23x23cm"
+    to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envases-biodegradables-para-pollo-ct1-23x23cm.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/envases-biodegradables/envase-biodegradable-ct3-20x20cm.html"
+    to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-ct3-20x20cm.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/envases-biodegradables/envase-biodegradable-ct3-20x20cm"
     to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-ct3-20x20cm.html"
     status = 301
     force = true
@@ -339,13 +639,31 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/envases-biodegradables/envase-biodegradable-hamburguesa-15x15cm"
+    to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envases-biodegradables-para-hamburguesas.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/envases-biodegradables/envase-biodegradable-menu-23x15x7.6cm.html"
     to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envases-biodegradables-para-menus-23x15x7.6cm.html"
     status = 301
     force = true
 
   [[redirects]]
+    from = "/descartables/envases-biodegradables/envase-biodegradable-menu-23x15x7.6cm"
+    to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envases-biodegradables-para-menus-23x15x7.6cm.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/envases-biodegradables/envase-biodegradable-menu-mediano-17x12x6cm.html"
+    to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-menu-mediano-17x12x6cm.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/envases-biodegradables/envase-biodegradable-menu-mediano-17x12x6cm"
     to = "https://ecoestrategiaperuana.com/descartables/envases-biodegradables/envase-biodegradable-menu-mediano-17x12x6cm.html"
     status = 301
     force = true
@@ -358,13 +676,31 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/salseros-biodegradables/salsero-biodegradable-2oz-tapa"
+    to = "https://ecoestrategiaperuana.com/descartables/salseros-biodegradables/salsero-biodegradable-2oz-tapa.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/salseros-biodegradables/salsero-fecula-de-maiz-2oz-con-tapa.html"
     to = "https://ecoestrategiaperuana.com/descartables/salseros-biodegradables/salsero-fecula-de-maiz-2oz-con-tapa.html"
     status = 301
     force = true
 
   [[redirects]]
+    from = "/descartables/salseros-biodegradables/salsero-fecula-de-maiz-2oz-con-tapa"
+    to = "https://ecoestrategiaperuana.com/descartables/salseros-biodegradables/salsero-fecula-de-maiz-2oz-con-tapa.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/salseros-biodegradables/salsero-fecula-de-maiz-4oz-con-tapa.html"
+    to = "https://ecoestrategiaperuana.com/descartables/salseros-biodegradables/salsero-fecula-de-maiz-4oz-con-tapa.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/salseros-biodegradables/salsero-fecula-de-maiz-4oz-con-tapa"
     to = "https://ecoestrategiaperuana.com/descartables/salseros-biodegradables/salsero-fecula-de-maiz-4oz-con-tapa.html"
     status = 301
     force = true
@@ -377,13 +713,31 @@
     force = true
 
   [[redirects]]
+    from = "/descartables/sorbetes-biodegradables/sorbetes-biodegradables-de-papel-vip"
+    to = "https://ecoestrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-biodegradables-de-papel-vip.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-6mm.html"
     to = "https://ecoestrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-6mm.html"
     status = 301
     force = true
 
   [[redirects]]
+    from = "/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-6mm"
+    to = "https://ecoestrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-6mm.html"
+    status = 301
+    force = true
+
+  [[redirects]]
     from = "/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-10mm.html"
+    to = "https://ecoestrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-10mm.html"
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-10mm"
     to = "https://ecoestrategiaperuana.com/descartables/sorbetes-biodegradables/sorbetes-canitas-biodegradables-10mm.html"
     status = 301
     force = true
